@@ -7,6 +7,7 @@
 from bs4 import BeautifulSoup
 import requests
 from lxml import etree
+import re
 import csv
 import os
 
@@ -96,9 +97,12 @@ def get_article(document_list):
 					# print("----------")
 					# if (len(paragraph) >= 2) and (" " not in paragraph) and paragraph[len(paragraph) - 1] == "\n" :
 					if (len(paragraph) >= 2) and (paragraph[0] == " " or paragraph[0] == "\n") and paragraph[len(paragraph) - 1] == "\n" :
+						paragraph = " ".join(re.split(r"\s+", paragraph))
 						paragraph = paragraph.strip(" ")
 						paragraph = paragraph.strip("\n")
 						paragraph = paragraph.strip(" ")
+						paragraph = paragraph.strip("\n")
+						
 						if (" " not in paragraph) :
 							try :
 								paragraph = int(paragraph)
@@ -123,6 +127,7 @@ def get_article(document_list):
 					
 					elif (len(paragraph) >= 2) and (33 <= ord(paragraph[0]) <= 125) and paragraph[len(paragraph) - 1] == "\n" :
 						# print("----------")
+						paragraph = " ".join(re.split(r"\s+", paragraph))
 						paragraph = paragraph.strip("\n")
 						paragraph = paragraph.strip(" ")
 						content += paragraph
