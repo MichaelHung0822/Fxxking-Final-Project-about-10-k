@@ -190,16 +190,21 @@ def write_url(code, document_list, year_list) :
 #正式執行程式
 #--------------------
 
-def start_crawling(year_list):
+def start_crawling(year_list,csvOrnot):
 	# try:
-	code_list = read_csv()
+	if csvOrnot == 1:
+		code_list = read_csv()
+	else:
+		code_list = [[Cikode.get()]]
 	
 	#測試用
 	print(code_list)
 	
 	all_article = []
 	all_url = []
+	path = storepath.get()+"\\"+StoreName.get()
 	createFolder(str(path))
+	
 	for i in range(1,len(code_list)):
 		document_list = get_url_list(code_list[i][0], year_list)
 		article = get_article(document_list)
@@ -458,6 +463,7 @@ def radCall():
 radVar = tk.IntVar()
 # Selecting a non-existing index value for radVar
 radVar.set(99)
+
 for col in range(0,2):
     #curRad = 'rad' + str(col)  
     curRad = tk.Radiobutton(monty2, text=values[col], variable=radVar, value=col, command=radCall)
@@ -529,12 +535,16 @@ storebtn.grid(column=2, row=1, sticky=tk.W)
 startBtn = ttk.LabelFrame(tab2,text="開始輸出")
 startBtn.grid(column=0, row=1 ,columnspan=2,sticky=tk.E)
 #######按鍵後開始
-year_list=[]
+year_list = []
 path=""
+code = []
 def startAll():
     year_list = yearL.get().split()
-    path = storepath.get()+"\\"+StoreName.get()
-    all_article = start_crawling(year_list)    
+    if radVar.get() == 1:        
+        all_article = start_crawling(year_list,1)
+    elif radVar.get() == 0:        
+        all_article = start_crawling(year_list,0)
+        
 #######
 startOver = tk.Button(startBtn,text="開始",width=15,height =3,command=startAll)
 startOver.grid(column = 0,row  = 0,rowspan = 2,sticky = tk.E)
