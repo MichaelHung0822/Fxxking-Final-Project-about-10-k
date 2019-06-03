@@ -195,7 +195,7 @@ def start_crawling(year_list,csvOrnot):
 	if csvOrnot == 1:
 		code_list = read_csv()
 	else:
-		code_list = [[Cikode.get()]]
+		code_list = [['cikcode'],[Cikode.get()]]
 	
 	#測試用
 	print(code_list)
@@ -221,7 +221,7 @@ def start_crawling(year_list,csvOrnot):
 		# print(document_list)
 	
 	#測試用
-	# print(all_url)
+	#print(all_url)
 	
 	# return all_article
 	
