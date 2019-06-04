@@ -32,7 +32,7 @@ def get_html(url):
 #--------------------
 
 #每個cikcode所在url的邏輯
-def get_url(cikcode):  
+def get_url(cikcode):
 	url = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + str(cikcode) + "&type=10-k&dateb=&owner=exclude&count=40"
 	return url
 
@@ -46,14 +46,14 @@ def get_url_list(cikcode, year_list):
 	url = get_url(cikcode)
 	resp_text = get_html(url)
 	soup = BeautifulSoup(resp_text,"html.parser")					#轉為python可讀的指令，且包含位階
-	sel = soup.select("table.tableFile2 tr")							
+	sel = soup.select("table.tableFile2 tr")
 	url_list = []
 	document_list = []
 	for i in sel:
 		if i.a == None:												#????????????????? a = 超連結????
 			continue
 		link = str(i.a["href"])										#href: a這個超連結連到的網址
-		
+
 		#----------
 		#條件改為該公司需要的所有年度，目前僅有"-17","-18-"
 		#----------
@@ -71,7 +71,7 @@ def get_url_list(cikcode, year_list):
 				if '10-K' in i.text and "10-K/A" not in i.text :			#僅限定將10-K文件抓下來，但不要10-K/A
 					link = 'https://www.sec.gov'+str(i.a["href"])
 					document_list.append(link)
-	
+
 	return document_list
 
 
@@ -85,35 +85,35 @@ def get_article(document_list):
 		text = get_html(k)
 		html = etree.HTML(text)
 		no_use_content = html.xpath('//*/text()')
-		
+
 		content = str()
 		paragraph = str()
-		
-		for i in no_use_content : 
+
+		for i in no_use_content :
 			for ch in i :
-			
+
 				if ch == " " or (33 <= ord(ch) <= 125) or ch == "\n" :
 					paragraph += ch
-				
+
 			paragraph = " ".join(re.split(r"\s+", paragraph))
-			
+
 			try :
 				paragraph = int(paragraph)
-							
+
 				paragraph = str()
-						
+
 			except :
 				content += paragraph
 				content = content.strip(" ")
 				content = content.strip("\n")
 				content += "\n"
-					
+
 				paragraph = str()
-			
-				
-			
-			
-		
+
+
+
+
+
 		all_article.append(content)
 	return all_article
 
@@ -162,18 +162,18 @@ def write_url(code, document_list, year_list) :
 		with open(name,'w+') as file:
 			file.write(document_list[i])
 			file.write('\n')
-	
-	
+
+
 	# for i in range(len(year_list)) :
 		# name = str(path) + "/" + code + "_" + "url" + "_" + str(year_list[i]) + ".txt"
-		 
+
 		# for idx, j in enumerate(document_list) :
 			# with open(name,'w+') as file:
 				# file.write(j)
 				# file.write('\n')
-		
+
 	# for i, j in document_list, range(len(year_list)) :
-		
+
 		# name = str(path) + "/" + code + "_" + "url" + "_" + str(year_list[j]) + ".txt"
 		# with open(name,'w+') as file:
 			# file.write(i)
@@ -187,10 +187,10 @@ def write_url(code, document_list, year_list) :
 def start_crawling(year_list):
 	# try:
 	code_list = read_csv()
-	
+
 	#測試用
 	print(code_list)
-	
+
 	all_article = []
 	all_url = []
 	createFolder(str(path))
@@ -201,57 +201,57 @@ def start_crawling(year_list):
 		write_url(code_list[i][0], document_list, year_list)
 		all_article.append(article)
 		all_url.append(document_list)
-		
+
 		print(type(article))
-		
+
 		print(document_list)
-		
+
 		#測試用
 		# print(document_list)
-	
+
 	#測試用
 	# print(all_url)
-	
+
 	# return all_article
-	
+
 	code_year_list = code_year(code_list, year_list)
-	
+
 	code_year_article_list = code_year_article(all_article, code_list, year_list)
-	
+
 	code_year_url_list = code_year_url(all_url, code_list, year_list)
-	
+
 	print(code_year_list)
 	# print(code_year_article_list[0][0])
 	print(code_year_url_list)
-	
+
 	# return code_year_list, code_year_article_list, code_year_url_list
 	# except:
 	# print("ERROR")
-	
+
 def code_year(code_list, year_list) :
 	temp_code_year = []
 	code_year_list = []
-	
+
 	for i in range(1, len(code_list)) :
 		for j in range(len(year_list)) :
 			code_year = str(code_list[i][0]) + "-" + str(year_list[j])
 			temp_code_year.append(code_year)
-		
+
 		code_year_list.append(temp_code_year)
 		temp_code_year = []
-	
+
 	return code_year_list
 
 def code_year_article(all_article, code_list, year_list) :
 	temp_article = []
 	code_year_article_list = []
-	
+
 	for i in range(1, len(code_list)) :
 		for j in range(len(year_list)) :
 			temp_article.append(all_article[j])
-		
+
 		code_year_article_list.append(temp_article)
-		
+
 		temp_article = []
 
 	return code_year_article_list
@@ -259,13 +259,13 @@ def code_year_article(all_article, code_list, year_list) :
 def code_year_url(all_url, code_list, year_list) :
 	temp_url = []
 	code_year_url_list = []
-	
+
 	for i in range(len(code_list) - 1) :
 		for j in range(len(year_list)) :
 			temp_url.append(all_url[i][j])
-		
+
 		code_year_url_list.append(temp_url)
-		
+
 		temp_url = []
 
 	return code_year_url_list
