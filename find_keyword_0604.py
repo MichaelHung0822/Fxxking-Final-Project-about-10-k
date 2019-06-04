@@ -32,7 +32,7 @@ def get_html(url):
 #--------------------
 
 #每個cikcode所在url的邏輯
-def get_url(cikcode):  
+def get_url(cikcode):
 	url = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + str(cikcode) + "&type=10-k&dateb=&owner=exclude&count=40"
 	return url
 
@@ -46,20 +46,19 @@ def get_url_list(cikcode, year_list):
 	url = get_url(cikcode)
 	resp_text = get_html(url)
 	soup = BeautifulSoup(resp_text,"html.parser")					#轉為python可讀的指令，且包含位階
-	sel = soup.select("table.tableFile2 tr")							
+	sel = soup.select("table.tableFile2 tr")
 	url_list = []
 	document_list = []
 	for i in sel:
 		if i.a == None:												#????????????????? a = 超連結????
 			continue
 		link = str(i.a["href"])										#href: a這個超連結連到的網址
-		
+
 		#----------
-		#條件改為該公司需要的所有年度，目前僅有"-17","-18-"
+		#已可選擇所需的公司年度，但只能輸入年度後兩碼 (if '-17-' in link or '-18-' in link:  #年份2017、2018)
 		#----------
 		for i in range(len(year_list)) :
-			if "-" + str(year_list[i]) + "-" in link :			#決定想要那些年分
-			# if '-17-' in link or '-18-' in link:  #年份2017、2018
+			if "-" + str(year_list[i]) + "-" in link :       #決定想要那些年分
 				link_name = 'https://www.sec.gov'+ link
 				url_list.append(link_name)
 	if len(url_list) !=0:
@@ -71,7 +70,7 @@ def get_url_list(cikcode, year_list):
 				if '10-K' in i.text and "10-K/A" not in i.text :			#僅限定將10-K文件抓下來，但不要10-K/A
 					link = 'https://www.sec.gov'+str(i.a["href"])
 					document_list.append(link)
-	
+
 	return document_list
 
 
@@ -85,35 +84,31 @@ def get_article(document_list):
 		text = get_html(k)
 		html = etree.HTML(text)
 		no_use_content = html.xpath('//*/text()')
-		
+
 		content = str()
 		paragraph = str()
-		
-		for i in no_use_content : 
+
+		for i in no_use_content :
 			for ch in i :
-			
+
 				if ch == " " or (33 <= ord(ch) <= 125) or ch == "\n" :
 					paragraph += ch
-				
+
 			paragraph = " ".join(re.split(r"\s+", paragraph))
-			
+
 			try :
 				paragraph = int(paragraph)
-							
+
 				paragraph = str()
-						
+
 			except :
 				content += paragraph
 				content = content.strip(" ")
 				content = content.strip("\n")
 				content += "\n"
-					
+
 				paragraph = str()
-			
-				
-			
-			
-		
+
 		all_article.append(content)
 	return all_article
 
@@ -137,93 +132,120 @@ def read_csv():
 #在電腦中建立儲存文件之資料夾
 #--------------------
 
-def createFolder(directory):
-	try:
-		if not os.path.exists(directory):
-			os.makedirs(directory)
-	except OSError:
-		print ('Error: Creating directory. ' +  directory)
+# def createFolder(directory):
+	# try:
+		# if not os.path.exists(directory):
+			# os.makedirs(directory)
+	# except OSError:
+		# print ('Error: Creating directory. ' +  directory)
 
 
 #--------------------
 #將文件寫入txt檔並命名為 公司名稱_年度(目前還沒修正)
 #--------------------
 
-def write_file(code, article, year_list):
-	for idx,i in enumerate(article):
-		name = str(path) + code + '_' + str(idx+1) + '.txt'
-		with open(name,'w+') as file:
-			file.write(i)
-			file.write('\n')
-			
+# def write_article(code, article, year_list) :
+	# for i in range(len(year_list)) :
+		# name = str(path) + "/" + code + "_" + "article" + "_" + str(year_list[i]) + ".txt"
+		# with open(name,'w+') as file:
+			# file.write(article[i])
+			# file.write('\n')
+
+# def write_url(code, document_list, year_list) :
+	# for i in range(len(year_list)) :
+		# name = str(path) + "/" + code + "_" + "url" + "_" + str(year_list[i]) + ".txt"
+		# with open(name,'w+') as file:
+			# file.write(document_list[i])
+			# file.write('\n')
+
+
+	# for i in range(len(year_list)) :
+		# name = str(path) + "/" + code + "_" + "url" + "_" + str(year_list[i]) + ".txt"
+
+		# for idx, j in enumerate(document_list) :
+			# with open(name,'w+') as file:
+				# file.write(j)
+				# file.write('\n')
+
+	# for i, j in document_list, range(len(year_list)) :
+
+		# name = str(path) + "/" + code + "_" + "url" + "_" + str(year_list[j]) + ".txt"
+		# with open(name,'w+') as file:
+			# file.write(i)
+			# file.write('\n')
+
+
 #--------------------
 #正式執行程式
 #--------------------
 
-
 def start_crawling(year_list):
 	# try:
 	code_list = read_csv()
-	
+
 	#測試用
 	print(code_list)
-	
+
 	all_article = []
 	all_url = []
-	createFolder(str(path))
+	# createFolder(str(path))
 	for i in range(1,len(code_list)):
 		document_list = get_url_list(code_list[i][0], year_list)
 		article = get_article(document_list)
-		write_file(code_list[i][0], article, year_list)
+		# write_article(code_list[i][0], article, year_list)
+		# write_url(code_list[i][0], document_list, year_list)
 		all_article.append(article)
 		all_url.append(document_list)
-		
+
+		print(type(article))
+		print(document_list)
+
 		#測試用
 		# print(document_list)
-	
+
 	#測試用
 	# print(all_url)
-	
-	# return all_article
-	
+
+	return all_article
+
 	code_year_list = code_year(code_list, year_list)
-	
+
 	code_year_article_list = code_year_article(all_article, code_list, year_list)
-	
+
 	code_year_url_list = code_year_url(all_url, code_list, year_list)
-	
+
 	print(code_year_list)
-	print(code_year_article_list[0][0])
+	# print(code_year_article_list[0][0])
 	print(code_year_url_list)
-	
+
 	# return code_year_list, code_year_article_list, code_year_url_list
 	# except:
 	# print("ERROR")
-	
+
 def code_year(code_list, year_list) :
 	temp_code_year = []
 	code_year_list = []
-	
+
 	for i in range(1, len(code_list)) :
 		for j in range(len(year_list)) :
 			code_year = str(code_list[i][0]) + "-" + str(year_list[j])
 			temp_code_year.append(code_year)
-		
+
 		code_year_list.append(temp_code_year)
 		temp_code_year = []
-	
+
 	return code_year_list
 
 def code_year_article(all_article, code_list, year_list) :
 	temp_article = []
 	code_year_article_list = []
-	
+
 	for i in range(1, len(code_list)) :
 		for j in range(len(year_list)) :
 			temp_article.append(all_article[j])
-		
+
 		code_year_article_list.append(temp_article)
-		
+
 		temp_article = []
 
 	return code_year_article_list
@@ -231,13 +253,13 @@ def code_year_article(all_article, code_list, year_list) :
 def code_year_url(all_url, code_list, year_list) :
 	temp_url = []
 	code_year_url_list = []
-	
+
 	for i in range(len(code_list) - 1) :
 		for j in range(len(year_list)) :
 			temp_url.append(all_url[i][j])
-		
+
 		code_year_url_list.append(temp_url)
-		
+
 		temp_url = []
 
 	return code_year_url_list
@@ -245,19 +267,91 @@ def code_year_url(all_url, code_list, year_list) :
 # In[27]:
 
 #匯入整個公司代碼的csv檔案
-fn = input()
+fn = input("請匯入公司代碼的csv檔：")
 
 #在視窗選取所要的年度
-year_list = input().split(",")
+year_list = input("請選取所需年分 (以逗點分離)：").split(",")
 
 #匯入所需的關鍵字
 # keyword_list = input().split(",")
 
 #使用者輸入指定路徑
-path = input()+"\\1"
-
+#path = input("請指定檔案匯出路徑：")+"\\10-k_data"
 
 all_article = start_crawling(year_list)
 
+
 # print(code_year_list)
 # print(code_year_url_list)
+
+#=================================================================================================================
+def matchcase(word):
+    def replace(m):
+        highlight_start = str('<<< ')
+        highlight_end = str(' >>>')
+        text = m.group()
+        if text.isupper():
+            return highlight_start + word.upper() + highlight_end
+        elif text.islower():
+            return highlight_start + word.lower() + highlight_end
+        elif text[0].isupper():
+            return highlight_start + word.capitalize() + highlight_end
+        else:
+            return highlight_start + word + highlight_end
+    return replace
+
+
+def noSpaceLow(Str):
+    """把子串中的空格都改成一格然後全部變小寫"""
+    ans = Str.split()
+    newStr = ""
+    for i in range(len(ans)):
+        newStr += ans[i]
+        if i != len(ans) - 1:
+            newStr += " "
+    return newStr.lower()
+
+#--------------------------------------------------------------------
+search = noSpaceLow(input('請輸入關鍵字：'))
+sentencecount = int(input('請輸入欲瀏覽的前後段落數：'))
+
+
+for m in range(len(all_article)):
+	for n in range(len(all_article[m])):
+		lines = all_article[m][n].split("\n")
+		result = []
+		#-----------
+		#待加入公司cikcode跟url(標題)
+		#-----------
+		count = 0
+		for i in range(len(lines)):
+			line = noSpaceLow(lines[i])
+			if search in line:
+				count += 1
+				out = "----Match %d\n" % count
+				for j in range(sentencecount * -1, sentencecount + 1):   #j跑-1, 0, 1
+					if j < 0:
+						if i + j < 0:
+							# 處理的是：文本第一段前面不存在的段落
+							out += "    前%d段：\n" % (j * -1)
+						else:
+							out += "    前%d段：%s\n" % (j * -1, re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
+					elif j == 0:
+						out += "    主段：%s\n" % (re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
+					else:
+						if i + j > len(lines) - 1:
+							# 處理的是：文本最後一段後面不存在的段落
+							if j == sentencecount:
+								out += "    後%d段：\n\n" % (j)
+							else:
+								out += "    後%d段：\n" % (j)
+						else:
+							if j == sentencecount:
+								out += "    後%d段：%s\n\n" % (j, re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
+							else:
+								out += "    後%d段：%s\n" % (j, re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
+				result.append(out)
+				# print(result)
+
+		for i in range(len(result)):
+			print(result[i], end = "")

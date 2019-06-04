@@ -1,0 +1,6241 @@
+
+10-K
+1
+acu_10k123116.htm
+10-K
+
+
+
+     
+
+
+
+
+
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D. C. 20549
+
+FORM 10-K
+
+
+
+
+
+    [X]
+    ANNUAL
+REPORT PURSUANT TO SECTION 13 OR 15 (d) OF
+
+    
+    THE SECURITIES EXCHANGE ACT OF 1934
+
+    
+    For the fiscal year ended December 31, 2016
+
+    
+    
+
+    
+    OR
+
+    
+    
+
+    [_]
+    TRANSITION REPORT PURSUANT
+TO SECTION 13 OR 15 (d) OF
+
+    
+    THE SECURITIES EXCHANGE ACT OF 1934
+
+
+
+
+Commission file number 01-07698
+
+ACME UNITED
+CORPORATION
+
+Exact name of registrant as specified in
+its charter
+
+
+
+
+
+    Connecticut
+    06-0236700
+
+    (State or other jurisdiction of
+    (I.R.S. Employer
+
+    incorporation or organization)
+    Identification No.)
+
+    
+    
+
+    55 Walls Drive
+                                                           Fairfield, Connecticut
+    06824
+
+    (Address of principal executive offices)
+     (Zip Code)
+
+
+
+
+
+
+
+
+
+
+
+Registrant's telephone
+number, including area code (203) 254-6060
+
+
+
+Securities registered pursuant to Section 12(b)
+of the Act:
+
+
+
+
+
+    Title of each class
+    Name of each exchange on which registered
+
+
+    $2.50 par value Common Stock
+    NYSE MKT
+
+
+
+
+
+
+
+
+
+
+
+Securities registered pursuant to Section 12
+(g) of the Act: None
+
+
+
+Indicate by check mark whether the registrant
+is a well-known seasoned issuer, as defined in Rule405 of the Securities Act. YES [_]NO [X]
+
+
+
+Indicate by check mark if the registrant is
+not required to file reports pursuant to Section13 or Section 15(d) of the Act. YES [_]NO [X]
+
+
+
+Indicate by check mark whether the registrant
+(l) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding
+12 months (or for such shorter period that the registrant was required to file such reports) and (2) has been subject to such filing
+requirements for the past 90 days.
+
+YES
+[X]NO [_]
+
+
+
+Indicate by check mark whether the registrant
+has submitted electronically and posted on its corporate Web site, if any, every Interactive Data File required to be submitted
+and posted pursuant to Rule 405 of Regulation S-T (sec. 232.405 of this chapter) during the preceding 12 months (or for such shorter
+period that the registrant was required to submit and post such files). YES
+[X]NO [_]
+
+
+
+Indicate by check mark if disclosure of delinquent
+filers pursuant to Item 405 of Regulation S-K (sec. 229.405) is not contained herein, and will not be contained, to the best of
+registrant's knowledge, in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or
+any amendment to this Form 10-K. [_]
+
+
+
+
+
+
+    1
+    
+    
+
+
+
+Indicate by check mark whether the Registrant is a large accelerated
+filer, an accelerated filer, a non-accelerated filer, or a smaller reporting company. See definitions of large accelerated
+filer, accelerated filer and smaller reporting company in Rule12b-2 of the Exchange Act
+(Check one).
+
+
+
+
+
+
+
+
+
+
+
+    Large accelerated filer [_]
+    Accelerated filer [_]
+
+    
+    
+
+    Non-accelerated filer [_]
+    Smaller Reporting Company [X]
+
+
+
+
+Indicate by check mark whether the registrant is a shell company
+(as defined in Rule 12b-2 of the Exchange Act). YES [_]NO [X]
+
+
+
+The aggregate market value of the voting and
+non-voting stock held by non-affiliates of the registrant as of the last business day of the registrants most recently completed
+second fiscal quarter was $53,187,468.
+
+
+
+Registrant had 3,327,455 shares of its $2.50
+par value Common Stock outstanding as of March 3, 2017.
+
+
+
+Documents Incorporated By Reference
+
+
+
+(1) Certain portions of the Companys Proxy Statement for
+the Annual Meeting scheduled for April 24, 2017 are incorporated into the Companys Annual Report on Form 10-K for the fiscal
+year ended December 31, 2016, Part III.
+
+
+
+
+
+
+    2
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+        Page
+    
+
+    Part I
+    
+    
+    
+
+    
+    
+    
+
+    Item 1.Business
+    
+    4
+    
+
+    
+    
+    
+
+    Item1A.Risk Factors
+    
+    7
+    
+
+    
+    
+    
+
+    Item 1B.Unresolved Staff Comments
+    
+    13
+    
+
+    
+    
+    
+
+    Item 2.Properties
+    
+    13
+    
+
+    
+    
+    
+
+    Item 3.Legal Proceedings
+    
+    13
+    
+
+    
+    
+    
+
+    Item 4.Mine Safety Disclosures
+    
+    13
+    
+
+    
+    
+    
+
+    Part II
+    
+    
+    
+
+    
+    
+    
+
+    Item 5.Market for Registrants Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities
+    
+    14
+    
+
+    
+    
+    
+
+    Item 6. Selected Financial Data
+    
+    15
+    
+
+    
+    
+    
+
+    Item 7.Managements Discussion and Analysis of Financial Condition and Results of Operations
+    
+    16
+    
+
+    
+    
+    
+
+    Item 7A.Quantitative and Qualitative Disclosures About Market Risk
+    
+    21
+    
+
+    
+    
+    
+
+    Item 8.Financial Statements and Supplementary Data
+    
+    22
+    
+
+    
+    
+    
+
+    Item 9.Changes In and Disagreements with Accountants on Accounting and Financial Disclosure
+    
+    44
+    
+
+    
+    
+    
+
+    Item 9A.Controls and Procedures
+    
+    44
+    
+
+    
+    
+    
+    
+
+    Item 9B.Other Information
+    
+    45
+    
+
+    
+    
+    
+
+    Part III
+    
+    
+    
+
+    
+    
+    
+
+    Item 10.Directors, Executive Officers and Corporate Governance 
+    
+    45
+    
+
+    
+    
+    
+
+    Item 11.Executive Compensation
+    
+    47
+    
+
+    
+    
+    
+
+    Item 12.Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+    
+    47
+    
+
+    
+    
+    
+
+    Item 13.Certain Relationships and Related Transactions, and Director Independence
+    
+    47
+    
+
+    
+    
+    
+    
+    
+    
+
+    Item14.Principal Accounting Fees and Services
+    
+    47
+    
+
+    
+    
+    
+
+    Part IV
+    
+    
+    
+
+    
+    
+    
+
+    Item 15.Exhibits and Financial Statement Schedules
+    
+    48
+    
+
+    
+    
+    
+
+    Signatures
+    
+    51
+    
+
+
+
+
+
+
+    3
+    
+    
+
+
+
+PART I
+
+
+
+Item 1. Business
+
+
+
+
+
+Overview
+
+Acme United Corporation, a Connecticut corporation (together, with
+its subsidiaries, the "Company"), is a leading worldwide supplier of innovative cutting, measuring, first aid and sharpening
+products to the school, home, office, hardware, sporting goods and industrial markets The Company's operations are in the United
+States, Canada, Europe (located in Germany) and Asia (located in Hong Kong and China). The operations in the United States, Canada
+and Europe are primarily involved in product development, marketing, sales, administrative, manufacturing and distribution activities.
+The operations in Asia consist of sourcing, product development, production planning, quality control and sales activities. Total
+net sales in 2016 were $124.6 million. The Company was organized as a partnership in l867 and incorporated in l882 under the laws
+of the State of Connecticut.
+
+
+
+The Company has grouped its operations into three reportable segments
+based on the Companys geographical organization and structure: (1) United States (which includes its Asian operations);
+(2) Canada and (3) Europe. Net sales in 2016 for each of our segments were: United States (including direct import sales from Asia)
+- $110.8 million, Canada - $6.8 million, and Europe - $6.9 million. Refer to Note 10 of the Notes to Consolidated Financial Statements
+for additional segment information.
+
+
+
+The Company sources most of its products from suppliers located
+outside the United States, primarily in Asia. The Company assembles its first aid kits primarily at its facility in Vancouver,
+WA. The components for the first aid kits are primarily sourced from U.S. suppliers.
+
+
+
+Business Strategy
+
+The Companys business strategy includes
+the following key elements:
+
+
+
+
+a commitment to technological innovation achieved through consumer insight, creativity and speed to market;
+
+
+a broad selection of products in both brand and private label;
+
+
+prompt response;
+
+
+superior customer service; and
+
+
+value pricing.
+
+
+
+Acquisitions
+
+
+
+On February 1, 2017 the Company announced that
+it had acquired the assets of Spill Magic, Inc., for $7.2 million in cash. The Spill Magic products
+are leaders in in absorbents that encapsulate spills into dry powders that can be safely disposed. Many large retail chains use
+its products to remove liquids from broken glass containers, oil and gas spills, bodily fluids, and solvents. Its easy-to-use and
+environmentally friendly products permanently absorb the spills, leaving the floors underneath dry and reducing injuries from falls.
+Spill Magic also sells spill clean-up kits and blood borne pathogen kits for the safety market. 
+
+
+
+On February 1, 2016, the Company acquired
+the principal assets of Vogel Capital, Inc., d/b/a Diamond Machining Technology (DMT) based in Marlborough, MA
+for $7.0 million in cash. The DMT products are leaders in sharpening tools for knives, scissors, chisels, and other cutting
+tools. They complement the Companys existing brands and products within the industrial, hardware, floral, food
+preparation and sporting goods markets.
+
+
+
+Principal Products
+
+The Company markets and sells under three main
+categories  School, Home and Office (Westcott brand), First Aid & Safety (First Aid Only, PhysiciansCare
+Pac-Kit and Spill Magic brands) and Hardware, Industrial and Sporting Goods (Clauss, Camillus, Cuda and
+DMT brands).
+
+
+
+
+    4
+    
+    
+
+
+
+School, Home and Office
+
+Westcott
+
+Westcott, with a history of quality dating back to 1872, provides
+innovative cutting and measuring products for the school, home and office. Principal products under the Westcott brand include
+scissors, rulers, pencil sharpeners, paper trimmers, lettering products and math tools. It is one of the leading scissor and ruler
+brands in North America. The iPoint pencil sharpener, introduced in 2008, and its successor, the iPoint Evolution, have won GOOD
+DESIGN awards from the Chicago Athenaeum, Museum of Architecture and Design.
+
+
+
+Many of the Westcott branded cutting products contain patented titanium
+bonding and proprietary non-stick coatings, making the blades more than three times harder than stainless steel as well as reducing
+friction and corrosion. Significant product introductions in 2015 included a Carbo titanium line of scissors which are 8x harder
+than steel allowing the blades to stay shaper longer. Westcott also launched a line of safety ceramic utility cutters for use in
+home and office. Significant product introductions in 2016 included our new line of ergonomic scissors for children designed in
+tandem with the US Ergonomics Institute.
+
+
+
+Hardware, Industrial and Sporting Goods
+
+Clauss
+
+Clauss, with its roots dating back to 1877, offers a line of quality
+cutting tools for professionals in the hardware & industrial, lawn & garden, food processing, sewing and housewares channels.
+Many of the Clauss products are enhanced with the Companys patented titanium and proprietary non-stick coatings. In 2010,
+the Clauss AirShoc garden tools were awarded a GOOD DESIGN award. In 2013, Clauss launched a family of titanium bonded non-stick
+putty knives that are unique in their category.
+
+
+
+Camillus
+
+Since 1876 Camillus has been supplying the world with innovative
+and high quality knives. The Camillus brand has a strong heritage in the hunting, sporting and tactical markets. The Company acquired
+the brand in 2007 and re-launched it in 2009 with an updated and innovative line of fixed blade, folding knives and tactical tools.
+Many of the knives are enhanced with Titanium Carbonitride coatings to increase the hardness of the blade of up to 10 times that
+of untreated stainless steel.
+
+
+
+In 2011, the Company signed an agreement with Les Stroud of the
+TV show Survivorman, to co-design and co-brand a line of knives and survival tools. The first knives were introduced in 2012 and
+include various types of folding and fixed blade knifes as well as machetes and survival tools.
+
+
+
+In 2014, Camillus launched a wide variety of new products, including
+the Camillus Carnivore X machete, Ravenous tomahawk, Heat Sizzle and WildFire knives and the Trench multitool. In 2015, Camillus
+introduced Glide, its first pocket sharpener. In 2016, Camillus launched a new line of assisted folding knives using its patented
+linkage system and its ball-bearing assisted system.
+
+
+
+
+
+Cuda
+
+We launched the Cuda line of fishing tools and knives in 2015. Featuring
+titanium bonded steels and alloys, Cuda tools provide world class hardness, corrosion and adhesive resistance. In July of
+2015, Cuda won Best of Show in the Fish Smart category at the ICast show in Orlando, Florida. In January 2016, Cuda
+won six GOOD DESIGN awards from the Chicago Athenaeum, Museum of Architecture and Design.
+
+
+
+DMT
+
+DMT products are leaders in sharpening tools for
+knives, scissors, chisels, skis, skates and many other edges that require sharpening. DMT was founded in 1976 by aerospace engineers.
+The DMT products use a proprietary process of finely dispersed diamonds bonded to the surfaces of sharpeners.
+
+
+
+First Aid & Safety
+
+
+
+First Aid Only
+
+The First Aid Only brand offers first aid kits, refills, and safety
+products that meet regulatory requirements for a broad range of industries. The Smart Compliance first aid kit is a simple
+and effective system for restocking workplace first aid cabinets.
+
+
+
+
+    5
+    
+    
+
+
+
+Pac-Kit
+
+The Pac-Kit brand offers first aid kits, industrial stations and
+refills, emergency medical travel and recreational kits for the industrial, safety, transportation and marine markets. The brand
+has a long history dating back to the 19th century. Although Pac-Kits products are similar to the PhysiciansCare brand,
+the Pac-Kit brand is especially known for its customized products which are designed to meet customer specifications.
+
+
+
+PhysiciansCare
+
+The PhysiciansCare brand offers a wide assortment of first aid kits,
+emergency and disaster kits, kit refills, hearing, eye, and head protection, as well as ergonomic supports and braces. PhysiciansCare
+also carries a branded line of over-the-counter medications, including the active ingredients aspirin, acetaminophen and ibuprofen.
+
+
+
+Product Development
+
+
+
+Our strong commitment to understanding our consumers and defining
+products that fulfill their needs through innovation drives our product development strategy, which we believe is and will be a
+key contributor to our success. The Company incurred research and development costs of $750,000 in 2016 and $690,000 in 2015.
+
+
+
+Intellectual Property
+
+
+
+The Company owns many patents and trademarks that are important
+to its business. The Companys success depends in part on its ability to maintain patent protection for its products, to
+preserve its proprietary technology and to operate without infringing upon the patents or proprietary rights of others. The Company
+generally files patent applications in the United States and foreign countries where patent protection for its technology is appropriate
+and available. The Company also considers its trademarks important to the success of its business. The more significant trademarks
+include Westcott, Clauss, Camillus, PhysiciansCare, First Aid Only, Cuda, DMT  and Pac-Kit. Patents and trademarks are
+amortized over their estimated useful lives. The weighted average amortization period remaining for intangible assets at December
+31, 2016 was 8 years.
+
+
+
+
+
+Product Distribution; Major Customers
+
+
+
+Independent manufacturer representatives and direct sales are primarily
+used to sell the Companys line of consumer products to wholesale, contract and retail stationery distributors, office supply
+super stores, school supply distributors, industrial distributors, wholesale florists, mass market retailers and hardware chains
+(including through their websites). The Company also sells a limited selection of its products directly to consumers through its
+own websites. In each 2016 and 2015, the Company had two customers that individually exceeded 10% of consolidated net sales. In
+2016, net sales to these customers amounted to approximately 14% and 11%, respectively of consolidated net sales, and 12% for each
+in 2015.
+
+
+
+Competition
+
+
+
+The Company competes with many companies in each market and geographic
+area. The Company believes that the principal points of competition in these markets are product innovation, quality, price, merchandising,
+design and engineering capabilities, product development, timeliness and completeness of delivery, conformity to customer specifications
+and post-sale support. The major competitors in the cutting category are 3M and Fiskars Corporation. The major competitors in the
+measuring category are Maped and Staedtler. The major competitor in the pencil sharpener category is Bostitch. The major competitors
+in the first aid & safety category are Honeywell, 3M and Johnson & Johnson.
+
+
+
+Seasonality
+
+
+
+Traditionally, the Companys sales are
+stronger in the second and third quarters of the fiscal year due to the seasonal nature of the back-to-school business.
+
+
+
+
+
+
+    6
+    
+    
+
+
+
+Compliance with Environmental Laws 
+
+
+
+The Company believes that it is in compliance
+with applicable environmental laws. The Company anticipates that no material adverse financial impact will result from compliance
+with current environmental rules and regulations. On April 7, 2014, the Company sold its Fremont, NC distribution facility for
+$850,000 in cash. Under the terms of the sales agreement, the Company is responsible for environmental remediation on the property.
+As a result of studies and estimates prepared by an independent environmental consulting firm, and in conjunction with the sale
+of the property, the Company recorded a liability of $300,000 in the second quarter of 2014, related to the remediation of the
+property. The accrual included the total estimated costs of remedial activities and post-remediation operating and maintenance
+costs. Remediation work on the Fremont project began in the third quarter of 2014 and was completed in 2015. In addition to the
+remediation work, the Company, with the assistance of its independent environmental consulting firm, must continue to monitor contaminant
+levels on the property to ensure they comply with governmental standards. The Company expects that the monitoring period will last
+a period of five years after the completion of the remediation and be complete by the end of 2020.
+
+
+
+See Note 16 of the Notes to Consolidated Financial Statements in
+this report for additional information regarding the cost of remediation and related matters, including ongoing monitoring of contaminant
+levels.
+
+
+
+Employees 
+
+
+
+As of December 31, 2016, the Company employed 400 people, all of
+whom are full time and none of whom is covered by union contracts. Employee relations are considered good and no foreseeable problems
+with the work force are evident.
+
+
+
+Available Information
+
+
+
+The Company files its annual reports on
+Form10-K, quarterly reports on Form10-Q and current reports on Form8-K pursuant to Section13(a) of the
+Securities Exchange Act of 1934 with the SEC electronically. These filings may also be read and copied at the SECs Public
+Reference Room which is located at 100 F Street N.E., Washington, DC 20549. The public may obtain information on the operation
+of the Public Reference Room by calling the SEC at 1-800-SEC-0330. The SEC maintains a website that contains reports, proxy and
+information statements, and other information regarding issuers that file electronically with the SEC. The address of that site
+is http://www.sec.gov.
+
+
+
+You may obtain at no charge, a copy of
+the Companys annual reports on Form10-K, quarterly reports on Form10-Q and current reports on Form8-K
+and amendments to those reports on the Companys website at http://www.acmeunited.com or by contacting the Investor Relations
+Department at the Companys corporate offices by calling (203)254-6060. Such reports and other information are made
+available as soon as reasonably practicable after such material is filed with or furnished to the SEC.
+
+
+
+Item 1A. Risk Factors
+
+
+
+The Company is subject to a number of significant operational
+risks that might cause the Companys actual results to vary materially from its forecasts, targets or projections, including:
+
+
+
+
+achieving planned revenue and profit growth in each of the Company's
+business segments;
+
+
+
+
+changes in customer requirements and in the volume of sales to principal
+customers;
+
+
+
+
+the timing of orders and shipments;
+
+
+
+
+emergence of new competitors or consolidation of existing competitors;
+and
+
+
+
+
+industry demand fluctuations.
+
+
+
+
+
+
+    7
+    
+    
+
+
+
+The Companys expectations for both short and long-term future
+net revenues are based on the Companys estimates of future demand. Orders from the Companys principal customers are
+ultimately based on demand from end-users and end-user demand can be difficult to predict. Low end-user demand would negatively
+affect orders the Company receives from distributors and other principal customers which could, in turn adversely affect the Companys
+revenues in any fiscal period. If the Companys estimates of sales are not accurate and the Company experiences unforeseen
+variability in its revenues and operating results, the Company may be unable to adjust its expense levels accordingly and its profit
+margins could be adversely affected.
+
+
+
+
+
+
+
+Because our products are primarily sold
+by third parties, our financial results depend in part on the financial health of these parties and any loss of a third party distributor
+could adversely affect the Companys revenues.
+
+A number of the Companys products are sold through third-party
+distributors and large retailers. Some of our distributors also market products that compete with our products. Changes in the
+financial or business conditions or the purchasing decisions of these third parties or their customers could affect our sales and
+profitability.
+
+
+
+Additionally, no assurances can be given that any or all of such
+distributors or retailers will continue their relationships with the Company. Distributors and other significant retail customers
+cannot easily be replaced and the loss of revenues and the Companys inability to reduce expenses to compensate for the loss
+of revenues could adversely affect the Companys net revenues and profit margins.
+
+
+
+The ability to deliver products to our customers in a timely
+manner and to satisfy our customers fulfillment standards are subject to several factors, some of which are beyond our control.
+
+Customers place great emphasis on timely delivery of our products
+for specific selling seasons, especially during our second and third fiscal quarters, and on the fulfillment of consumer demand
+throughout the year. We cannot control all of the various factors that might affect product delivery to customers. Vendor production
+delays, difficulties encountered in shipping from overseas and customs clearance delays are on-going risks of our business. We
+also rely upon third-party carriers for our product shipments from our distribution centers to customers. Accordingly, we are subject
+to risks, including labor disputes, inclement weather, natural disasters, possible acts of terrorism, availability of shipping
+containers, and increased security restrictions associated with such carriers ability to provide delivery services to meet
+our shipping needs. Failure to deliver products to our customers in a timely and effective manner, often under special vendor
+requirements to use specific carriers and delivery schedules, could damage our reputation and brands and result in loss of customers
+or reduced orders.
+
+
+
+Reliance on foreign suppliers could adversely affect the Companys
+business. 
+
+The Company sources its products from suppliers located in Asia,
+Europe and the United States. The Companys Asia vendors are located primarily in China, which subjects the Company to various
+risks within the region including regulatory, political, economic and foreign currency changes. The Companys ability to
+select and retain reliable vendors and suppliers who provide timely deliveries of quality products efficiently will impact its
+success in meeting customer demand for timely delivery of quality products. The Companys sourcing operations and its vendors
+are impacted by labor costs in China. Labor historically has been readily available at low cost relative to labor costs in North
+America. However, as China is experiencing rapid social, political and economic changes, labor costs have risen in some regions
+and there can be no assurance that labor will continue to be available to the Company in China at costs consistent with historical
+levels or that changes in labor or other laws will not be enacted which would have a material adverse effect on the Companys
+operations in China. Interruption of supplies from any of the Companys vendors, or the loss of one or more key vendors,
+could have a negative effect on the Companys business and operating results.
+
+
+
+Changes in currency exchange rates might negatively affect the profitability
+and business prospects of the Company and its overseas vendors. In particular, although the Chinese Renminbi has recently depreciated
+against the U.S. Dollar, if the Chinese Renminbi appreciates with respect to the U.S. Dollar in the future, the Company may experience
+cost increases on such purchases, and this can adversely impact profitability. Future interventions by China may result in further
+currency appreciation and increase our product costs over time. The Company may not be successful at implementing customer
+pricing or other actions in an effort to mitigate the related effects of the product cost increases.
+
+
+
+Additional factors that could adversely affect the Companys
+business include increases in transportation costs, new or increased import duties, transportation delays, work stoppages, capacity
+constraints and poor quality.
+
+
+
+
+    8
+    
+    
+
+
+
+The Companys operations are increasingly global in nature.
+Our business, financial condition and results of operations could be adversely affected by the political and economic conditions
+in the countries in which we conduct business, by fluctuations in currency exchange rates and other factors related to our international
+operations.
+
+As our international operations and activities expand, we face increasing
+exposure to the risks of operating in foreign countries. These factors include:
+
+
+
+
+
+    
+    
+    
+    Changes generally in political, regulatory or economic conditions in the countries in which we conduct business.
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    Trade protection measures in favor of local producers of competing products, including government subsidies, tax benefits,changes in local tax rates, trade actions (such as anti-dumping proceedings) and other measures giving local producers a competitive advantage over the Company.
+
+
+
+
+
+    
+    
+    
+    
+        Changes in foreign currency exchange rates which could adversely
+        affect our competitive position, selling prices and manufacturing costs, and therefore the demand for our products in a particular
+        market.
+        
+
+These risks could affect the cost of manufacturing and selling our
+products, our pricing, sales volume, and ultimately our financial performance. The likelihood of such occurrences and their potential
+effect on the Company vary from country to country and are unpredictable.
+
+
+
+Continuing uncertainty in the global economy could negatively
+impact our business. 
+
+Uncertainty in the global economy could adversely affect our customers
+and our suppliers and businesses such as ours. In addition, any uncertainty could have a variety of negative effects on the Company,
+such as reduction in revenues, increased costs, lower gross margin percentages, increased allowances for doubtful accounts and/or
+write-offs of accounts receivable and could otherwise have material adverse effects on our business, results of operations, financial
+condition and cash flows.
+
+
+
+
+
+The Companys business is subject to risks associated with
+seasonality which could adversely affect its cash flow, financial condition, or results of operations.
+
+The Companys business, historically, has experienced higher
+sales volume in the second and third quarters of the calendar year, when compared to the first and fourth quarters. The Company
+is a major supplier of products related to the back-to-school season, which occurs principally during the months
+of May, June, July and August. If this typical seasonal increase in sales of certain portions of the Companys product line
+does not materialize in any year, the Company could experience a material adverse effect on its business, financial condition and
+results of operations.
+
+
+
+
+
+Failure to manage growth and continue to
+expand our operations successfully could adversely affect our financial results.
+
+Our business has experienced significant historical growth over
+the years, and we expect our business to continue to grow organically and through strategic acquisitions. This growth places significant
+demands on management and operational systems. If we cannot effectively manage our growth, it is likely to result in operational
+inefficiencies and ineffective management of our business thus negatively impacting our operating results. To the extent we grow
+through strategic acquisitions, our success will depend on selecting the appropriate targets, integrating such acquisitions quickly
+and effectively and realizing any expected synergies and cost savings related to such acquisitions.
+
+
+
+
+
+Loss of a major customer could result in a decrease in the Companys
+future sales and earnings.
+
+Sales of our products are primarily concentrated in a few major
+customers including office product superstores and mass market distributors. In each of 2016 and 2015, the Company had two customers
+that individually exceeded 10% of consolidated net sales. In 2016, net sales to these customers amounted to approximately 14% and
+11%, respectively of consolidated net sales, and 12% for each in 2015. The Company anticipates that a limited number of customers
+may account for a substantial portion of its total net revenues for the foreseeable future. The business risks associated with
+this concentration, including increased credit risks for these and other customers and the possibility of related bad debt write-offs,
+could negatively affect our margins and profits. Additionally, the loss of a major customer, whether through competition or consolidation,
+or a disruption in sales to such a customer, could result in a decrease of the Companys future sales and earnings.
+
+
+
+
+    9
+    
+    
+
+
+
+The loss of key management could adversely affect the Companys
+ability to run its business. 
+
+The Companys success depends, to a large extent, on the continued
+service of its executive management team, operating officers and other key personnel. The Company must therefore continue to recruit,
+retain and motivate management and operating personnel sufficient to maintain its current business and support its projected growth.
+The Companys inability to meet its staffing requirements in the future could adversely affect its results of operations.
+
+
+
+
+
+
+
+Failure to protect the Companys proprietary rights or
+the costs of protecting these rights could adversely affect its business. 
+
+The Companys success depends in part on its ability to obtain
+patents and trademarks and to preserve other intellectual property rights covering its products and processes. The Company has
+obtained certain domestic and foreign patents, and intends to continue to seek patents on its inventions when appropriate. The
+process of seeking patent protection can be time consuming and expensive. There can be no assurance that pending patents related
+to any of the Companys products will be issued, in which case the Company may not be able to legally prevent others from
+producing similar and/or compatible competing products. If other companies were to sell similar and/or compatible competing products,
+the Companys results of operations could be adversely affected. Furthermore, there can be no assurance that the Companys
+efforts to protect its intellectual property will be successful. Any infringement of the Companys intellectual property
+or legal defense of such action could have a material adverse effect on the Company.
+
+
+
+The Company is subject to intense competition in all of the markets
+in which it competes. 
+
+The Companys products are sold in highly competitive markets
+including at mass merchants, high volume office supply stores and online. The Company believes that the principal points of competition
+in these markets are product innovation, quality, price, merchandising, design and engineering capabilities, product development,
+timeliness and completeness of delivery, conformity to customer specifications and post-sale support. Competitive conditions may
+require the Company to match or better competitors prices to retain business or market shares. The Company believes that
+its competitive position will depend on continued investment in innovation and product development, manufacturing and sourcing,
+quality standards, marketing and customer service and support. The Companys success will depend in part on its ability to
+anticipate and offer products that appeal to the changing needs and preferences of our customers in the various market categories
+in which it competes. The Company may not have sufficient resources to make the investments that may be necessary to anticipate
+those changing needs and the Company may not anticipate, identify, develop and market products successfully or otherwise be successful
+in maintaining its competitive position. In addition there are numerous uncertainties inherent in successfully developing and commercializing
+innovative new products on a continuing basis, and new product launches may not provide expected growth results. There are no significant
+barriers to entry into the markets for most of the Companys products.
+
+
+
+Compromises of our information systems or
+unauthorized access to confidential information or our customers' or associates' personal information may materially harm our business
+or damage our reputation.
+
+Through our sales and marketing activities and our business operations,
+we collect and store confidential information and certain personal information from our customers and associates. We also process
+payment card information and check information. In addition, in the normal course of business, we gather and retain personal information
+about our associates and generate and have access to confidential business information. Although we have taken steps designed to
+safeguard such information, there can be no assurance that such information will be protected against unauthorized access or disclosure.
+Computer hackers may attempt to penetrate our or our vendors' network security and, if successful, misappropriate such information.
+An Acme United associate, contractor or other third-party with whom we do business may also attempt to circumvent our security
+measures in order to obtain such information or inadvertently cause a breach involving such information. We could be subject to
+liability for failure to comply with privacy and information security laws, for failing to protect personal information, or for
+misusing personal information, such as use of such information for an unauthorized marketing purpose. Loss or misuse of confidential
+or personal information could disrupt our operations, damage our reputation, and expose us to claims from customers, financial
+institutions, regulators, payment card associations, employees and other persons, any of which could have an adverse effect on
+our business, financial condition and results of operations.
+
+
+
+The Company may not be able to maintain or to raise prices in
+response to inflation and increasing costs.
+
+Future market and competitive pressures may prohibit the Company
+from raising prices to offset increased product costs, freight costs and other inflationary items or to offset currency fluctuations.
+The inability to pass these costs through to the Companys customers could have a negative effect on its results of operations.
+
+
+
+
+    10
+    
+    
+
+
+
+The Company may need to raise additional capital to fund its
+operations. 
+
+The Companys management believes that, under current conditions,
+the Companys current cash and cash equivalents, cash generated by operations, together with the borrowing availability under
+its revolving loan agreement with HSBC Bank N.A., will be sufficient to fund planned operations for the next twelve months. However,
+if the Company is unable to generate sufficient cash from operations, it may be required to find additional funding sources. If
+adequate financing is unavailable or is unavailable on acceptable terms, the Company may be unable to maintain, develop or enhance
+its operations, products and services, take advantage of future opportunities or adequately respond to competitive pressures.
+
+
+
+
+
+Changes in interest rates
+could adversely affect us.
+
+We
+have exposure to increases ininterest ratesunder our revolving credit loan agreement with HSBC, N.A.
+which presently bears interest at a rate of LIBOR plus 2%. In
+response to the last global economic recession,  actions of the U.S. Federal Reserve and other central banking institutions,
+were taken to create and maintain a low interest rate environment. However, in December 2015, the U.S. Federal Reserve raised
+its benchmark interest rate by a quarter of a percentage point for the first time since 2006. The U.S. Federal Reserve raised
+this rate by an additional quarter of a percentage point in December 2016 and indicated that additional increases would
+likely be forthcoming in 2017. While it is unclear whether these actions suggest a change in previous monetary policy
+positions, any such change or market expectation of such change may result in significantly higher long-term interest rates.
+Increases in interest rates would increase our interest costs on our variable-rate debt, as well as any future
+fixed rate debt we may incur at higher interest rates, and interest which we pay reduces our cash available for working
+capital, acquisitions, and other uses.
+
+
+
+
+
+
+
+
+
+
+
+Product liability claims or regulatory actions could adversely
+affect the Company's financial results and reputation.
+
+Claims for losses or injuries allegedly caused by some of the Companys
+products arise in the ordinary course of its business. In addition to the risk of substantial monetary judgments, product liability
+claims or regulatory actions could result in negative publicity that could harm the Companys reputation in the marketplace
+or the value of its brands. The Company also could be required to recall possible defective products, which could result in adverse
+publicity and significant expenses. Although the Company maintains product liability insurance coverage, potential product liability
+claims are subject to a deductible or could be excluded under the terms of the policy.
+
+
+
+The Company is subject to environmental
+regulation and environmental risks. 
+
+The Company is subject to national, state, provincial and/or local
+environmental laws and regulations that impose limitations and prohibitions on the discharge and emission of, and establish standards
+for the use, disposal and management of, certain materials and waste. These environmental laws and regulations also impose liability
+for the costs of investigating and cleaning up sites, and certain damages resulting from present and past spills, disposals, or
+other releases of hazardous substances or materials. Environmental laws and regulations can be complex and may change often. Capital
+and operating expenses required to comply with environmental laws and regulations can be significant, and violations may result
+in substantial fines and penalties. In addition, environmental laws and regulations, such as the Comprehensive Environmental Response,
+Compensation and Liability Act, or CERCLA, in the United States impose liability on several grounds for the investigation and cleanup
+of contaminated soil, ground water and buildings and for damages to natural resources on a wide range of properties. For example,
+contamination at properties formerly owned or operated by the Company, as well as at properties it will own and operate, and properties
+to which hazardous substances were sent by the Company, may result in liability for the Company under environmental laws and regulations.
+The costs of complying with environmental laws and regulations and any claims concerning noncompliance, or liability with respect
+to contamination in the future could have a material adverse effect on the Companys financial condition or results of operations.
+Refer to Note 16  Sale of Property - of the Notes to Consolidated Financial Statements for further discussion of the environmental
+costs related to the sale in 2014 of property owned by the Company in Fremont, NC.
+
+
+
+
+
+
+    11
+    
+ 
+
+The ability to deliver products to our customers in a timely
+manner and to satisfy our customers fulfillment standards are subject to several factors, some of which are beyond our control.
+
+Customers place great emphasis on timely delivery of our products
+for specific selling seasons, especially during our second and third fiscal quarters, and on the fulfillment of consumer demand
+throughout the year. We cannot control all of the various factors that might affect product delivery to customers. Vendor production
+delays, difficulties encountered in shipping from overseas and customs clearance delays are on-going risks of our business. We
+also rely upon third-party carriers for our product shipments from our distribution centers to customers. Accordingly, we are subject
+to risks, including labor disputes, inclement weather, natural disasters, possible acts of terrorism, availability of shipping
+containers, and increased security restrictions associated with such carriers ability to provide delivery services to meet
+our shipping needs. Failure to deliver products to our customers in a timely and effective manner, often under special vendor
+requirements to use specific carriers and delivery schedules, could damage our reputation and brands and result in loss of customers
+or reduced orders.
+
+
+
+
+
+Our shares of common stock are thinly traded and our stock price
+may be volatile.
+
+Because our common stock is thinly traded, its market price may
+fluctuate significantly more than the stock market in general or the stock prices of other companies listed on major stock exchanges.
+There were approximately 2,903,424 shares of our common stock held by non-affiliates as of December 31, 2016. Thus, our common
+stock will be less liquid than the stock of companies with broader public ownership, and, as a result, the trading price for shares
+of our common stock may be more volatile. Among other things, trading of a relatively small volume of our common stock may have
+a greater impact on the trading price for our stock than would be the case if our public float were larger.
+
+
+
+
+    12
+    
+    
+
+
+
+Item 1B. Unresolved Staff Comments
+
+
+
+Not applicable to smaller reporting companies.
+
+
+
+
+
+
+
+Item 2. Properties
+
+
+
+
+
+    Location
+    Square 
+Footage
+    
+    Purpose
+
+    Owned
+    
+    
+    
+
+    Rocky Mount, NC
+    340,000 
+    
+    Warehousing and distribution
+
+    Solingen, Germany
+    35,000 
+    
+    Warehousing, distribution and administrative
+
+    
+    375,000 
+    
+    
+
+    Leased
+    
+    
+    
+
+    Fairfield, CT
+    15,400 
+    
+    Administrative
+
+    Bentonville, AK
+    1,500
+    
+    Administrative
+
+    Vancouver, WA
+    53,000 
+    
+    Manufacturing, warehousing and distribution
+
+    Marlborough, MA
+    28,000 
+    
+    Manufacturing, warehousing and distribution
+
+    Santa Ana, CA
+    10,000
+    
+    Manufacturing, warehousing, distribution and administrative
+
+    Smyrna, TN
+    13,000
+    
+    Manufacturing, warehousing and distribution
+
+    Mount Forest, Ontario, Canada
+    42,500 
+    
+    Warehousing and distribution
+
+    Orangeville, Ontario, Canada
+    2,850 
+    
+    Administrative
+
+    Hong Kong, China
+    2,750 
+    
+    Administrative
+
+    Guangzhou, China
+    3,500 
+    
+    Administrative
+
+    Ningbo, China
+    1,800 
+    
+    Administrative
+
+    
+    174,300 
+    
+    
+
+    
+    
+    
+    
+
+    Total
+    549,300 
+    
+    
+
+
+
+
+
+Management believes that the Company's facilities,
+whether leased or owned, are adequate to meet its current needs and should continue to be adequate for the foreseeable future.
+
+
+
+Item 3. Legal Proceedings
+
+There are no pending material legal proceedings
+to which the Company is a party or, to the actual knowledge of the Company, contemplated by any governmental agency.
+
+
+
+Item 4. Mine Safety Disclosures
+
+Not Applicable
+
+
+
+
+
+
+
+
+
+    13
+    
+    
+
+PART II
+
+
+
+Item 5. Market for Registrant's Common Equity,
+Related Stockholder Matters and Issuer Purchases of Equity Securities.
+
+The Company's Common Stock is traded on the
+NYSE MKT under the symbol "ACU". The following table sets forth the high and low sale prices on the NYSE MKT for the
+Common Stock for the periods indicated:
+
+
+
+
+
+    Year Ended December 31, 2016
+    High
+    Low
+    Dividends Declared
+
+    Fourth Quarter
+    $26.66
+    $19.49
+    $.10
+
+    Third Quarter
+    22.19
+    18.42
+    .10
+
+    Second Quarter
+    18.85
+    15.95
+    .10
+
+    First Quarter
+    17.97
+    13.01
+    .10
+
+    
+    
+    
+    
+
+    Year Ended December 31, 2015
+    
+    
+    
+
+    Fourth Quarter
+    $18.25
+    $15.58
+    $.10
+
+    Third Quarter
+    18.50
+    15.99
+    .09
+
+    Second Quarter
+    19.74
+    17.05
+    .09
+
+    First Quarter
+    20.30
+    17.34
+    .09
+
+
+
+
+As of March 3, 2017 there were approximately
+2,168 holders of record of the Company's Common Stock.
+
+
+
+Performance Graph
+
+
+
+The graph below compares the yearly cumulative total shareholder
+return on the Companys Common Stock with the yearly cumulative total return of the following for the period 2011 to 2016:
+(a) the NYSE MKT Index and (b) a diversified peer group of companies that, like the Company, (i) are currently listed on the NYSE
+MKT, and (ii) have a market capitalization of $80 million to $90 million.
+
+
+
+The Company does not believe that it can reasonably identify a peer
+group of companies, on an industry or line-of-business basis, for the purpose of developing a comparative performance index. While
+the Company is aware that some other publicly-traded companies market products in the Companys line-of-business, none of
+these other companies provide most or all of the products offered by the Company, and many offer products or services not offered
+by the Company. Moreover, some of these other companies that engage in the Companys line-of-business do so through divisions
+or subsidiaries that are not publicly-traded. Furthermore, many of these other companies are substantially more highly capitalized
+than the Company. For these reasons, any such comparison would not, in the opinion of the Company, provide a meaningful index of
+comparative performance.
+
+
+
+The comparisons in the graph below are based on historical data
+and are not indicative of, or intended to forecast, the possible future performance of the Companys Common Stock.
+
+
+
+
+    14
+    
+    
+
+
+
+
+
+
+
+
+
+Issuer Purchases of Equity Securities
+
+
+
+On November 22, 2010, the Company
+announced a Common Stock repurchase program of up to a total 200,000 shares. The program does not have an expiration date. During
+the twelve months ended December 31, 2016, the Company repurchased 61,493 shares of its Common Stock. As of December 31, 2016,
+41,227 shares may be purchased in the future under the repurchase program announced in 2010.
+
+
+
+
+
+Item
+6.Selected Financial Data
+
+    
+
+FIVE
+YEAR SUMMARY OF SELECTED FINANCIAL DATA    
+
+(All
+figures in thousands except per share data)
+
+
+
+
+
+
+
+    
+    2016
+    2015
+    2014
+    2013
+    2012
+
+    Net sales
+    $124,574
+    $109,812
+    $107,222
+    $89,577
+    $84,370
+
+    Net income
+    $5,851
+    $4,794
+    $4,789
+    $4,003
+    $3,549
+
+    Total assets
+    $92,066
+    $81,421
+    $79,308
+    $68,079
+    $67,828
+
+    Long-term debt, less current portion
+    $32,936
+    $25,913
+    $24,147
+    $22,912
+    $24,320
+
+    Net income
+    
+    
+    
+    
+    
+
+    Per share (Basic)
+    $1.76
+    $1.44
+    $1.48
+    $1.26
+    $1.14
+
+    Per share (Diluted)
+    $1.64
+    $1.30
+    $1.36
+    $1.22
+    $1.13
+
+    Dividends per share
+    $0.40
+    $0.37
+    $0.34
+    $0.31
+    $0.28
+
+
+
+
+
+
+
+
+
+
+
+
+
+    15
+    
+    
+
+
+
+Item 7. Managements Discussion and Analysis of Financial
+Condition and Results of Operations
+
+
+
+Forward-Looking Information
+
+The Company may from time to time make written
+or oral forward-looking statements including statements contained in this report and in other communications by the
+Company, which are made in good faith pursuant to the safe harbor provisions of the Private Securities Litigation
+Reform Act of 1995. Such statements are based on our beliefs as well as assumptions made by and information currently available
+to us. When used in this document, words like may, might, will, except,
+anticipate, believe, potential, and similar expressions are intended to identify forward-looking
+statements. Actual results could differ materially from our current expectations.
+
+
+
+These forward-looking statements include statements of the Companys
+plans, objectives, expectations, estimates and intentions, which are subject to change based on various important factors (some
+of which are beyond the Companys control). The following factors, in addition to others not listed, could cause the Companys
+actual results to differ materially from those expressed in forward looking statements: the strength of the domestic and local
+economies in which the Company conducts operations, the impact of uncertainties in global economic conditions, changes in client
+needs and consumer spending habits, the impact of competition and technological change on the Company, the Companys ability
+to manage its growth effectively, including its ability to successfully integrate any business or property which it might acquire,
+and currency fluctuations. For a more detailed discussion of these and other factors affecting us, see the Risk Factors described
+in Item 1A of this Annual Report on Form 10-K. The Company undertakes no obligation to publicly update or revise any forward-looking
+statement, whether as a result of new information, future events, or otherwise, except as required by law.
+
+
+
+Critical Accounting Policies
+
+The following discussion and analysis of financial condition and
+results of operations are based upon the Companys consolidated financial statements, which have been prepared in conformity
+with accounting principles generally accepted in the United States of America. The Companys significant accounting policies
+are more fully described in Note 2 of the Notes to Consolidated Financial Statements. Certain accounting estimates are particularly
+important to the understanding of the Companys financial position and results of operations and require the application
+of significant judgment by the Companys management and can be materially affected by changes from period to period in economic
+factors or conditions that are outside the control of management. The Companys management uses its judgment to determine
+the appropriate assumptions to be used in the determination of certain estimates. Those estimates are based on historical operations,
+future business plans and projected financial results, the terms of existing contracts, the observance of trends in the industry,
+information provided by customers and information available from other outside sources, as appropriate. The following discusses
+the Companys critical accounting policies and estimates:
+
+
+
+Estimates. Operating results may be
+affected by certain accounting estimates. The most sensitive and significant accounting estimates in the financial statements relate
+to customer rebates, valuation allowances for deferred income tax assets, obsolete and slow moving inventories, potentially uncollectible
+accounts receivable, pension liability and accruals for income taxes. Although the Companys management has used available
+information to make judgments on the appropriate estimates to account for the above matters, there can be no assurance that future
+events will not significantly affect the estimated amounts related to these areas where estimates are required. However, historically,
+actual results have not been materially different than original estimates.
+
+
+
+Revenue Recognition. The Company recognizes
+revenue from the sales of its products when ownership transfers to the customers, which occurs either at the time of shipment or
+upon delivery based upon contractual terms with the customer. The Company recognizes customer program costs, including rebates,
+cooperative advertising, slotting fees and other sales related discounts, as a reduction to sales.
+
+
+
+Allowance for doubtful accounts.The Company provides
+an allowance for doubtful accounts based upon a review of outstanding accounts receivable, historical collection information and
+existing economic conditions. The allowance for doubtful accounts represents estimated uncollectible accounts receivables associated
+with potential customer defaults on contractual obligations, usually due to potential insolvencies. The allowance includes amounts
+for certain customers where a risk of default has been specifically identified. In addition, the allowance includes a provision
+for customer defaults based on historical experience. The Company actively monitors its accounts receivable balances, and its historical
+experience of annual accounts receivable write offs has been negligible.
+
+
+
+
+
+
+    16
+    
+    
+
+
+
+Customer Rebates. Customer rebates and incentives are a common
+practice in the office products industry. We incur customer rebate costs to obtain favorable product placement, to promote sell-through
+of products and to maintain competitive pricing. Customer rebate costs and incentives, including volume rebates, promotional funds,
+catalog allowances and slotting fees, are accounted for as a reduction to gross sales. These costs are recorded at the time of
+sale and are based on individual customer contracts. Management periodically reviews accruals for these rebates and allowances,
+and adjusts accruals when appropriate.
+
+
+
+Obsolete and Slow Moving Inventory. Inventories are stated
+at the lower of cost, determined on the first-in, first-out method, or market. An allowance is established to adjust the cost of
+inventory to its net realizable value. Inventory allowances are recorded for obsolete or slow moving inventory based on assumptions
+about future demand and marketability of products, the impact of new product introductions and specific identification of items,
+such as discontinued products. These estimates could vary significantly from actual requirements if future economic conditions,
+customer inventory levels or competitive conditions differ from expectations.
+
+
+
+Income Taxes. Deferred income tax liabilities or assets
+are established for temporary differences between financial and tax reporting bases and are subsequently adjusted to reflect changes
+in tax rates expected to be in effect when the temporary differences reverse. A valuation allowance is recorded to reduce deferred
+income tax assets to an amount that is more likely than not to be realized.
+
+
+
+Intangible Assets and Goodwill. Intangible
+assets with finite useful lives are recorded at cost upon acquisition and amortized over the term of the related contract, if any,
+or useful life, as applicable. Intangible assets held by the Company with finite useful lives include patents and trademarks. The
+weighted average amortization period for intangible assets at December 31, 2016 was 8 years. The Company periodically reviews the
+values recorded for intangible assets and goodwill to assess recoverability from future operations whenever events or changes in
+circumstances indicate that its carrying amount may not be recoverable. At December 31, 2016 and 2015, the Company assessed the
+recoverability of its long-lived assets and goodwill and believed that there were no events or circumstances present that would
+that would require a test of recoverability on those assets. As a result, there was no impairment of the carrying amounts of such
+assets and no reduction in their estimated useful lives. The net book value of the Companys intangible assets was $13,988,186
+as of December 31, 2016, compared to $11,950,991 as of December 31, 2015, and the net book value of the Companys goodwill
+was approximately $3,948,000 at December 31, 2016 and $1,406,000 at December 31, 2015.
+
+
+
+Pension Obligation. The pension benefit obligation is based
+on various assumptions used by third-party actuaries in calculating this amount.These assumptions include discount
+rates, expected return on plan assets, mortality rates and other factors. Revisions in assumptions and actual results that
+differ from the assumptions affect future expenses, cash funding requirements and obligations. Our funding policy is to fund
+the plan in accordance with applicable requirements of the Internal Revenue Code and regulations.
+
+
+
+These assumptions are reviewed annually and updated as required.
+The Company has a frozen defined benefit pension plan. Two assumptions, the discount rate and the expected return on
+plan assets, are important elements of expense and liability measurement.
+
+
+
+We determine the discount rate used to measure plan liabilities
+as of the December31 measurement date. The discount rate reflects the current rate at which the associated liabilities could
+be effectively settled at the end of the year. In estimating this rate, we look at rates of return on fixed-income investments
+of similar duration to the liabilities in the plan that receive high, investment grade ratings by recognized ratings agencies.
+Using these methodologies, we determined a discount rate of 3.40% to be appropriate as of December31, 2016, which is a decrease
+of 0.1percentage point from the rate used as of December31, 2015.
+
+
+
+The expected long-term rate of return on assets considers the Companys
+historical results and projected returns for similar allocations among asset classes. In accordance with generally accepted accounting
+principles, actual results that differ from the Companys assumptions are accumulated and amortized over future periods and,
+therefore, affect expense and obligation in future periods. For the U.S. pension plan, our assumption for the expected return on
+plan assets was 6.0% for 2016. For more information concerning these costs and obligations, see the discussion in Note 6 
+Pension and Profit Sharing, in the Notes to the Companys Consolidated Financial Statements in this report.
+
+
+
+
+
+
+    17
+    
+    
+
+
+
+Accounting for Stock-Based Compensation. Stock based compensation
+cost is measured at the grant date fair value of the award and is recognized as expense over the requisite service period. The
+Company uses the Black-Scholes option - pricing model to determine fair value of the awards, which involves certain subjective
+assumptions. These assumptions include estimating the length of time employees will retain their vested stock options before exercising
+them (expected term), the estimated volatility of the Companys common stock price over the expected term (volatility)
+and the number of options for which vesting requirements will not be completed (forfeitures). Changes in the subjective
+assumptions can materially affect estimates of fair value stock-based compensation, and the related amount recognized on the consolidated
+statements of operations. Refer to Note 11 - Stock Option Plans - in the Notes to Consolidated Financial Statements in this report
+for a more detailed discussion.
+
+
+
+Results of Operations 2016 Compared with 2015
+
+
+
+On April 7, 2014, the Company sold its Fremont,
+NC distribution facility for $850,000 in cash. The facility originally served as a manufacturing site for the Companys scissors
+and rulers. In conjunction with the sale of the property, the Company recorded a liability of $300,000 in the second quarter of
+2014, related to environmental remediation of the property. The accrual included the total estimated costs of remedial activities
+and post-remediation operating and maintenance costs. The balance remaining in the accrual at December 31, 2016 was approximately
+$57,000. Additional information concerning the sale of the property is set forth in Note 16  Sale of Property, in the Notes
+to Condensed Consolidated Financial Statements in this report.
+
+
+
+On February 1, 2016, the
+Company purchased certain assets of Vogel Capital, Inc., d/b/a Diamond Machining Technology (DMT), located in Marlborough, MA.
+DMT products are leaders in sharpening tools for knives, scissors, chisels and other cutting tools. The
+DMT products use finely dispersed diamonds on the surfaces of sharpeners. The Company purchased inventory, accounts receivable,
+equipment, patents, trademarks and other intellectual property for $6.97 million using funds borrowed under its revolving credit
+facility with HSBC. Additional information concerning the acquisition of DMT assets is set forth in Note 17  Business Combinations,
+in the Notes to Condensed Consolidated Financial Statements in this report.
+
+
+
+Net Sales
+
+
+
+In 2016, sales increased by
+$14,762,000, or 13%, to $124,574,000 compared to $109,812,000 in 2015.
+
+
+
+The U.S. segment sales increased by $14,144,000 or 15% in 2016 compared
+to 2015. The increase in net sales for the twelve months ended December 31, 2016 in the U.S. segment was primarily due to increased
+sales of Westcott school and office products, Camillus knives, Cuda fishing tools and first aid products. Revenues from the acquisition
+of DMT contributed $5.1 million.
+
+
+
+Sales in Canada were constant
+in U.S. dollars but increased 4% in local currency in 2016 compared to 2015.
+
+
+
+European sales increased by
+$572,000 or 9% in both U.S. dollars and local currency in 2016 compared to 2015. The increase in sales in Europe in 2016 was primarily
+due to sales of DMT products and increased market share in the office products channel.
+
+
+
+Gross Profit
+
+
+
+Gross profit was 36.6% of net sales in 2016 compared to 36.0% in
+2015.
+
+
+
+Selling, General and Administrative
+
+
+
+
+
+Selling, general and administrative
+expenses were $37,113,000 in 2016 compared with $32,214,212 in 2015, an increase of $4,899,000 or 15%. SG&A expenses were 30%
+of net sales in 2016 compared to 29% in 2015. The increase in SG&A expenses was primarily the result of incremental fixed costs
+resulting from the acquisition of DMT assets and increases in delivery costs and sales commissions which resulted from higher sales
+and higher personnel related costs, which include compensation and recruiting costs.
+
+
+
+
+
+
+    18
+    
+    
+
+
+
+Operating Income
+
+
+
+Operating income was $8,442,000
+in 2016, compared with $7,347,000 in 2015. Operating income in the U.S. increased by approximately $622,000 primarily as a result
+of higher sales. Operating income in Canada increased by approximately $510,000 principally due to higher sales. Operating income
+in the European segment decreased by approximately $40,000. Although sales and related gross margin increased in 2016 in Europe,
+the Company made investments in increased headcount for sales and logistics personnel.
+
+
+
+Interest Expense, Net
+
+
+
+Net interest expense for 2016
+was $869,000, compared with $565,000 for 2015, an increase of $304,000. The increase in interest expense, net for 2016, was primarily
+the result of higher average borrowings during 2016 under the Companys bank revolving credit facility compared to 2015.
+
+
+
+Other Expense, Net
+
+
+
+
+
+Net other expense was $77,000
+in 2016 compared to net other expense of $167,000 in 2015. The decrease in other expense, net for 2016, was primarily due to lower
+losses from foreign currency transactions.
+
+
+
+Income Tax
+
+
+
+
+
+The effective tax rate in 2016 was 22%, compared
+to 28% in 2015. Excluding the impact of a charitable product donation in 2016, the effective tax rate would have been 25%. The
+3 point decline in the effective tax rate was due to a lower proportion of earnings from operations in the United States, which
+has a higher tax rate than the countries in which our subsidiaries operate, compared to 2015.
+
+
+
+Off-Balance Sheet Transactions
+
+
+
+The Company did not engage in any off-balance sheet transactions
+during 2016.
+
+
+
+Liquidity and Capital Resources
+
+
+
+During 2016, working capital increased by approximately
+$5.0 million compared to December 31, 2015. Inventory increased by approximately $1.7 million, or 5%, which corresponds to the
+increase in sales. The Company expects that changes in inventory levels will continue to be consistent with changes in sales, including
+the seasonal impact on the Companys revenue stream. Inventory turnover, calculated using a twelve month average inventory
+balance, increased to 2.1 from 2.0 at December 31, 2015. The reserve for slow moving and obsolete inventory was $677,253 at December
+31, 2016 compared to $698,592 at December 31, 2015. We do not anticipate significant increases in the allowance for slow moving
+and obsolete inventory in the ordinary course of business during 2017.
+
+
+
+Receivables increased by approximately $400,000.
+The average number of days sales outstanding in accounts receivable was 64 days in 2016 compared to 64 days in 2015. Accounts payable
+and other current liabilities increased by approximately $.9 million.
+
+
+
+At December 31, 2016,
+total debt outstanding under the Companys revolving credit facility increased by approximately $7.0 million compared to
+total debt at December 31, 2015. The change in debt was primarily due to borrowings to fund the acquisition of assets of DMT on
+February 1, 2016. As of December 31, 2016, $32,935,858 was outstanding and $17,064,142
+was available for borrowing under the Companys revolving credit facility. 
+
+
+
+
+    19
+    
+    
+
+
+
+On May 6, 2016, the Company amended its revolving credit loan agreement
+with HSBC Bank, N.A. The amended facility provides for borrowings of up to an aggregate of $50 million at an interest rate of LIBOR
+plus 2.0%. In addition, the Company must pay a facility fee, payable quarterly, in an amount equal to two tenths of one percent
+(.20%) per annum of the average daily unused portion of the revolving credit line. All principal amounts outstanding under the
+agreement are required to be repaid in a single amount on May 6, 2019, the date the agreement expires; interest is payable monthly.
+Funds borrowed under the agreement may be used for working capital, acquisitions, general operating expenses, share repurchases
+and certain other purposes. Under the revolving loan agreement, the Company is required to maintain specific amounts of tangible
+net worth, a specified debt service coverage ratio and a fixed charge coverage ratio and must have annual net income greater than
+$0, measured as of the end of each fiscal year. At December 31, 2016, the Company was in compliance with the covenants then in
+effect under the loan agreement with HSBC.
+
+
+
+Capital expenditures
+during 2016 and 2015 were $1,809,823 and $1,756,732, respectively, which were, in part, financed with borrowings under the
+Companys revolving credit facility. Capital expenditures in 2017 are expected to increase approximately $1.0 million
+over 2016 to increase capacity and upgrade equipment at the Companys recently acquired DMT and Spill Magic facilities.
+
+
+
+
+
+
+
+The Company believes that cash on hand, and cash generated from
+operating activities, together with funds available under its revolving credit facility, are expected, under current conditions,
+to be sufficient to finance the Companys planned operations for at least the next twelve months.
+
+
+
+
+
+
+
+Recently Issued Accounting Standards
+
+
+
+In February 2016, the FASB issued guidance that will change the
+requirements for accounting for leases. The principal change under the new accounting guidance is that lessees under leases classified
+as operating leases will recognize a right-of-use asset and a lease liability. Current lease accounting does not require lessees
+to recognize assets and liabilities arising under operating leases on the balance sheet. Under the new guidance, lessees (including
+lessees under leases classified as finance leases and operating leases) will recognize a right-to-use asset and a lease liability
+on the balance sheet, initially measured as the present value of lease payments under the lease. Expense recognition and cash flow
+presentation guidance will be based upon whether the lease is classified as an operating lease or a finance lease (the classification
+criteria for distinguishing between finance leases and operating leases is substantially similar to the classification criteria
+for distinguishing between capital leases and operating leases under current guidance). The standard is effective for fiscal years,
+and interim periods within those fiscal years, beginning after December 15, 2018. Early adoption is permitted. The new standard
+must be adopted using a modified retrospective transition approach for capital and operating leases existing at, or entered into
+after, the beginning of the earliest comparative period presented in the financial statements; the guidance provides certain practical
+expedients. The Company is currently evaluating this guidance to determine its impact on the Companys results of operations,
+cash flows and financial position.
+
+
+
+In March 2016, the FASB issued
+ASU 2016-09 to improve the accounting for employee share-based payments. This standard simplifies several aspects of the accounting
+for share-based payment award transactions, including the income tax consequences, classification of awards as either equity or
+liabilities, and classification on the statement of cash flows, as part of FASBs simplification initiative to reduce cost
+and complexity in accounting standards while maintaining or improving the usefulness of the information provided to the users of
+financial state. The Company is still evaluating whether the adoption of this standard on January 1, 2017 will have a material
+impact on its consolidated financial statements.
+
+
+
+In August 2015, the FASB issued
+ASU No. 2015-14, which defers the effective date of ASU No. 2014-09, Revenue from Contracts with Customers (Topic 606) by one year.
+ASU 2015-14 is a comprehensive new revenue recognition model requiring a company to recognize revenue to depict the transfer of
+goods or services to a customer at an amount reflecting the consideration it expects to receive in exchange for those goods or
+services. As a result, the ASU is now effective for fiscal years, and interim periods within those years, beginning after December
+15, 2017, which for us is the first quarter of 2018. Earlier application is permitted for fiscal years beginning after December
+15, 2016, including interim reporting periods within those years, which for us is the first quarter of 2017. We do not expect this
+ASU to have a material impact on our financial position, results of operations or disclosures.
+
+
+
+
+    20
+    
+    
+
+
+
+In November 2015, the FASB issued ASU 2015-17,
+"Balance Sheet Classification of Deferred Taxes" (Topic 740), which simplifies the presentation of deferred income taxes.
+This ASU requires that deferred tax assets and liabilities be classified as non-current in a statement of financial position. ASU
+2015-17 may be adopted either prospectively or retrospectively and is effective for reporting periods beginning after December
+15, 2016, with early adoption permitted. The Company expects the adoption of this ASU to result in a reclassification of its net
+current deferred tax asset to the net non-current deferred tax asset on it consolidated balance sheet.
+
+
+
+In July 2015, the FASB issued ASU 2015-11,
+"Simplifying the Measurement of Inventory" (Topic 330). The new guidance changes the subsequent measurement of inventory
+from lower of cost or market to lower of cost and net realizable value. ASU 2015-11 should be applied on a prospective basis and
+is effective for the Company beginning in the first fiscal quarter of 2017. Early adoption is permitted. The Company does not expect
+the adoption of this guidance to have a material impact on its financial position, results of operations or cash flows.
+
+
+
+Item 7A. Quantitative and Qualitative Disclosure
+about Market Risk
+
+
+
+Not applicable to smaller reporting companies.
+
+
+
+
+
+
+    21
+    
+    
+
+
+
+
+
+
+
+Item 8.Financial Statements and Supplementary Data
+
+
+
+
+
+Acme
+United Corporation and Subsidiaries
+
+CONSOLIDATED
+STATEMENTS OF OPERATIONS
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+    
+    For the years ended 
+December 31,
+
+    
+    2016
+    2015
+
+    
+    
+    
+
+    Net sales
+    $124,574,371
+    $109,811,768
+
+    
+    
+    
+
+    Cost of goods sold
+    $79,019,315
+    70,250,550
+
+    
+    
+    
+
+    Gross profit
+    45,555,056
+    39,561,218
+
+    
+    
+    
+
+    Selling, general and administrative expenses
+    37,113,000
+    32,214,212
+
+    Operating income
+    8,442,056
+    7,347,006
+
+    
+    
+    
+
+    Non operating items:
+    
+    
+
+    Interest:
+    
+    
+
+    Interest expense
+    (868,626)
+    (570,080)
+
+    Interest income
+    119
+    4,868
+
+    Interest expense, net
+    (868,507)
+    (565,212)
+
+    Other expense
+    (76,846)
+    (167,397)
+
+    Total other expense, net
+    (945,353)
+    (732,609)
+
+    Income before income tax expense
+    7,496,703
+    6,614,397
+
+    Income tax expense
+    1,645,705
+    1,820,872
+
+    Net income
+    $5,850,998
+    $4,793,525
+
+    
+    
+    
+
+    Earnings per share:
+    
+    
+
+    Basic
+    $1.76
+    $1.44
+
+    Diluted
+    $1.64
+    $1.30
+
+
+
+
+
+See
+accompanying Notes to Consolidated Financial Statements. 
+
+
+
+
+
+
+
+
+
+
+
+    22
+    
+    
+
+
+
+Acme
+United Corporation and Subsidiaries
+
+CONSOLIDATED
+STATEMENTS OF COMPREHENSIVE INCOME
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    For the Years Ended
+
+    
+    December 31,
+
+    
+    2016
+    2015
+
+    
+    
+    
+
+    Net income
+    $5,850,998
+    $4,793,525
+
+    Other comprehensive (loss) gain-
+    
+    
+
+    Foreign currency translation
+    (89,556)
+    (830,867)
+
+    Change in net prior service credit
+    
+    
+
+    and actuarial gains (losses), net of
+    
+    
+
+    income tax expense
+    284,145
+    (52,825)
+
+    Total other comprehensive gain (loss)
+    194,589
+    (883,692)
+
+    Comprehensive income
+    $6,045,587
+    $3,909,833
+
+
+
+
+
+See accompanyingNotes to Consolidated Financial Statements.   
+
+
+
+
+
+
+
+
+
+
+
+    23
+    
+    
+
+
+
+Acme United Corporation and Subsidiaries
+
+CONSOLIDATED BALANCE SHEETS  
+
+
+
+
+
+
+
+    
+    December 31,
+    December 31,
+
+    
+    2016
+    2015
+
+    ASSETS
+    
+    
+
+    Current assets:
+    
+    
+
+    Cash and cash equivalents
+    $5,910,770
+    $2,425,891
+
+    Accounts receivable, less allowance
+    20,020,984
+    19,565,088
+
+    Inventories
+    37,237,861
+    35,507,591
+
+    Deferred income taxes
+    501,708
+    389,961
+
+    Prepaid expenses and other current assets
+    1,791,871
+    1,744,956
+
+    Total current assets
+    65,463,194
+    59,633,487
+
+    
+    
+    
+
+    Property, plant and equipment:
+    
+    
+
+    Land
+    412,598
+    417,209
+
+    Buildings
+    5,668,866
+    5,418,101
+
+    Machinery and equipment
+    13,428,678
+    10,254,070
+
+    Total property, plant and equipment
+    19,510,142
+    16,089,380
+
+    Less: accumulated depreciation
+    11,537,242
+    8,687,902
+
+    Net plant, property and equipment
+    7,972,900
+    7,401,478
+
+    
+    
+    
+
+    Intangible assets, less accumulated amortization
+    13,988,186
+    11,950,991
+
+    Goodwill
+    3,948,235
+    1,406,000
+
+    Deferred income taxes
+    668,641
+    880,917
+
+    Other assets
+    24,936
+    148,493
+
+    Total assets
+    $92,066,092
+    $81,421,366
+
+    
+    
+    
+
+    LIABILITIES
+    
+    
+
+    Current liabilities:
+    
+    
+
+    Accounts payable
+    $7,338,798
+    $6,664,160
+
+    Other accrued liabilities
+    5,480,950
+    5,272,593
+
+    Total current liabilities
+    12,819,748
+    11,936,753
+
+    Long-term debt
+    32,935,858
+    25,912,652
+
+    Other accrued liabilities - non current
+    190,140
+    388,400
+
+    Total liabilities
+    45,945,746
+    38,237,805
+
+    
+    
+    
+
+    STOCKHOLDERS' EQUITY
+    
+    
+
+    Common stock, par value $2.50: authorized 8,000,000
+    
+    
+
+    shares; issued - 4,788,965 shares in 2016 and4,751,060 shares in
+ 2015, including treasury stock
+    11,971,657
+    11,876,895
+
+    Treasury stock, at cost, 1,464,010 in 2016
+    
+    
+
+    and 1,402,517 shares in 2015
+    (13,870,041)
+    (12,962,947)
+
+    Additional paid-in capital
+    8,493,256
+    9,460,008
+
+    Accumulated other comprehensive loss
+    (2,336,201)
+    (2,530,790)
+
+    Retained earnings
+    41,861,675
+    37,340,395
+
+    Total stockholders' equity
+    46,120,346
+    43,183,561
+
+    Total liabilities and stockholders' equity
+    $92,066,092
+    $81,421,366
+
+
+
+
+
+
+
+See accompanying Notes to Consolidated Financial Statements. 
+
+
+
+
+
+
+
+
+
+
+
+    24
+    
+    
+
+
+
+Acme United Corporation and Subsidiaries
+
+
+
+
+
+CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS' EQUITY
+
+
+
+       
+
+
+
+
+
+
+
+    
+    Outstanding Shares of Common Stock
+    Common Stock
+    Treasury
+ Stock
+    Additional Paid-In
+ Capital
+    Accumulated Other Comprehensive Loss
+    Retained Earnings
+    Total
+
+    Balances, December 31, 2014
+    3,291,352
+    11,632,805
+    (12,283,251)
+    7,941,330
+    (1,647,098)
+    33,784,270
+    39,428,056
+
+    Net income
+    
+    
+    
+    
+    
+    4,793,525
+    4,793,525
+
+    Total other comprehensive loss
+    
+    
+    
+    
+    (883,692)
+    
+    (883,692)
+
+    Stock compensation expense
+    
+    
+    
+    513,986
+    
+    
+    513,986
+
+    Distribution to shareholders
+    
+    
+    
+    
+    
+    (1,237,400)
+    (1,237,400)
+
+    Issuance of common stock
+    97,636
+    244,090
+    
+    1,004,692
+    
+    
+    1,248,782
+
+    Purchase of treasury stock
+    (40,445)
+    
+    (679,696)
+    
+    
+    
+    (679,696)
+
+    Balances, December 31, 2015
+    3,348,543
+    11,876,895
+    (12,962,947)
+    9,460,008
+    (2,530,790)
+    37,340,395
+    43,183,561
+
+    Net income
+    
+    
+    
+    
+    
+    5,850,998
+    5,850,998
+
+    Total other comprehensive loss
+    
+    
+    
+    
+    194,589
+    
+    194,589
+
+    Stock compensation expense
+    
+    
+    
+    440,536
+    
+    
+    440,536
+
+    Tax benefit from exercise of
+    
+    
+    
+    
+    
+    
+    
+
+    employee stock options
+    
+    
+    
+    567,309
+    
+    
+    567,309
+
+    Distribution to shareholders
+    
+    
+    
+    
+    
+    (1,329,717)
+    (1,329,717)
+
+    Issuance of common stock
+    37,905
+    94,762
+    
+    299,776
+    
+    
+    394,538
+
+    Cash settlement of stock options
+    
+    
+    
+    (2,274,374)
+    
+    
+    (2,274,374)
+
+    Purchase of treasury stock
+    (61,493)
+    
+    (907,094)
+    
+    
+    
+    (907,094)
+
+    Balances, December 31, 2016
+    3,324,955
+    11,971,657
+    (13,870,041)
+    8,493,256
+    (2,336,201)
+    41,861,675
+    46,120,346
+
+
+
+
+
+
+See accompanying Notes to Consolidated Financial Statements.     
+
+
+
+
+
+
+
+
+
+    25
+    
+    
+
+
+
+Acme United Corporation and Subsidiaries
+
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+  
+
+
+
+
+
+
+
+    
+    For the years ended December 31,
+
+    
+    2016
+    2015
+
+    Operating activities:
+    
+    
+
+    Net income
+    $5,850,998
+    $4,793,525
+
+    Adjustments to reconcile net income to net
+    
+    
+
+    cash provided by operating activities
+    
+    
+
+    Depreciation
+    1,490,805
+    1,318,357
+
+    Amortization
+    930,941
+    734,496
+
+    Stock compensation expense
+    440,536
+    513,986
+
+    Deferred income taxes
+    100,529
+    (201,553)
+
+    Changes in operating assets and liabilities
+    
+    
+
+    Accounts receivable
+    499,940
+    (16,948)
+
+    Inventories
+    (1,483,785)
+    (2,599,728)
+
+    Prepaid expenses and other current assets
+    314,824
+    (123,267)
+
+    Accounts payable
+    610,498
+    (1,065,428)
+
+    Other accrued liabilities
+    101,927
+    (2,273,701)
+
+    Total adjustments
+    3,006,214
+    (3,713,786)
+
+    Net cash provided by operating activities
+    8,857,211
+    1,079,738
+
+    Investing activities:
+    
+    
+
+    Purchase of property, plant and equipment
+    (1,809,823)
+    (1,756,732)
+
+    Purchase of patents and trademarks
+    (29,371)
+    (161,877)
+
+    Proceeds from sales of plant, property and equipment
+    
+    4,980
+
+    Acquisition of DMT
+    (6,970,910)
+    
+
+    Net cash used by investing activities
+    (8,810,104)
+    (1,913,629)
+
+    Financing activities:
+    
+    
+
+    Net borrowings of long-term debt
+    7,023,205
+    1,765,811
+
+    Distributions to shareholders
+    (1,332,757)
+    (1,198,848)
+
+    Cash settlement of stock options
+    (2,274,374)
+    
+
+    Excess Tax benefit from the exercise of stock options
+    567,309
+    
+
+    Purchase of treasury stock
+    (907,094)
+    (679,696)
+
+    Issuance of common stock
+    394,538
+    1,248,782
+
+    Net cashprovided by financing activities
+    3,470,827
+    1,136,049
+
+    Effect of exchange rate changes
+    (33,056)
+    (161,929)
+
+    Net increase in cash and cash equivalents
+    3,484,880
+    140,231
+
+    Cash and cash equivalents at beginning of year
+    2,425,891
+    2,285,660
+
+    Cash and cash equivalents at end of year
+    $5,910,770
+    $2,425,891
+
+    
+    
+    
+
+    Supplemental cash flow information
+    
+    
+
+    Cash paid for income taxes
+    $1,779,879
+    $2,412,008
+
+    Cash paid for interest expense
+    $841,634
+    $563,837
+
+
+
+
+
+
+
+See accompanying Notes to Consolidated Financial Statements.  
+
+
+
+
+
+
+
+    26
+    
+    
+
+
+
+Acme United Corporation and Subsidiaries
+
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+
+
+1. Operations
+
+
+
+The operations of Acme United Corporation (the
+Company) consist of three reportable segments. The operations of the Company are structured and evaluated based on
+geographic location. The three reportable segments operate in the United States (including Asian operations), Canada and Europe.
+Principal products across all segments are scissors, shears, knives, rulers, pencil sharpeners, first aid kits, and related products
+which are sold primarily to wholesale, contract and retail stationery distributors, office supply super stores, mass market retailers,
+industrial distributors, school supply distributors, drug store retailers, sporting goods stores, hardware chains and wholesale
+florists.
+
+
+
+2. Accounting Policies
+
+
+
+Estimates - The preparation of financial statements
+in conformity with accounting principles generally accepted in the United States requires management to make estimates and assumptions
+that affect the reported amounts of assets and liabilities and the disclosure of contingent assets and liabilities at the date
+of the financial statements and the reported amounts of revenues and expenses during the reporting period. The most sensitive and
+significant accounting estimates relate to customer rebates, valuation allowances for deferred income tax assets, obsolete and
+slow-moving inventories, potentially uncollectible accounts receivable, pension liability and accruals for income taxes. Actual
+results could differ from those estimates.
+
+
+
+Principles of Consolidation - The consolidated
+financial statements include the accounts of the Company and its subsidiaries, all of which are wholly owned by the Company. All
+significant intercompany accounts and transactions are eliminated in consolidation.
+
+
+
+Translation of Foreign Currency - For foreign
+operations whose functional currencies are not U.S. dollars, assets and liabilities are translated at rates in effect at the end
+of the year; revenues and expenses are translated at average rates in effect during the year. Resulting translation adjustments
+are made directly to accumulated other comprehensive income. Foreign currency transaction gains and losses are recognized in operating
+results. Foreign currency transaction losses, which are included in other expense, net, were $75,041 in 2016 and $202,587 in 2015.
+
+
+
+Cash Equivalents - Investments with an original
+maturity of three months or less, as well as time deposits and certificates of deposit that are readily redeemable at the date
+of purchase, are considered cash equivalents.
+
+
+
+Accounts Receivable - Accounts receivable are shown less an allowance
+for doubtful accounts of $152,357 at December 31, 2016 and $104,760 at December 31, 2015.
+
+
+
+Inventories - Inventories are stated at the lower of cost, determined
+by the first-in, first-out method, or market.
+
+
+
+Property, Plant and Equipment and Depreciation  Property,
+plant and equipment is recorded at cost. Depreciation is computed by the straight-line method over the estimated useful lives of
+the assets, which range from 3 to 30 years.
+
+
+
+Intangible Assets Intangible assets with
+finite useful lives are recorded at cost upon acquisition, and amortized over the term of the related contract or useful life,
+as applicable. Intangible assets held by the Company with finite useful lives include patents and trademarks. Patents and trademarks
+are amortized over their estimated useful lives. The weighted average amortization period for intangible assets at December 31,
+2016 was 8 years. The Company periodically reviews the values recorded for intangible assets to assess recoverability from future
+operations whenever events or changes in circumstances indicate that their carrying amounts may not be recoverable. At December
+31, 2016 and 2015, the Company assessed the recoverability of its long-lived assets and believed that there were no events or circumstances
+present that would that would require a test of recoverability on those assets. As a result, there was no impairment of the carrying
+amounts of such assets and no reduction in their estimated useful lives.
+
+
+
+Deferred Income Taxes - Deferred income taxes are provided for the
+differences between the financial statement and tax bases of assets and liabilities, and on operating loss carryovers, using tax
+rates in effect in years in which the differences are expected to reverse.
+
+
+
+
+    27
+    
+    
+
+
+
+Revenue Recognition  Revenue is recognized when
+the price is fixed, the title and risks and rewards of ownership have passed to the customer, and when collection is
+reasonably assured. Depending on the contractual terms of each customer, revenue is recognized either at the time of shipment
+or upon delivery. When revenue is recorded, estimates of returns are made and recorded as a reduction of  revenue. Customer
+rebates and incentives are earned based on promotional programs in place, volume of purchases or other factors are also
+estimated at the time of revenue recognition and recorded as a reduction of that revenue. 
+
+
+
+Research and Development  Research and development costs
+($750,000 in 2016 and 690,000 in 2015) are expensed as incurred.
+
+
+
+Shipping Costs  The costs of shipping product
+to our customers ($5,388,481 in 2016 and $4,597,663 in 2015) are included in selling, general and administrative expenses.
+
+
+
+Advertising Costs  The Company expenses the production costs
+of advertising the first time that the related advertising takes place. Advertising costs ($1,934,250 in 2016 and $1,717,456 in
+2015) are included in selling, general and administrative expenses.
+
+
+
+Subsequent Events - The Company
+has evaluated events and transactions subsequent to December 31, 2016 through the date the consolidated financial statements were
+included in this Form10-K and filed with the SEC.
+
+
+
+Concentration  The Company performs ongoing credit evaluations
+of its customers and generally does not require collateral for the extension of credit. Allowances for credit losses are provided
+and have been within management's expectations. In 2016 and 2015, the Company had two customers that individually exceeded 10%
+of consolidated net sales. In 2016, net sales to these customers amounted to approximately 14% and 11%, respectively, and 12% for
+each in 2015.
+
+
+
+Recently Issued Accounting Standards
+
+
+
+In February 2016, the FASB issued guidance that
+will change the requirements for accounting for leases. The principal change under the new accounting guidance is that lessees
+under leases classified as operating leases will recognize a right-of-use asset and a lease liability. Current lease accounting
+does not require lessees to recognize assets and liabilities arising under operating leases on the balance sheet. Under the new
+guidance, lessees (including lessees under leases classified as finance leases and operating leases) will recognize a right-to-use
+asset and a lease liability on the balance sheet, initially measured as the present value of lease payments under the lease. Expense
+recognition and cash flow presentation guidance will be based upon whether the lease is classified as an operating lease or a finance
+lease (the classification criteria for distinguishing between finance leases and operating leases is substantially similar to the
+classification criteria for distinguishing between capital leases and operating leases under current guidance). The standard is
+effective for fiscal years, and interim periods within those fiscal years, beginning after December 15, 2018. Early adoption is
+permitted. The new standard must be adopted using a modified retrospective transition approach for capital and operating leases
+existing at, or entered into after, the beginning of the earliest comparative period presented in the financial statements; the
+guidance provides certain practical expedients. The Company is currently evaluating this guidance to determine its impact on the
+Companys results of operations, cash flows and financial position.
+
+
+
+In
+March 2016, the FASB issued ASU 2016-09 to improve the accounting for employee share-based payments. This standard simplifies
+several aspects of the accounting for share-based payment award transactions, including the income tax consequences, classification
+of awards as either equity or liabilities, and classification on the statement of cash flows, as part of FASBs simplification
+initiative to reduce cost and complexity in accounting standards while maintaining or improving the usefulness of the information
+provided to the users of financial state. The Company is still evaluating whether the adoption of this standard on January 1,
+2017 will have a material impact on its consolidated financial statements.
+
+
+
+
+    28
+    
+    
+
+
+
+In
+November 2015, the FASB issued ASU 2015-17, "Balance Sheet Classification of Deferred Taxes" (Topic 740), which simplifies
+the presentation of deferred income taxes. This ASU requires that deferred tax assets and liabilities be classified as non-current
+in a statement of financial position. ASU 2015-17 may be adopted either prospectively or retrospectively and is effective for
+reporting periods beginning after December 15, 2016, with early adoption permitted. The Company expects the adoption of this ASU
+to result in a reclassification of its net current deferred tax asset to the net non-current deferred tax asset on it consolidated
+balance sheet.
+
+
+
+In August 2015, the FASB issued
+ASU No. 2015-14, which defers the effective date of ASU No. 2014-09, Revenue from Contracts with Customers (Topic 606) by one year.
+ASU 2015-14 is a comprehensive new revenue recognition model requiring a company to recognize revenue to depict the transfer of
+goods or services to a customer at an amount reflecting the consideration it expects to receive in exchange for those goods or
+services. As a result, the ASU is now effective for fiscal years, and interim periods within those years, beginning after December
+15, 2017, which for us is the first quarter of 2018. Earlier application is permitted for fiscal years beginning after December
+15, 2016, including interim reporting periods within those years, which for us is the first quarter of 2017. We do not expect this
+ASU to have a material impact on our financial position, results of operations or disclosures.
+
+
+
+In July 2015, the FASB issued
+ASU 2015-11, "Simplifying the Measurement of Inventory" (Topic 330). The new guidance changes the subsequent measurement
+of inventory from lower of cost or market to lower of cost and net realizable value. ASU 2015-11 should be applied on a prospective
+basis and is effective for the Company beginning in the first fiscal quarter of 2017. Early adoption is permitted. The Company
+does not expect the adoption of this guidance to have a material impact on its financial position, results of operations or cash
+flows.
+
+
+
+3.Inventories
+
+
+
+
+
+    
+    December 31,
+
+    Inventories consisted of:
+    2016
+    2015
+
+    Finished goods
+    $33,971,922
+    $29,802,745
+
+    Work in process
+    187,833
+    169,540
+
+    Materials and supplies
+    3,078,106
+    5,535,306
+
+    
+    $37,237,861
+    $35,507,591
+
+
+
+
+
+
+
+
+
+
+
+
+Inventories are stated net of valuation allowances
+for slow moving and obsolete inventory of $677,253 as of December 31, 2016 and $698,592 as of December 31, 2015.
+
+
+
+
+
+
+
+4.Intangible Assets and Goodwill  
+
+
+
+
+
+
+
+    
+    December 31,
+
+    Intangible assets consisted of:
+    2016
+    2015
+
+    
+    
+    
+
+    First Aid Only Tradename, Customer List
+    $8,910,010
+    $8,910,010
+
+    DMT Tradename, Customer List
+    2,756,000
+    
+
+    DMT Non-Compete
+    183,000
+    
+
+    Patents
+    2,271,980
+    2,242,844
+
+    Trademarks
+    663,698
+    663,698
+
+    Pac-Kit Tradename, Customer List
+    1,500,000
+    1,500,000
+
+    C-Thru, Customer List
+    1,050,000
+    1,050,000
+
+    Subtotal
+    17,334,688
+    14,366,552
+
+    Accumulated amortization
+    3,346,502
+    2,415,561
+
+    Subtotal Intangible assets
+    13,988,186
+    11,950,991
+
+    
+    
+    
+
+    Goodwill
+    3,948,235
+    1,406,000
+
+    
+    $17,936,421
+    $13,356,991
+
+
+
+
+
+
+
+
+
+
+
+    29
+    
+    
+
+
+
+Amortization
+expense for patents and trademarks for the years ended December 31, 2016, and 2015 were $930,941 and $734,496, respectively. The
+estimated aggregate amortization expense for each of the next five succeeding years, calculated on a similar basis, is as follows:
+2017 - $953,038; 2018 - $932,247; 2019 - $881,785; 2020 - $877,164; and 2021 - $875,339. 
+
+
+
+
+
+5.Other
+Accrued Liabilities  
+
+
+
+
+
+Other current
+and long-term accrued liabilities consisted of:
+
+
+
+
+
+
+
+    
+    December 31,
+
+    
+    2016
+    2015
+
+    Customer rebates
+    $2,789,003
+    $3,168,756
+
+    Remediation liability
+    57,197
+    80,947
+
+    Pension liability
+    205,071
+    359,216
+
+    Other
+    2,619,819
+    2,052,074
+
+    
+    $5,671,090
+    $5,660,993
+
+
+
+
+
+
+
+
+6. Pension and Profit Sharing
+
+
+
+United States employees, hired prior to July 1, 1993, are covered
+by a funded, defined benefit pension plan. The benefits of this pension plan are based on years of service and the average compensation
+of the highest three consecutive years during the last ten years of employment. In December 1995, the Company's Board of Directors
+approved an amendment to the United States pension plan that terminated all future benefit accruals as of February 1, 1996, without
+terminating the pension plan.
+
+
+
+The Companys funding policy with respect to its qualified
+plan is to contribute at least the minimum amount required by applicable laws and regulations. In 2016, the Company did not contribute
+to the plan.
+
+
+
+The plan asset weighted average allocation at December 31, 2016
+and December 31, 2015, by asset category, were as follows:
+
+
+
+
+
+
+
+    Asset Category
+    2016
+    2015
+
+    Equity Securities
+    65%
+    58%
+
+    Fixed Income Securities
+    32%
+    37%
+
+    Other Securities / Investments
+    3%
+    5%
+
+    Total
+    100%
+    100%
+
+
+
+
+
+
+
+
+
+The Companys investment policy for the
+pension plan is to minimize risk by balancing investments between equity securities and fixed income securities. Plan funds are
+invested in long-term obligations with a history of moderate to low risk.
+
+
+
+As of December 31, 2015, equity securities
+in the pension plan included 10,000 shares of the Company's Common Stock, having a market value of $174,000. As of December 31,
+2016, the plan did not hold shares of the Company.
+
+
+
+The pension plan asset information included
+below is presented at fair value. ASC 820 establishes a framework for measuring fair value and requires disclosures about assets
+and liabilities measured at fair value. The fair value hierarchy prioritizes the inputs to valuation techniques used to measure
+fair value into three levels as follows:
+
+
+
+
+Level 1  Inputs to the valuation methodology based on unadjusted quoted market prices in
+active markets that are accessible at the measurement date.
+
+
+Level 2  Inputs to the valuation methodology that include quoted market prices that are
+not considered to be active or financial instruments for which all significant inputs are observable, either directly or indirectly.
+
+
+Level 3  Inputs to the valuation methodology are unobservable and significant to the fair
+value measurement.
+
+
+
+
+    30
+    
+    
+
+
+
+The following tables present the pension plan
+assets by level within the fair value hierarchy as of December 31, 2016 and 2015:
+
+
+
+
+
+
+
+    2016
+    Level 1
+    Level 2
+    Level 3
+    Total
+
+    Money Market Fund
+    $19,327
+    $19,897
+    $
+    $39,224
+
+    Acme United Common Stock
+    
+    
+    
+    
+
+    Equity Common and Collected Funds
+    131,737
+    705,523
+    
+    837,260
+
+    Fixed Income Common and Collected Funds
+    104,491
+    313,752
+    
+    418,243
+
+    Total
+    $255,555
+    $1,039,172
+    $
+    $1,294,727
+
+
+
+
+
+
+
+
+
+
+
+
+    2015
+    Level 1
+    Level 2
+    Level 3
+    Total
+
+    Money Market Fund
+    $66,914
+    $
+    $
+    $66,914
+
+    Acme United Common Stock
+    174,000
+    
+    
+    174,000
+
+    Equity Common and Collected Funds
+    
+    652,135
+    
+    652,135
+
+    Fixed Income Common and Collected Funds
+    
+    524,523
+    
+    524,523
+
+    Total
+    $240,914
+    $1,176,658
+    $
+    $1,417,572
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Other disclosures related to the pension plan follow:
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Assumptions used to determine benefit obligation:
+    
+    
+
+    Discount rate
+    3.40%
+    3.50%
+
+    Changes in benefit obligation:
+    
+    
+
+    Benefit obligation at beginning of year
+    $(1,776,788)
+    $(1,904,377)
+
+    Interest cost
+    (55,811)
+    (59,348)
+
+    Service cost
+    (36,000)
+    (25,000)
+
+    Actuarial gain (loss)
+    99,019
+    (62,677)
+
+    Benefits and plan expenses paid
+    269,782
+    274,614
+
+    Benefit obligation at end of year
+    (1,499,798)
+    (1,776,788)
+
+    
+    
+    
+
+    Changes in plan assets:
+    
+    
+
+    Fair value of plan assets at beginning of year
+    1,417,572
+    1,684,535
+
+    Actual return on plan assets
+    146,937
+    (22,349)
+
+    Employer contribution
+    
+    30,000
+
+    Benefits and plan expenses paid
+    (269,782)
+    (274,614)
+
+    Fair value of plan assets at end of year
+    1,294,727
+    1,417,572
+
+    Funded status
+    $(205,071)
+    $(359,216)
+
+    
+    
+    
+
+    Amounts recognized in Accumulated Other Comprehensive Income:
+    
+    
+
+    Net actuarial loss
+    $1,128,647
+    $1,423,319
+
+    Prior service cost
+    2,168
+    2,711
+
+    Total
+    $1,130,815
+    $1,426,030
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    31
+    
+    
+
+
+
+
+
+
+
+Accrued benefits costs are included in other accrued liabilities (non-current).
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Assumptions used to determine net periodic benefit cost:
+    
+    
+
+    Discount rate
+    3.50%
+    3.23%
+
+    Expected return on plan assets
+    6.00%
+    6.00%
+
+    Components of net benefit expense:
+    
+    
+
+    Interest cost
+    $55,811
+    $59,348
+
+    Service cost
+    36,000
+    25,000
+
+    Expected return on plan assets
+    (76,138)
+    (92,620)
+
+    Amortization of prior service costs
+    543
+    9,155
+
+    Amortization of actuarial loss
+    124,854
+    122,352
+
+    Net periodic benefit cost
+    $141,070
+    $123,235
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company employs a building block approach in determining the
+long-term rate of return for plan assets. Historical markets are studied and long-term historical relationships between equity
+securities and fixed income securities are preserved consistent with the widely-accepted capital market principle that assets with
+higher volatility generate higher returns over the long run.  Our expected 6% long-term rate of return on plan assets is
+determined based on long-term historical performance of plan assets, current asset allocation and projected long-term rates of
+return.
+
+
+
+The following table discloses the change recorded
+in other comprehensive income related to benefit costs:
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    
+    
+    
+
+    Balance at beginning of the year
+    $1,426,030
+    $1,379,890
+
+    Change in net loss
+    (169,818)
+    177,647
+
+    Amortization of actuarial loss
+    (124,854)
+    (122,352)
+
+    Amortization of prior service cost
+    (543)
+    (9,155)
+
+    Change recognized in other comprehensive income
+    (295,215)
+    46,140
+
+    Total recognized in other comprehensive income
+    $1,130,815
+    $1,426,030
+
+
+
+
+
+
+
+
+
+
+
+
+The Company anticipates that in 2017, net periodic
+benefit cost will include approximately $106,000 of net actuarial loss and $1,000 of prior service cost.
+
+
+
+
+
+The following benefits are expected to be paid:
+
+
+
+
+
+
+
+    2017
+    $207,000
+
+    2018
+    187,000
+
+    2019
+    169,000
+
+    2020
+    152,000
+
+    2021
+    136,000
+
+    Years 2022 - 2026
+    488,000
+
+
+
+
+
+
+
+
+
+
+The Company also has a qualified, profit sharing
+plan covering substantially all of its United States employees. Annual Company contributions to this profit sharing plan are determined
+by the Companys Compensation Committee. For the years ended December 31, 2016 and 2015, the Company contributed 50% of employees
+contributions, up to the first 6% contributed by each employee. Total contribution expense under this profit sharing plan was $188,518
+in 2016 and $166,050 in 2015.
+
+
+
+
+
+
+    32
+    
+    
+
+
+
+7.Income Taxes
+
+
+
+The amounts of income tax expense (benefit) reflected in operations is as follows:
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Current:
+    
+    
+
+    Federal
+    $566,361
+    $1,304,253
+
+    State
+    (5,648)
+    164,913
+
+    Foreign
+    984,469
+    553,259
+
+    
+    1,545,182
+    2,022,425
+
+    
+    
+    
+
+    Deferred:
+    
+    
+
+    Federal
+    83,290
+    (196,476)
+
+    State
+    17,233
+    (5,077)
+
+    
+    100,523
+    (201,553)
+
+    
+    $1,645,705
+    $1,820,872
+
+
+
+
+
+
+
+
+
+
+The current state tax provision was comprised
+of taxes on income, the minimum capital tax and other franchise taxes related to the jurisdictions in which the Company's facilities
+are located.
+
+
+
+A summary of United States and foreign income
+before income taxes follows:
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    United States
+    $2,008,065
+    $3,256,251
+
+    Foreign
+    5,488,638
+    3,358,146
+
+    
+    $7,496,703
+    $6,614,397
+
+
+
+
+
+
+
+
+
+
+As discussed in Note 10 below, for segment
+reporting, Direct Import sales are included in the United States segment. However, the revenues are earned by our Hong Kong subsidiary
+and related income taxes are paid in Hong Kong whose rate approximates 16.5%. As such, income of the Asian subsidiary is included
+in the foreign income before taxes.
+
+
+
+
+    33
+    
+    
+
+
+
+The following
+schedule reconciles the amounts of income taxes computed at the United States statutory rates to the actual
+amountsreported in operations:
+
+
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Federal income
+    
+    
+
+    taxes at
+    
+    
+
+    34% statutory rate
+    $2,496,270
+    $1,878,464
+
+    State and local
+    
+    
+
+    taxes, net of
+    
+    
+
+    federal income
+    
+    
+
+    tax effect
+    18,998
+    105,492
+
+    Permanent items
+    (25,077)
+    328,075
+
+    Foreign tax rate difference
+    (919,038)
+    (601,269)
+
+    Change in deferred income tax
+    
+    
+
+    valuation allowance
+    74,552
+    110,110
+
+    
+    
+    
+
+    Provision for income taxes
+    $1,645,705
+    $1,820,872
+
+
+
+
+
+
+
+
+
+
+
+
+The following summarizes deferred income tax
+assets and liabilities:
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Deferred income tax liabilities:
+    
+    
+
+    Plant, property
+    
+    
+
+    and equipment
+    $604,271
+    $536,759
+
+    
+    604,271
+    536,759
+
+    
+    
+    
+
+    Deferred income tax assets:
+    
+    
+
+    Asset valuations
+    720,189
+    677,994
+
+    Operating loss
+    
+    
+
+    carryforwards and credits
+    121,658
+    110,110
+
+    Pension
+    227,681
+    189,920
+
+    Foreign tax credit
+    186,504
+    186,504
+
+    Other
+    593,140
+    753,219
+
+    
+    1,849,172
+    1,917,747
+
+    Net deferred
+    
+    
+
+    income tax asset before valuation allowance
+    1,244,901
+    1,380,988
+
+    Valuation
+    
+    
+
+    allowance
+    (74,552)
+    (110,110)
+
+    Net deferred
+    
+    
+
+    income tax asset
+    $1,170,349
+    $1,270,878
+
+
+
+
+
+
+
+
+
+
+
+
+In 2016, the Company evaluated its tax positions for years which
+remain subject to examination by major tax jurisdictions, in accordance with the requirements of ASC 740 and as a result concluded
+no adjustment was necessary. The Company files income tax returns in the U.S. federal jurisdiction, and various state and foreign
+jurisdictions. The Companys evaluation of uncertain tax positions was performed for the tax years ended December 31, 2013
+and forward, the tax years which remain subject to examination by major tax jurisdictions as of December 31, 2016.
+
+
+
+
+
+    34
+    
+    
+
+
+
+
+In accordance with the Companys accounting policies, any
+interest and penalties related to uncertain tax positions are recognized as a component of income tax expense.
+
+
+
+The Company provides deferred income taxes on foreign subsidiary
+earnings, which are not considered permanently reinvested. Earnings permanently reinvested would become taxable upon the sale or
+liquidation of a foreign subsidiary or upon the remittance of dividends. The Company plans to repatriate future earnings of its
+Canadian subsidiary and will provide for U.S. income taxes accordingly. Foreign subsidiary earnings of $7,158,497 and $3,157,020
+are considered permanently reinvested as of December 31, 2016 and 2015, respectively, and no deferred income taxes have been provided
+on these foreign earnings. These unremitted foreign earnings are primarily related to the Hong Kong subsidiary, and there is no
+unrecognized deferred income tax liability for these permanently reinvested earnings.
+
+
+
+Due to the uncertain nature of the realization of the Company's
+deferred income tax assets based on past performance of its German subsidiary and carry forward expiration dates, the Company has
+recorded a valuation allowance for the amount of deferred income tax assets which are not expected to be realized. This valuation
+allowance, all of which is related to deferred tax assets resulting from net operating losses of the Companys German subsidiary,
+is subject to periodic review, and, if the allowance is reduced, the tax benefit will be recorded in future operations as a reduction
+of the Company's tax expense.
+
+
+
+8. Long-Term Debt
+
+
+
+On May 6, 2016, the Company amended its revolving credit loan agreement
+with HSBC Bank, N.A. The amended facility provides for borrowings of up to an aggregate of $50 million at an interest rate of LIBOR
+plus 2.0%. In addition, the Company must pay a facility fee, payable quarterly, in an amount equal to two tenths of one percent
+(.20%) per annum of the average daily unused portion of the revolving credit line. All principal amounts outstanding under the
+agreement are required to be repaid in a single amount on May 6, 2019, the date the agreement expires; interest is payable monthly.
+Funds borrowed under the agreement may be used for working capital, acquisitions, general operating expenses, share repurchases
+and certain other purposes. Under the revolving loan agreement, the Company is required to maintain specific amounts of tangible
+net worth, a specified debt to net worth ratio and a fixed charge coverage ratio and must have annual net income greater than $0,
+measured as of the end of each fiscal year. At December 31, 2016, the Company was in compliance with the covenants then in effect
+under its loan agreement.
+
+
+
+Long term debt consists
+of borrowings under the Companys revolving loan agreement with HSBC Bank, N.A. As of December 31, 2016, $32,935,858
+was outstanding and $17,064,142 was available for borrowing under the Companys revolving loan agreement. 
+
+
+
+9. Commitments and Contingencies
+
+
+
+The Company leases certain office, manufacturing
+and warehouse facilities and various equipment under non-cancelable operating leases. Total rent expense was $1,227,341 and $1,350,617
+in 2016 and 2015, respectively. Minimum annual rental commitments under non-cancelable leases with remaining terms of one year
+or more as of December 31, 2016 are as follows: 2017 - $1,207,410; 2018 - $1,088,244; 2019 - $918,549; 2020 - $873,644; 2021 
+$437,668 and thereafter - $0.
+
+
+
+There are no pending material legal proceedings
+to which the Company is a party or, to the actual knowledge of the Company, contemplated by any governmental authority.
+
+
+
+
+    35
+    
+    
+
+
+
+10. Segment Information
+
+
+
+The Company reports financial information based on the organizational
+structure used by management for making operating and investment decisions and for assessing performance. The Companys reportable
+business segments include (1) United States; (2) Canada and (3) Europe. The financial results for the Companys Asian operations
+have been aggregated with the results of its United States operations to form one reportable segment called the United States
+segment. Sales in the United States segment include both domestic sales as well as direct import sales. Each reportable
+segment derives its revenue from the sales of cutting devices, measuring instruments and first aid products for school, home, office,
+hardware, sporting goods and industrial use.
+
+
+
+Domestic sales orders are filled from the Companys distribution
+centers in North Carolina, Washington and Massachusetts. The Company is responsible for the costs of shipping, insurance, customs
+clearance, duties, storage and distribution related to such products. Orders filled from the Companys inventory are generally
+for less than container-sized lots.
+
+
+
+Direct Import sales are products sold by the Companys Asian
+subsidiary, directly to major U.S. retailers who take ownership of the products in Asia. These sales are completed by delivering
+product to the customers common carriers at the shipping points in Asia. Direct Import sales are made in larger quantities
+than domestic sales, typically full containers. Direct Import sales represented approximately 17% and 18% of the Companys
+total net sales in 2016 and 2015, respectively.
+
+
+
+The Chief Operating Decision Maker evaluates the performance of
+each operating segment based on segment revenues and operating income. Segment revenues are defined as total revenues, including
+both external customer revenue and inter-segment revenue. Segment operating earnings are defined as segment revenues, less cost
+of goods sold and operating expenses. Identifiable assets by segment are those assets used in the respective reportable segments
+operations. Inter-segment amounts are eliminated to arrive at consolidated financial results.
+
+
+
+The following table sets forth certain financial
+data by segment for the fiscal years ended December 31, 2016 and 2015:
+
+
+
+
+
+Financial
+data by segment:
+
+
+
+
+
+
+
+    Year Ended December 31, 2016
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    (000's omitted)
+    United States
+    Canada
+    Europe
+    Consolidated
+
+    Net sales
+    $110,793
+    $6,824
+    $6,957
+    $124,574
+
+    
+    
+    
+    
+    
+
+    Operating income
+    7,769
+    568
+    105
+    8,442
+
+    Assets
+    84,104
+    3,882
+    4,080
+    92,066
+
+    Additions to property, plant and equipment
+    1,737
+    7
+    44
+    1,789
+
+    Depreciation and amortization
+    2,362
+    8
+    23
+    2,393
+
+    
+    
+    
+    
+    
+
+    Year Ended December 31, 2015
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    Net sales
+    $96,622
+    $6,804
+    $6,385
+    $109,812
+
+    
+    
+    
+    
+    
+
+    Operating income
+    7,147
+    56
+    144
+    7,347
+
+    Assets
+    73,688
+    3,709
+    4,024
+    81,421
+
+    Additions to property, plant and equipment
+    1,720
+    19
+    17
+    1,757
+
+    Depreciation and amortization
+    2,017
+    8
+    28
+    2,053
+
+
+
+
+
+
+
+
+
+
+
+
+The following is a reconciliation of segment
+operating income to consolidated income before taxes:
+
+
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Total operating income
+    $8,442
+    $7,347
+
+    Interest expense, net
+    869
+    565
+
+    Other expense, net
+    77
+    167
+
+    Consolidated income before taxes
+    $7,497
+    $6,614
+
+    
+    
+    
+
+    Net Income
+    $5,851
+    $4,794
+
+
+
+
+
+
+
+
+
+
+
+    36
+    
+    
+
+
+
+The
+table below presents revenue by geographic area. Revenues are attributed to countries based on location of the customer.
+
+
+
+
+
+
+
+    Revenues
+    2016
+    2015
+
+    United States
+    $109,823
+    $95,652
+
+    International:
+    
+    
+
+    Canada
+    6,824
+    6,804
+
+    Europe
+    6,957
+    6,385
+
+    Other
+    970
+    971
+
+    Total International
+    $14,751
+    $14,160
+
+    
+    
+    
+
+    Total Revenues
+    $124,574
+    $109,812
+
+
+
+
+
+
+
+
+
+
+11. Stock Option Plans
+
+
+
+The Company grants stock options under the 2012 Employee Stock Option
+Plan (the 2012 Employee Plan). The Company also has two plans under which the Company no longer grants options but
+under which certain options remain outstanding: the 2002 Employee stock Option Plan and the 2005 Non-Salaried Director Stock Option
+Plan (the 2005 Director Plan). 
+
+
+
+The 2012 Employee Plan, which became effective
+April 23, 2012, provides for the issuance of incentive and nonqualified stock options at an exercise price equal to the fair market
+value of the Common Stock on the date the option is granted. The terms of the options granted are subject to the provisions of
+the 2012 Employee Plan. Options granted under the 2012 Employee Plan vest 25% one day after the first anniversary of the grant
+date and 25% one day after each of the next three anniversaries. As of December 31, 2016, the number of shares available for grant
+under the 2012 Employee Plan was 66,850. Under the terms of the Employee Plan, no option may be granted under that plan after the
+tenth anniversary of the adoption of the plan. Options outstanding under the Companys 2002 Employee Stock Option Plan have
+the same vesting schedule as the 2012 Employee Plan.
+
+
+
+The 2005 Director Plan, as amended, provided for
+the issuance of stock options for up to a total of 180,000 shares of the Company's common stock to non-salaried directors. Under
+the Director Plan, Directors elected on April 25, 2005 and at subsequent Annual Meetings who have not received any prior grant
+under this or previous plans received an initial grant of an option to purchase 5,000 shares of Common Stock (the Initial
+Option). Each year, each elected Director not receiving an Initial Option received a 5,000 share option (the Annual
+Option). The Initial Option vests 25% on the date of grant and 25% on the anniversary of the grant date in each of the following
+3 years. Each Annual Option becomes fully exercisable one day after the date of grant. The exercise price of each option granted
+equals the fair market value of the Common Stock on the date the option is granted, and expires ten (10) years from the date of
+grant. As provided in the Director Plan, no options may be granted under the Director Plan after the tenth anniversary of the adoption
+of the Plan, i.e., after April 25, 2015.
+
+
+
+
+
+The Company has amended certain of its stock option plans for
+both employees and directors to permit options to be exercised on a net basis and receive either cash or shares of the
+Companys Common Stock. Specifically, optionees may, at the time of exercise of an option and subject to the consent of
+the Company, elect either (i) to receive from the Company cash in an amount equal to the number of shares of Common Stock
+subject to the option (or portion thereof) that is being exercised multiplied by the excess of (a) the fair market value per
+share over (b) the exercise price per share of the option ( a net cash settlement); or (ii) to make payment of
+the exercise price of the option by reduction in the number of shares of Common Stock otherwise deliverable upon exercise of
+such option by the number of shares having an aggregate fair market value equal to the total exercise price of the option (or
+portion thereof). In 2016, the Company paid a total of approximately $2,274,000 to optionees who had elected a net cash
+settlement of their respective options.
+
+
+
+
+
+
+
+A summary of changes in options issued under the Companys
+stock option plans follows:
+
+
+
+
+
+
+    37
+    
+    
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    
+    
+    
+
+    Options outstandingat the
+    
+    
+
+    beginning of the year
+    1,267,802
+    1,357,813
+
+    Options granted
+    171,000
+    47,000
+
+    Options forfeited
+    (33,825)
+    (39,375)
+
+    Options exercised
+    (316,699)
+    (97,636)
+
+    Options outstanding at
+    
+    
+
+    the end of the year
+    1,088,278
+    1,267,802
+
+    Options exercisable at the
+    
+    
+
+    end of the year
+    769,403
+    970,017
+
+    Common stock available for future grants
+    at the end of the year
+    66,850
+    201,350
+
+    Weighted average exercise price per share:
+    
+    
+
+    Granted
+    $21.41
+    $18.90
+
+    Forfeited
+    15.03
+    15.65
+
+    Exercised
+    10.99
+    12.79
+
+    Outstanding
+    14.18
+    12.46
+
+    Exercisable
+    12.29
+    11.72
+
+
+
+
+
+
+
+
+
+
+
+
+A summary of options outstanding at December 31, 2016 is as follows:
+
+
+
+
+
+
+
+    
+    
+    Options Outstanding
+    
+    Options Exercisable
+
+    Range
+    of Exercise Prices
+    Number
+    Outstanding
+    Weighted-
+Average
+    Remaining Contractual 
+Life (Years)
+    Weighted-
+Average
+    Exercise
+ Price
+    
+    Number
+    Exercisable
+    Weighted-
+Average
+    Exercise 
+Price
+
+    $7.30 to $10.10
+    214,038
+    4
+    $9.49
+    
+    214,038
+    $9.49
+
+    $10.11 to $12.14
+    221,865
+    5
+    10.85
+    
+    212,490
+    10.80
+
+    $12.15 to $14.68
+    218,000
+    5
+    13.49
+    
+    182,000
+    13.44
+
+    $14.69 to $16.98
+    216,375
+    6
+    16.35
+    
+    134,125
+    16.20
+
+    $16.99 to $21.49
+    218,000
+    9
+    20.84
+    
+    26,750
+    19.09
+
+    
+    1,088,278
+    
+    
+    
+    769,403
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The weighted average remaining contractual
+life of all outstanding stock options is 6 years.
+
+
+
+Stock Based Compensation
+
+Stock-based compensation cost is measured at the grant date based
+on the fair value of the award and is recognized as expense over the requisite service period, which is generally the vesting period.
+The Company uses the Black-Scholes option pricing model to determine the fair value of employee and non-employee director stock
+options. The determination of the fair value of stock-based payment awards on the date of grant, using an option-pricing model,
+is affected by the Companys stock price as well as assumptions regarding a number of complex and subjective variables. These
+assumptions include estimating the length of time employees will retain their vested stock options before exercising them (expected
+term), the estimated volatility of the Companys Common Stock price over the expected term (volatility)
+and the number of options that will not fully vest in accordance with applicable vesting requirements (forfeitures).
+
+
+
+
+
+
+    38
+    
+    
+
+
+
+The Company estimates the expected term of options granted by evaluating
+various factors, including the vesting period, historical employee information, as well as current and historical stock prices
+and market conditions. The Company estimates the volatility of its common stock by calculating historical volatility based on the
+closing stock price on the last day of each of the 60 months leading up to the month the option was granted. The risk-free interest
+rate that the Company uses in the option valuation model is the interest rate on U.S. Treasury zero-coupon bond issues with remaining
+terms similar to the expected term of the options granted. Historical information was the basis for calculating the dividend yield.
+The Company is required to estimate forfeitures at the time of grant and to revise those estimates in subsequent periods if actual
+forfeitures differ from those estimates. The Company used a mix of historical data and future assumptions to estimate pre-vesting
+option forfeitures and to record stock-based compensation expense only for those awards that are expected to vest. All stock-based
+payment awards are amortized over the requisite service periods of the awards, which are generally the vesting periods.
+
+
+
+The assumptions used to value option grants for the twelve months
+ended December 31, 2016 and December 31, 2015 were as follows:
+
+
+
+    
+    
+
+    
+    2016
+    2015
+
+    Expected life in years
+    5
+    5
+
+    Interest rate
+    1.07  1.24%
+    1.33  1.62%
+
+    Volatility
+    .236-.258
+    .234-.252
+
+    Dividend yield
+    1.6% - 2.0%
+    1.95% - 2.10%
+
+
+
+
+Total stock-based compensation recognized in the Companys
+consolidated statements of operations for the years ended December 31, 2016 and 2015 was $440,536 and $513,986, respectively. At
+December 31, 2016, there was approximately $867,624 of unrecognized compensation cost, adjusted for estimated forfeitures, related
+to non-vested stock-based payments granted to the Companys employees. As of December 31, 2016, the remaining unamortized
+expense is expected to be recognized over a weighted average period of 3 years.
+
+
+
+The weighted average fair value at the date
+of grant for options granted during 2016 and 2015 was $4.05 and $3.44 per option, respectively. The aggregate intrinsic value of
+outstanding options was $12,395,486 at December 31, 2016. The aggregate intrinsic value of exercisable options was $10,271,617
+at December 31, 2016. The aggregate intrinsic value of options exercised during 2016 was $4,633,306.
+
+
+
+
+
+12. Earnings Per Share
+
+
+
+The calculation of earnings per share follows:
+
+
+
+
+
+
+
+    
+    2016
+    2015
+
+    Numerator:
+    
+    
+
+    Net income
+    $5,850,998
+    $4,793,525
+
+    Denominator:
+    
+    
+
+    Denominator for basic earnings per share:
+    
+    
+
+    Weighted average shares outstanding
+    3,327,867
+    3,334,790
+
+    Effect of dilutive employee stock options
+    249,956
+    352,546
+
+    Denominator for dilutive earnings per share
+    3,577,823
+    3,687,336
+
+    Basic earnings per share
+    $1.76
+    $1.44
+
+    Dilutive earnings per share
+    $1.64
+    $1.30
+
+
+
+
+
+
+
+
+
+
+For 2016 and 2015, respectively, 203,000 and
+47,000 stock options were excluded from diluted earnings per share calculations because they would have been anti-dilutive.
+
+
+
+
+
+
+    39
+    
+    
+
+
+
+
+
+13.Accumulated Other Comprehensive (loss) income
+
+
+
+The components of accumulated other comprehensive (loss) income follow:
+
+
+
+
+
+
+
+    
+    Foreign currency translation adjustment
+    Net prior service credit and actuarial losses
+    Total
+
+    Balances, December 31, 2014
+    $(751,765)
+    $(895,332)
+    $(1,647,098)
+
+    Change in net prior service credit
+    
+    
+    
+
+    and actuarial losses, net of tax
+    
+    (52,825)
+    (52,825)
+
+    Translation adjustment
+    (830,867)
+    
+    (830,867)
+
+    Balances, December 31, 2015
+    $(1,582,632)
+    $(948,157)
+    $(2,530,790)
+
+    Change in net prior service credit
+    
+    
+    
+
+    and actuarial losses, net of tax
+    
+    284,145
+    284,145
+
+    Translation adjustment
+    (89,556)
+    
+    (89,556)
+
+    Balances, December 31, 2016
+    $(1,672,188)
+    $(664,012)
+    $(2,336,201)
+
+
+
+
+
+
+
+
+14. Financial Instruments
+
+
+
+The carrying value of the Companys bank debt is a reasonable
+estimate of fair value because of the nature of its payment terms and maturity.
+
+
+
+15. Quarterly Data (unaudited)
+
+
+
+
+
+
+
+    Quarters (000's omitted, except per share data)
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    2016
+    First
+    Second
+    Third
+    Fourth
+    Total
+
+    Net sales
+    $25,288
+    $40,997
+    $31,913
+    $26,377
+    $124,574
+
+    Cost of goods sold
+    16,103
+    26,302
+    20,050
+    16,564
+    79,019
+
+    Net income
+    565
+    3,267
+    1,473
+    545
+    5,851
+
+    Basic earnings per share
+    $0.17
+    $0.98
+    $0.44
+    $0.16
+    $1.76
+
+    Diluted earnings per share
+    $0.16
+    $0.91
+    $0.40
+    $0.15
+    $1.64
+
+    Dividends per share
+    $0.10
+    $0.10
+    $0.10
+    $0.10
+    $0.40
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    2015
+    First
+    Second
+    Third
+    Fourth
+    Total
+
+    Net sales
+    $22,837
+    $33,954
+    $29,903
+    $23,118
+    $109,812
+
+    Cost of goods sold
+    14,402
+    21,419
+    19,578
+    14,852
+    70,251
+
+    Net income
+    436
+    2,710
+    1,208
+    440
+    4,794
+
+    Basic earnings per share
+    $0.13
+    $0.82
+    $0.36
+    $0.12
+    $1.44
+
+    Diluted earnings per share
+    $0.12
+    $0.74
+    $0.33
+    $0.11
+    $1.30
+
+    Dividends per share
+    $0.09
+    $0.09
+    $0.09
+    $0.10
+    $0.37
+
+
+
+
+
+
+
+
+
+
+Earnings per share were computed independently
+for each of the quarters presented. Therefore, the sum of the four quarterly earnings per share amounts may not necessarily equal
+the earnings per share for the year.
+
+
+
+
+    40
+    
+    
+
+
+
+16. Sale of Property
+
+
+
+On April 7, 2014, the Company sold its Fremont,
+NC distribution facility for $850,000 in cash. The facility originally served as a manufacturing site for the Companys scissors
+and rulers. The Company hired an independent environmental consulting firm to conduct environmental studies in order to identify
+the extent of the environmental contamination on the property and to develop a remediation plan. As a result of those studies and
+the estimates prepared by the independent environmental consulting firm, and in conjunction with the sale of the property, the
+Company recorded a liability of $300,000 in the second quarter of 2014, related to the remediation of the property. The accrual
+includes the total estimated costs of remedial activities and post-remediation operating and maintenance costs.
+
+
+
+Remediation work on the Fremont project began
+in the third quarter of 2014 and was completed in 2015. In addition to the remediation work, the Company, with the assistance of
+its independent environmental consulting firm, must continue to monitor contaminant levels on the property to ensure they comply
+with set governmental standards. The Company expects that the monitoring period will last a period of five years from the completion
+of the remediation and be complete by the end of 2020.
+
+
+
+
+
+The change in the accrual for environmental
+remediation, which is included in other accrued liabilities on the accompanying consolidated balance sheets, for the twelve months
+ended December 31, 2016 follows (in thousands):
+
+
+
+
+
+
+
+
+
+    
+    Balance
+    at 
+    December 31, 2015
+    
+    Payments
+    Balance
+    at 
+    December 31, 2016
+
+    Fremont, NC
+    $80
+    $(23)
+    $57
+    
+
+    Total
+    $80
+    $(23)
+    $57
+    
+
+
+
+
+
+
+
+
+
+
+
+17. Business Combinations
+
+
+
+On February 1, 2016, the Company acquired the
+assets of Vogel Capital, Inc., d/b/a Diamond Machining Technology (DMT) for $7.0 million in cash. DMT
+products are leaders in sharpening tools for knives, scissors, chisels, and other cutting tools. The DMT products use finely dispersed
+diamonds on the surfaces of sharpeners. The acquired assets include over 50 patents and trademarks. 
+
+
+
+The purchase price was allocated to assets acquired
+and liabilities assumed as follows (in thousands):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Assets:
+    
+
+    Accounts
+    Receivable
+    $1,145
+
+    Inventory
+    280
+
+    Equipment
+    262
+
+    Prepaid
+    expenses
+    176
+
+    Intangible Assets
+    5,481
+
+    Total
+    assets
+    $7,344
+
+
+
+
+
+
+
+    Liabilities
+    
+
+    Accounts
+    Payable
+    $192
+
+    Accrued
+    Expense
+    181
+
+    Total
+    liabilities
+    $373
+
+
+
+
+
+
+
+
+
+Net sales from the date of acquisition through
+December 31, 2016 attributable to DMT products were approximately $5.6 million. Net income from the date of acquisition through
+December 31, 2016 attributable to DMT products was approximately $800,000.
+
+
+
+Assuming DMT was acquired on January 1, 2016,
+unaudited proforma combined net sales for the twelve months ended December 31, 2016 for the Company would have been approximately
+$125.2 million. Unaudited proforma combined net income for the twelve months ended December 31, 2016 for the Company would have
+been approximately $5.9 million.
+
+
+
+
+
+
+    41
+    
+    
+
+
+
+Assuming DMT was acquired on January 1, 2015,
+unaudited proforma combined net sales for the twelve months ended December 31, 2015, for the Company would have been approximately
+$115.3 million. Unaudited proforma combined net income for the twelve months ended December 31, 2015 for the Company would have
+been approximately $5.3 million.
+
+
+
+18. Subsequent Event
+
+
+
+On February 1, 2017 the Company announced that
+it had acquired assets of Spill Magic, Inc., for $7.2 million in cash. The Spill Magic products are
+leaders in absorbents that encapsulate spills into dry powders that can be safely disposed. Many large retail chains use its products
+to remove liquids from broken glass containers, oil and gas spills, bodily fluids, and solvents. Its easy-to-use and environmentally
+friendly products permanently absorb the spills, leaving the floors underneath dry and reducing injuries from falls. Spill Magic
+also sells spill clean-up kits and blood borne pathogen kits for the safety market. 
+
+
+
+The acquired assets include inventory,
+accounts receivable and fixed assets. Spill Magic is located in Santa Ana, California and Smyrna, Tennessee, and began operations
+in 1995. The company employed 22 people all of whom the Company retained.
+
+
+
+
+
+
+    42
+    
+    
+
+
+
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+
+
+
+
+
+
+
+To the Audit Committee of the
+
+Board of Directors and Shareholders of
+
+Acme United Corporation
+
+
+
+
+
+We have audited the accompanying consolidated
+balance sheets of Acme United Corporation and Subsidiaries (the Company) as of December 31, 2016 and 2015, and the
+related consolidated statements of operations, comprehensive income, changes in stockholders equity, and cash flows for
+the years then ended. These consolidated financial statements are the responsibility of the Companys management. Our responsibility
+is to express an opinion on these consolidated financial statements based on our audits.
+
+
+
+We conducted our audits in accordance with
+the standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform
+the audit to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement.
+The Company is not required to have, nor were we engaged to perform, an
+audit of its internal control over financial reporting. Our audits included consideration of internal control over financial reporting
+as a basis for designing audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion
+on the effectiveness of the Companys internal control over financial reporting. Accordingly, we express no such opinion.
+An audit also includes examining, on a test basis, evidence supporting the amounts and disclosures in the consolidated financial
+statements, assessing the accounting principles used and significant estimates made by management, as well as evaluating the overall
+consolidated financial statement presentation. We believe that our audits provide a reasonable basis for our opinion.
+
+
+
+In our opinion, the financial statements referred
+to above present fairly, in all material respects, the consolidated financial position of Acme United Corporation and Subsidiaries,
+as of December 31, 2016 and 2015, and the consolidated results of its operations and its cash flows for the years then ended in
+conformity with accounting principles generally accepted in the United States of America.
+
+
+
+
+
+/s/ Marcum llp
+
+
+
+marcum llp
+
+New Haven, Connecticut
+
+March 10, 2017
+
+
+
+
+
+
+    43
+    
+    
+
+
+
+Item 9. Changes In and Disagreements with Accountants on Accounting
+and Financial Disclosure
+
+
+
+There have been no disagreements with accountants
+related to accounting and financial disclosures in 2016.
+
+
+
+Item 9A. Controls and Procedures
+
+
+
+Evaluation of Internal Controls and Procedures
+
+
+
+Under the supervision and with the participation of our management,
+including the Chief Executive Officer and Chief Financial Officer, we have evaluated the effectiveness of our disclosure controls
+and procedures as required by Exchange Act Rule 13a-15(b) as of the end of the period covered by this report. Based on that evaluation,
+the Chief Executive Officer and Chief Financial Officer have concluded that these disclosure controls and procedures are effective.
+
+
+
+Managements Report on Internal Control over Financial
+Reporting
+
+
+
+
+
+Management of the Company is responsible for establishing and maintaining
+adequate internal control over financial reporting. The Companys internal control over financial reporting is designed to
+provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external
+purposes in accordance with generally accepted accounting principles in the United States of America. The Companys internal
+control over financial reporting includes those policies and procedures that: (i) pertain to the maintenance of records that, in
+reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the Company; (ii) provide reasonable
+assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally
+accepted accounting principles in the United States of America, and that receipts and expenditures of the Company are being made
+only in accordance with authorizations of management and directors of the Company; and (iii) provide reasonable assurance regarding
+prevention or timely detection of unauthorized acquisition, use or disposition of the Companys assets that could have a
+material effect on the financial statements.
+
+
+
+
+
+
+    44
+    
+    
+
+
+
+Any system of internal control, no matter how well designed, has
+inherent limitations, including the possibility that a control can be circumvented or overridden and misstatements due to error
+or fraud may occur and not be detected in a timely manner. Also, because of changes in conditions, internal control effectiveness
+may vary over time. Accordingly, even an effective system of internal control will provide only reasonable assurance with respect
+to financial statement preparation.
+
+
+
+Management assessed the effectiveness of the Companys internal
+control over financial reporting as of December 31, 2016. In making this assessment, management used the criteria set forth in
+2013 by the Committee of Sponsoring Organizations of the Treadway Commission (COSO) in "Internal Control-Integrated Framework.
+Based on managements assessment using the COSO criteria, management has concluded that the Company's internal control over
+financial reporting was effective as of December 31, 2016.
+
+
+
+This annual report does not include an attestation report of the
+Companys registered public accounting firm regarding internal control over financial reporting. Managements report
+was not subject to attestation by the Companys registered public accounting firm pursuant to the rules of the Securities
+and Exchange Commission that permit the Company to provide only managements report in this Annual Report.
+
+
+
+Changes in Internal Control over Financial Reporting
+
+
+
+During the quarter ended December 31, 2016, there were no changes
+in the Companys internal control over financial reporting that materially affected, or was reasonably likely to materially
+affect, our internal control over financial reporting.
+
+
+
+Item 9B. Other Information
+
+
+
+None.
+
+
+
+
+
+
+
+PART III
+
+
+
+Item 10. Directors, Executive Officers and
+Corporate Governance
+
+
+
+The following table sets forth certain information
+with respect to the directors and executive officers of the Company. All directors of the Company hold office until the next annual
+meeting of the shareholders or until their successors have been elected and qualified. Executive officers are elected by the Board
+of Directors to hold office until their successors are elected and qualified.
+
+
+
+
+
+    Name
+    Age
+    Position Held with Company
+
+    
+    
+    
+
+    Walter C. Johnsen
+    66
+    Chairman of the Board and Chief Executive Officer
+
+    Brian S. Olschan
+    60
+    President, Chief Operating Officer and Director
+
+    Paul G. Driscoll
+    56
+    Vice President, Chief Financial Officer, Secretary and Treasurer
+
+    Rex L. Davidson
+    67
+    Director
+
+    Richmond Y. Holden, Jr.
+    63
+    Director
+
+    Susan H. Murphy
+    65
+    Director
+
+    Stevenson E. Ward III
+    71
+    Director
+
+
+
+Walter C. Johnsen has served as Chairman of the Board and
+Chief Executive Officer of the Company since January 1, 2007; President and Chief Executive Officer of the Company from November
+30, 1995 to December 31, 2006. Mr. Johnsen previously served as Vice Chairman and a principal of Marshall Products, Inc., a medical
+supply distributor. Mr. Johnsen has served on the Board of TOMI Environmental Solutions, Inc., a publicly traded company, since
+February 1, 2016. Mr. Johnsens qualifications to serve on the Board include the in-depth knowledge of all facets of the
+Companys business which he has gained during his more than fifteen years of service as the Companys Chief Executive
+Officer.
+
+
+
+
+
+
+    45
+    
+    
+
+
+
+Brian S. Olschan has served as President and Chief Operating
+Officer of the Company since January 1, 2007; Executive Vice President and Chief Operating Officer of the Company from January
+25, 1999 to December 31, 2006; Senior Vice President - Sales and Marketing of the Company from September 12, 1996 to January 24,
+1999; Mr. Olschan previously served as Vice President and General Manager of the Cordset and Assembly Business of General Cable
+Corporation, an electrical wire and cable manufacturer. Mr. Olschans qualifications to serve on the Board include his detailed
+knowledge of the Companys operations which he has gained in his capacity as a member of senior management for more than
+eleven years, including as Chief Operating Officer since January 1999 and President since January 2007.
+
+
+
+Paul G. Driscoll has served as Vice
+President and Chief Financial Officer, Secretary and Treasurer since October 2, 2002. Mr. Driscoll joined Acme as Director of International
+Finance on March 19, 2001. From 1997 to 2001, he was employed by Ernest and Julio Gallo Winery, including as Director of Finance
+and Operations in Japan. Prior to Gallo he served in several increasingly responsible finance positions in Sterling Drug Inc. in
+New York City and Sanofi S.A. in France.
+
+
+
+Rex L. Davidson has served as director since 2006. Executive
+Director of the Helms Fund since 2013. The Helms Fund provides "gap financing" to socially responsible business
+ventures for capital expenditures. Additionally, since 2009, Mr. Davidson has served as President of Rex Davidson Associates, LLC,
+a management consulting service, and Executive Director of Las Cumbres Community Services, which provides developmental disabilityand
+mental health services to children, adults and families in Northern New Mexico. From 1982 to 2009, he served as President
+and Chief Executive Officer of Goodwill Industries of Greater New York and Northern New Jersey, Inc., and President of Goodwill
+Industries Housing Corporation. Mr. Davidsons qualifications to serve on the Board include significant management experience
+at the highest level, having been responsible for the management of Goodwill Industries, an organization with over 2,000 employees
+and revenues in excess of $100 million. Mr. Davidsons experience in the areas of compensation of personnel at all levels,
+his experience relating to retail matters, such as retail trends and pricing, and diversity policies are of significant benefit
+to the Company.
+
+
+
+Richmond Y. Holden, Jr. has served as director since 1998.
+Mr. Holden served as President and CEO of . INgageHub, a cloud based Marketing SaaS platform, from January 2015 through early 2016;
+he continues to serve as a senior advisor to the company. In 2007, Mr. Holden joined School Specialty, Inc., a distributor of school
+supplies, equipment and curriculum products. He last served as Executive Vice President of School Specialty, Inc., and President
+of the Curriculum Group, a division of School Specialty Inc., 2013- December 2014. He was President of Educational Resources,
+a division of School Specialty, Inc., from 2010 to 2013. He served as Chairman and Chief Executive Officer of J.L. Hammett Co.,
+a reseller of educational, curriculum, equipment, and products from 1992 to 2006. Commencing in 2007, Mr. Holden served on the
+Board of Directors of Software Secure, Incorporated, a privately-held company headquartered in Newton, MA, which focused on secure
+online educational testing technology, until its sale in late 2016. He has served on the Board of Directors of Codman Academy Charter
+Public School in Boston MA since 2012. The qualifications of Mr. Holden to serve on the Board of the Company include his substantial
+senior executive management experience of large complex companies in the educational markets. In particular, as a result of his
+experience with School Specialty Inc., then a $650 million publicly held reseller of educational products, Mr. Holden has broad
+knowledge of educational markets and operational matters relating to developmental strategy, finance, marketing, sales, technology,
+sourcing, pricing and distribution.
+
+
+
+Susan H. Murphy has served as director
+since 2003. Vice President Emerita, Cornell University, from which Dr. Murphy retired in 2016 after a 38-year career, commencing
+in 1978. She served as Dean of Admissions and Financial Aid from 1985 to 1994; Vice President of Student and Academic Services
+from 1994 to June 2015, and thereafter she worked in Alumni Affairs and Development until her retirement. In 2013, Dr. Murphy became
+a member of the Board of Trustees of Adelphi University, and, since July 2016, has served as Vice Chair of its Board of Trustees.
+She also serves on the Board of Directors for Kendal at Ithaca, a not-for-profit continuing care retirement community (since April
+2014); Tompkins County Community Foundation (since January 2015); and Lets Get Ready, an organization which provides low-income
+high school students with support services to help them gain admission to and graduate from college (since September 2016). Dr.
+Murphy received a Ph.D. in Educational Administration from Cornell University. Dr. Murphy has broad senior management level experience
+in a large, complex organization. In particular, her experience in employee compensation matters and the development
+and implementation of diversity policies is helpful to the Company.
+
+
+
+
+
+
+    46
+    
+    
+
+
+
+Stevenson E. Ward III has served as director since 2001.
+Mr. Ward served as Vice President and Chief Financial Officer of Triton Thalassic Technologies, Inc. from 2000 until his retirement
+in 2014. Tritons technology controls and inactivates pathogens in the healthcare and industrial industries. From 1998 through
+2000, Mr. Ward served as Senior Vice President-Administration of Sanofi-Synthelabo, Inc., a major multinational pharmaceutical
+company. He served as Executive Vice President (1996-1998), responsible for legal, tax, treasury, employee benefits and other functions,
+and Chief Financial Officer (1994-1996) of Sanofi, Inc., the North American holding company for Sanofi. He also served as Vice
+President-Finance and Administration, Pharmaceutical Group, Sterling Winthrop, Inc. (1992-1994). Prior to joining Sterling, he
+was employed by General Electric Company in management positions in Purchasing, Corporate Audit and Finance. Mr. Wards qualifications
+for service on the Board include his extensive experience in senior executive level positions in finance, corporate audit and administration
+at two Fortune 100 multinational corporations. He also holds a Masters in Business Administration (MBA) degree.
+
+
+
+Code of Conduct
+
+
+
+The Company has adopted a Code of Conduct that is applicable to
+its employees, including the Chief Executive Officer, Chief Financial Officer and Controller. The Code of Conduct is available
+in the investor relations section on the Companys website at www.acmeunited.com
+
+
+
+If the Company makes any substantive amendments to the Code of Conduct
+which apply to its Chief Executive Officer,Chief Financial Officer or Controller, or grants any waiver, including any implicit
+waiver, from a provision of the Code of Conduct to the Companys executive officers, the Company will disclose the nature
+of the amendment or waiver on its website.
+
+
+
+Information regarding compliance with Section
+16(a) beneficial ownership reporting requirements and certain corporate governance matters is incorporated herein by reference
+to the sections entitled (i) Compliance with Section 16(a) of the Securities Exchange Act of 1934, (ii) Nominations
+for Directors, and (iii) Audit Committee contained in the Companys Proxy Statement to be filed with
+the Securities and Exchange Commission in connection with its 2017 Annual Meeting of Shareholders.
+
+
+
+Item 11. Executive Compensation
+
+
+
+Information with respect to executive compensation
+is incorporated herein by reference to the section entitled Executive Compensation contained in the Companys
+Proxy Statement to be filed with the SEC in connection with the Companys 2017 Annual Meeting of Shareholders.
+
+
+
+Item 12. Security Ownership of Certain Beneficial
+Owners and Management
+
+
+
+Information regarding security ownership of
+certain beneficial owners, directors and executive officers is incorporated herein by reference to the information in the section
+entitled Security Ownership of Directors and Officers contained in the Companys Proxy Statement to be filed
+with the SEC in connection with its 2017 Annual Meeting of Shareholders.
+
+
+
+Item 13. Certain Relationships and Related
+Transactions, and Director Independence
+
+
+
+Information regarding certain relationships
+and related transactions is incorporated herein by reference to the information in the section entitled Certain Relationships
+and Related Transactions contained in the Companys Proxy Statement to be filed with the SEC in connection with its
+2017 Annual Meeting of Shareholders.
+
+
+
+Information regarding director independence
+is incorporated herein by reference to the section entitled Independence Determinations contained in the Companys
+Proxy Statement to be filed with the Securities and Exchange Commission in connection with the Companys 2017 Annual Meeting
+of Shareholders.
+
+
+
+Item 14. Principal Accounting Fees
+and Services
+
+
+
+Information regarding principal accountant
+fees and services is incorporated herein by reference to the section entitled Fees to Auditors contained in the Companys
+Proxy Statement to be filed with the SEC in connection with its 2017 Annual Meeting of Shareholders.
+
+
+
+
+    47
+    
+    
+
+
+
+PART IV
+
+
+
+Item 15. Exhibits and Financial Statement
+Schedules
+
+(a)(1) Financial Statements.
+
+
+Consolidated Balance Sheets
+
+
+Consolidated Statements of Operations 
+
+
+Consolidated Statements of Changes in Stockholders Equity
+
+
+Consolidated Statements of Cash Flows
+
+
+Notes to Consolidated Financial Statements
+
+
+Report of Independent Registered Public Accounting Firm
+
+(a)(2) Financial
+Statement Schedules
+
+
+Schedules other than those listed above have been omitted because
+of the absence of conditions under which they are required or because the required information is presented in the Financial Statements
+or Notes thereto.
+
+
+
+(a)(3) The exhibits listed under
+Item 15(b) are filed or incorporated by reference herein.
+
+(b) Exhibits.
+
+The exhibits listed below are filed
+as part of this Annual Report on Form 10-K. Certain of the exhibits, as indicated, have been previously filed and are incorporated
+herein by reference.
+
+
+
+    Exhibit No.
+    Identification of Exhibit
+
+    2
+    Asset Purchase Agreement with First Aid Only, Inc. dated as of June 2, 2014(1)
+
+    3(i)
+    Certificate of Organization of the Company (2)
+
+    
+    Amendment to Certificate of Organization of Registrant dated September 24, 1968 (2) 
+
+    
+    Amendment to Certificate of Incorporation of the Company dated April 27, 1971 (3)
+
+    
+    Amendment to Certificate of Incorporation of the Company dated June 29, 1971 (3)
+
+    3(ii)
+    Bylaws (11)
+
+    4
+    Specimen of Common Stock certificate (3)
+
+    10.1
+    Non-Salaried Director Stock Option Plan dated April 22, 1996* (4)
+
+    10.1(a)
+    Amendment No. 1 to the Non-Salaried Director Stock Option Plan *(5)
+
+    10.1(b)
+    Amendment No. 2 to the Non-Salaried Director Stock Option Plan *(6)
+
+    10.3
+    2002 Acme United Employee Stock Option Plan as amended (12)
+
+
+
+
+
+
+
+    48
+    
+    
+
+
+
+
+
+    10.4
+    Severance Pay Plan dated September 28, 2004* (15)
+
+    10.5(a)
+    Salary Continuation Plan dated September 28, 2004, as amended (14)*
+
+    10.6
+    2005
+    Non-Salaried Director Stock Option Plan, amended (13)
+
+    10.8
+    Deferred Compensation Plan dated October 2, 2007* (16)
+
+    10.9
+    2012 Acme United Employee Stock Option Plan (17) 
+
+    10.10(a)
+    Revolving Loan Agreement with HSBC, dated April 5, 2012(18)
+
+    10.10(b)
+    Amendment No. 1 to Revolving Loan Agreement with HSBC Dated(19)
+
+
+    10.10(c)
+    Amended and restated note
+
+    10.10(d)
+    Amendment No. 2 to Revolving Loan Agreement with HSBC dated October 2013
+
+
+
+
+
+    10.11
+    Change in Control Plan as amended dated February 24, 2011* (20)
+
+    21
+    Subsidiaries of the Registrant
+
+    23.1
+    Consent of MARCUM LLP, Independent Registered Public Accounting Firm
+
+    31.1
+    Certification of Walter Johnsen pursuant to Rule 13a-14(a) and 15d-14(a) and Section 302 of the Sarbanes-Oxley Act of 2002
+
+    31.2
+    Certification of Paul Driscoll pursuant to Rule 13a-14(a) and 15d-14(a) and Section 302 of the Sarbanes-Oxley Act of 2002
+
+    32.1
+    Certification of Walter Johnsen pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+
+    32.2
+    Certification of Paul Driscoll pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+
+
+
+
+
+*Indicates a management
+contract or a compensatory plan or arrangement
+
+
+
+
+(1)Previously filed as an Exhibit to the Companys form 8-K/A
+filed on August 19, 2014.
+
+
+
+
+
+(2)Previously filed in S-1 Registration Statement No. 230682 filed with
+the Commission on November 7, 1968 and amended by Amendment No. 1 on December 31, 1968 and by Amendment No. 2 on January 31, 1969.
+
+
+
+(3)Previously filed as an exhibit to the Companys Form 10-K filed
+in 1971.
+
+
+
+(4)Previously filed in the Companys Form S-8 Registration Statement
+No. 333-26739 filed with the Commission on May 9, 1997.
+
+
+
+(5)Previously filed in the Companys Form S-8 Registration Statement
+No. 333-84505 filed with the Commission on August 4, 1999.
+
+
+
+(6)Previously filed in the Companys Form S-8 Registration Statement
+No. 333-70348 filed with the Commission on September 21, 2000. 
+
+
+
+
+
+    49
+    
+    
+
+
+
+
+(7)Previously filed as an exhibit to the Companys Proxy Statement
+filed on March 29, 1996.
+
+
+
+(8)Previously filed in the Companys Form S-8 Registration Statement
+No. 333-26737 filed with the Commission on May 9, 1997. 
+
+
+
+(9)Previously filed in the Companys Form S-8 Registration Statement
+No. 333-84499 filed with the Commission on August 4, 1999. 
+
+
+
+(10)Previously filed in the Companys Form S-8 Registration Statement
+No. 333-70346 filed with the Commission on September 27, 2001. 
+
+
+
+(11)Previously filed in the Companys form 8-K filed on March 3,
+2006.
+
+
+
+(12)Previously filed in the Companys Proxy statement for the 2005
+Annual Meeting of Shareholders.
+
+
+
+(13)Previously filed in the Companys Proxy Statement filed on
+March 29, 2005. This plan expired in 2015.
+
+
+
+(14)Previously filed in the Companys form 8-K filed on December
+21, 2010.
+
+
+
+(15)Previously filed as an exhibit to the Companys Form 10-K filed
+on March 17, 2005.
+
+
+
+(16)Previously filed as an exhibit to the Companys Form 10-K filed
+on March 12, 2008.
+
+
+
+(17)Previously filed as an exhibit to the Companys Form 10-Q filed
+on April 14, 2012.
+
+
+
+(18)Previously filed as an exhibit to the Companys Form 10-Q filed
+on May 10, 2013.
+
+
+
+(19)Previously filed as an exhibit to the Companys Form 10-k filed
+on March 6, 2013.
+
+
+
+
+(20)Previously filed as an exhibit to the Companys Form 10-k filed
+on March 11, 2011.
+
+
+
+    50
+    
+    
+
+
+
+
+Pursuant to the requirements of Section 13 or 15(d) of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly
+authorized, on March 10, 2017.
+
+
+
+ACME UNITED CORPORATION
+
+(Registrant)
+
+
+
+
+
+
+
+
+    Signatures
+    
+    Titles
+
+
+    
+    
+    
+
+    /s/ Walter C. Johnsen
+    
+    
+
+
+    Walter C. Johnsen
+    
+    Chairman and Chief Executive Officer
+
+    
+    
+    
+
+    /s/ Brian S. Olschan
+    
+    
+
+    Brian S. Olschan
+    
+    President, Chief Operating Officer and Director
+
+    
+    
+    
+
+    /s/ Paul G. Driscoll
+    
+    
+
+    Paul G. Driscoll
+    
+    Vice President, Chief Financial Officer, Secretary and Treasurer
+
+    
+    
+    
+
+    /s/ Rex Davidson
+    
+    
+
+    Rex Davidson
+    
+    Director
+
+    
+    
+    
+
+    /s/ Richmond Y. Holden, Jr.
+    
+    
+
+    Richmond Y. Holden, Jr.
+    
+    Director
+
+    
+    
+    
+
+    /s/ Susan H. Murphy
+    
+    
+
+    Susan H. Murphy
+    
+    Director
+
+
+    
+    
+    
+
+    /s/ Stevenson E. Ward III
+    
+    
+
+    Stevenson E. Ward III
+    
+    Director
+
+
+
+
+
+
+
+
+
+    51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

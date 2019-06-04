@@ -169,7 +169,8 @@ def start_crawling(year_list):
 	code_year_url_list = code_year_url(all_url, code_list, year_list)
 	
 	print(code_year_list)
-	print(code_year_url_list)
+	print(code_year_article_list[0][0])
+	print(code_year_url_list[0][0])
 	
 	# return code_year_list, code_year_article_list, code_year_url_list
 	# except:
@@ -207,7 +208,7 @@ def code_year_url(all_url, code_list, year_list) :
 	temp_url = []
 	code_year_url_list = []
 	
-	for i in range(1, len(code_list) - 1) :
+	for i in range(len(code_list) - 1) :
 		for j in range(len(year_list)) :
 			temp_url.append(all_url[i][j])
 		
