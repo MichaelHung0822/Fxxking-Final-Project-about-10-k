@@ -348,12 +348,3 @@ for m in range(len(all_article)):                # 每個 m 為一家公司
 
 createFolder(str(path))
 write_article(all_companies_results)
-
-
-
-
-'''修改項目：
-1. fn = input("請匯入公司代碼的csv檔：").strip('"')
-2. 把 result 放到迴圈之外
-
-'''
