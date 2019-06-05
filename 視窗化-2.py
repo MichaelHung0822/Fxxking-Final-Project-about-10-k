@@ -228,18 +228,18 @@ def start_crawling(year_list,csvOrnot):
 	
 	# return all_article
 	
-	code_year_list = code_year(code_list, year_list)
+	#code_year_list = code_year(code_list, year_list)
 	
-	code_year_article_list = code_year_article(all_article, code_list, year_list)
+	#code_year_article_list = code_year_article(all_article, code_list, year_list)
 	
-	code_year_url_list = code_year_url(all_url, code_list, year_list)
+	#code_year_url_list = code_year_url(all_url, code_list, year_list)
 	
-	print(code_year_list)
+	#print(code_year_list)
 	# print(code_year_article_list[0][0])
-	print(code_year_url_list)
+	#print(code_year_url_list)
 
 #--------------------
-	return (code_year_list, code_year_article_list, code_year_url_list)
+	#return (code_year_list, code_year_article_list, code_year_url_list)
 #--------------------
 	
 	# return code_year_list, code_year_article_list, code_year_url_list
@@ -252,7 +252,7 @@ def code_year(code_list, year_list) :
 	
 	for i in range(1, len(code_list)) :
 		for j in range(len(year_list)) :
-			code_year = str(code_list[i][0]) + "-" + str(year_list[j])
+			code_year = str(code_list[i][0]) + "-" + str(year_list[j][2:4])
 			temp_code_year.append(code_year)
 		
 		code_year_list.append(temp_code_year)
@@ -602,31 +602,35 @@ startBtn.grid(column=0, row=1 ,sticky=tk.E)
 path = ""
 code = []
 def startAll():
-    try:
+    #try:
             check = mBox.askyesno("確認資訊", "請再次確認輸入的代碼、年份、關鍵字，及輸出資料。\n要繼續嗎？")
-            if check == 1:            
+            if check == 1:
+                ##...(開啟網頁小遊戲)
                 year_list = yearL.get().split()                
                 if radVar.get() == 1:        
                     all = start_crawling(year_list,1)
-                    
+                    mBox.showinfo("完成","資料已儲存在"+StoreName.get()+"資料夾")
+                    """
                             #-------------------------
                     code_year_list = all[0]
                     code_year_article_list = all[1]
                     code_year_url_list = all[2]
                             #-------------------------
-                            
+                      """      
                 elif radVar.get() == 0:        
                     all = start_crawling(year_list,0)
-                            
+                    mBox.showinfo("完成","資料已儲存在"+StoreName.get()+"資料夾")
+                    """       
                             #-------------------------
                     code_year_list = all[0]
                     code_year_article_list = all[1]
                     code_year_url_list = all[2]
                         #-------------------------
+                        """
                 elif radVar.get() == 99:
                     mBox.showinfo("錯誤","請選擇代碼輸入")
-    except:
-            mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
+    #except:
+            #mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
 #######
 startOver = tk.Button(startBtn,text="開始",width=15,height =3,command=startAll)
 startOver.grid(column = 0,row  = 0,rowspan = 2,sticky = tk.E)
