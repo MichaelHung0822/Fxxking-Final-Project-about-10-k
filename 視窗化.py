@@ -234,6 +234,10 @@ def start_crawling(year_list,csvOrnot):
 	print(code_year_list)
 	# print(code_year_article_list[0][0])
 	print(code_year_url_list)
+
+#--------------------
+	return (code_year_list, code_year_article_list, code_year_url_list)
+#--------------------
 	
 	# return code_year_list, code_year_article_list, code_year_url_list
 	# except:
@@ -541,9 +545,22 @@ code = []
 def startAll():
     year_list = yearL.get().split()
     if radVar.get() == 1:        
-        all_article = start_crawling(year_list,1)
+        all = start_crawling(year_list,1)
+		
+		#-------------------------
+		code_year_list = all[0]
+		code_year_article_list = all[1]
+		code_year_url_list = all[2]
+		#-------------------------
+		
     elif radVar.get() == 0:        
-        all_article = start_crawling(year_list,0)
+        all = start_crawling(year_list,0)
+		
+		#-------------------------
+		code_year_list = all[0]
+		code_year_article_list = all[1]
+		code_year_url_list = all[2]
+		#-------------------------
         
 #######
 startOver = tk.Button(startBtn,text="開始",width=15,height =3,command=startAll)
