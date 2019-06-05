@@ -9,6 +9,7 @@ from tkinter import Menu
 from tkinter import Spinbox
 from tkinter import messagebox as mBox
 import tkinter.filedialog
+from PIL import Image,ImageTk
 #爬蟲用
 from bs4 import BeautifulSoup
 import requests
@@ -352,20 +353,21 @@ tabControl.pack(expand=1, fill="both")  # Pack to make visible
 # We are creating a container tab3 to hold all other widgets
 monty = ttk.LabelFrame(tab1, text='使用者名稱')
 monty.grid(column=0, row=0, padx=8, pady=4)
- 
+
+
 # Modified Button Click Function
 def clickMe():
-    answer = mBox.askyesno("確認暱稱", "您確定設定這個暱稱嗎？\n後續將無法修改") 
+    answer = mBox.askyesno("確認暱稱", "您確定設定這個暱稱及心靈導師嗎？\n後續將無法修改") 
     if answer == True:
         action.configure(text='Hello,\n' + name.get())
         action.configure(state='disabled')    # Disable the Button Widget
         nameEntered.configure(state='disabled')
         
-        labelsFrame = ttk.LabelFrame(monty)
-        labelsFrame.grid(column=1, row=3,columnspan=4,sticky=tk.W)
         # Place labels into the container element - vertically
-        ttk.Label(labelsFrame, text=name.get()+"\n"+"你才20多歲，你可以成为任何你想成為的人。").grid(column=0, row=0, sticky=tk.W)
-        tab2Label.configure(text = name.get())
+        img.configure(file = teacher.get()+".gif")
+        talk1.configure(text=name.get()+"\n"+"你才20多歲，你可以成为任何你想成為的人。")
+       
+        tab2Label.configure(text = name.get()+"\n"+"不要在乎一城一池的得失，要执着。")
     else:
         nameEntered.configure(state='active')
     
@@ -381,21 +383,29 @@ nameEntered.grid(column=0, row=1, sticky='W')
 ttk.Label(monty, text="请选择一位心靈導師:").grid(column=1, row=0,sticky='W')
  
 # Adding a Combobox
-book = tk.StringVar()
-bookChosen = ttk.Combobox(monty, width=12, textvariable=book)
-bookChosen['values'] = ( '孔令傑 老師','盧信銘 老師','林世銘 老師')
-bookChosen.grid(column=1, row=1)
-bookChosen.current(0)  #设置初始显示值，值为元组['values']的下标
-bookChosen.config(state='readonly')  #设为只读模式
+teacher = tk.StringVar()
+teacherChosen = ttk.Combobox(monty, width=12, textvariable=teacher)
+teacherChosen['values'] = ( '孔令傑老師','盧信銘老師','林世銘老師')
+teacherChosen.grid(column=1, row=1)
+teacherChosen.current(0)  #设置初始显示值，值为元组['values']的下标
+teacherChosen.config(state='readonly')  #设为只读模式
 
 # Adding a Button
 action = ttk.Button(monty,text="確認",width=10,command=clickMe)   
 action.grid(column=2,row=1,rowspan=2,ipady=7)
 
+labelsFrame = ttk.LabelFrame(monty)
+labelsFrame.grid(column=0, row=3,columnspan=4,sticky=tk.W)
+
+img = tk.PhotoImage()
+teaImg = tk.Label(labelsFrame,image = img).grid(column=0,row=0,sticky = tk.W)
+talk1 = ttk.Label(labelsFrame)
+talk1.grid(column=1, row=0, sticky=tk.W)
+
 # Add Tooltip
 createToolTip(action,'確認')
 createToolTip(nameEntered,'請輸入暱稱')
-createToolTip(bookChosen, '請選擇導師')
+createToolTip(teacherChosen, '請選擇導師')
 
 # 一次性控制各控件之间的距离
 for child in monty.winfo_children(): 
@@ -504,16 +514,11 @@ yearL = tk.StringVar()
 yearLEntered = ttk.Entry(monty2, width=30, textvariable=yearL, state='disabled')
 yearLEntered.grid(column=1, row=5,columnspan=3, sticky='W')
 
-ttk.Label(monty2, text="資料分組 : ").grid(column=0, row=6, sticky='W')
-scr=tk.StringVar()
-scr.set(10)
-# Spinbox callback 
-def _spin():
-    value = spin.get()
-    #print(value)
-spin = Spinbox(monty2, from_=1,to=100, width=5, bd=8, command=_spin, increment = 5, textvariable = scr)
-spin.grid(column=1, row=6)
-ttk.Label(monty2, text="(可以自行輸入1-100整數)").grid(column=2, row=6,columnspan = 2, sticky=tk.W)
+ttk.Label(monty2, text="搜尋關鍵字 : ").grid(column=0, row=6, sticky=tk.W)
+
+keyWord = tk.StringVar() 
+keyWordEntered = ttk.Entry(monty2, width=12, textvariable=keyWord)
+keyWordEntered.grid(column=1, row=6, sticky='W')
 
 outset = ttk.LabelFrame(tab2, text='輸出設定')
 outset.grid(column=0, row=1,padx=8, pady=4,sticky=tk.W)
@@ -525,6 +530,19 @@ StoreNameEntered = ttk.Entry(outset, width=12, textvariable=StoreName)
 StoreNameEntered.grid(column=1, row=0, sticky=tk.W)
 
 ttk.Label(outset, text="儲存資料夾 : ").grid(column=0, row=1, sticky=tk.W)
+
+ttk.Label(outset, text="資料分組 : ").grid(column=0, row=2, sticky='W')
+scr=tk.StringVar()
+scr.set(10)
+# Spinbox callback 
+def _spin():
+    value = spin.get()
+    #print(value)
+spin = Spinbox(outset, from_=1,to=100, width=5, bd=8, command=_spin, increment = 5, textvariable = scr)
+spin.grid(column=1, row=2)
+ttk.Label(outset, text="(可以自行輸入1-100整數)").grid(column=1, row=3,columnspan = 2, sticky=tk.W)
+
+
 
 def storePath():
     path_ = tk.filedialog.askdirectory()
@@ -543,24 +561,26 @@ year_list = []
 path=""
 code = []
 def startAll():
-    year_list = yearL.get().split()
-    if radVar.get() == 1:        
-        all = start_crawling(year_list,1)
-		
-		#-------------------------
-		code_year_list = all[0]
-		code_year_article_list = all[1]
-		code_year_url_list = all[2]
-		#-------------------------
-		
-    elif radVar.get() == 0:        
-        all = start_crawling(year_list,0)
-		
-		#-------------------------
-		code_year_list = all[0]
-		code_year_article_list = all[1]
-		code_year_url_list = all[2]
-		#-------------------------
+        check = mBox.askyesno("確認資訊", "請再次確認輸入的代碼、年份、關鍵字，及輸出資料。\n要繼續嗎？")
+        if check == 1:
+                year_list = yearL.get().split()
+                if radVar.get() == 1:        
+                        all = start_crawling(year_list,1)
+                        
+                        #-------------------------
+                        code_year_list = all[0]
+                        code_year_article_list = all[1]
+                        code_year_url_list = all[2]
+                        #-------------------------
+                        
+                elif radVar.get() == 0:        
+                        all = start_crawling(year_list,0)
+                        
+                        #-------------------------
+                        code_year_list = all[0]
+                        code_year_article_list = all[1]
+                        code_year_url_list = all[2]
+                        #-------------------------
         
 #######
 startOver = tk.Button(startBtn,text="開始",width=15,height =3,command=startAll)
@@ -571,10 +591,10 @@ labelsFrame2 = ttk.LabelFrame(tab2)
 labelsFrame2.grid(column=0, row=2,columnspan=4, sticky=tk.W)
  
 # Place labels into the container element - vertically
+teaImg2 = tk.Label(labelsFrame2,image = img).grid(column=0,row=0,sticky = tk.W)
 tab2Label = ttk.Label(labelsFrame2, text="")
-tab2Label.grid(column=0, row=0,sticky = tk.W)
-tab2talk = ttk.Label(labelsFrame2, text="不要在乎一城一池的得失，要执着。")
-tab2talk.grid(column=0, row=1,sticky=tk.W)
+tab2Label.grid(column=1, row=0,sticky = tk.W)
+
 
 for child in monty2.winfo_children(): 
     child.grid_configure(padx=3,pady=1)
