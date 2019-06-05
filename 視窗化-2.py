@@ -509,7 +509,7 @@ yearstChoice.current(0)  #设置初始显示值，值为元组['values']的下�
 yearstChoice.config(state='readonly')  #设为只读模式
 
 yeared = tk.StringVar()
-yearedChoice = ttk.Combobox(monty2, width=10, textvariable = yeared)
+yearedChoice = ttk.Combobox(monty2, width=10, textvariable = yeared,font = f1)
 yr=[]
 for i in range(50):
     yr.append(2019-i)
@@ -556,10 +556,10 @@ yearL = tk.StringVar()
 yearLEntered = ttk.Entry(monty2, width=30, textvariable=yearL, state='disabled')
 yearLEntered.grid(column=1, row=5,columnspan=3, sticky='W')
 """
-ttk.Label(monty2, text="搜尋關鍵字 : ").grid(column=0, row=6, sticky=tk.W)
+ttk.Label(monty2, text="搜尋關鍵字 : ",font = f1).grid(column=0, row=6, sticky=tk.W)
 
 keyWord = tk.StringVar() 
-keyWordEntered = ttk.Entry(monty2, width=12, textvariable=keyWord)
+keyWordEntered = ttk.Entry(monty2, width=12, textvariable=keyWord,font = f1)
 keyWordEntered.grid(column=1, row=6, sticky='W')
 
 outset = ttk.LabelFrame(tab2, text='輸出設定')
@@ -568,7 +568,7 @@ outset.grid(column=0, row=1,padx=8, pady=4,sticky=tk.W)
 ttk.Label(outset, text="資料夾名稱 : ").grid(column=0, row=0, sticky=tk.W) 
 # Adding a Textbox Entry widget
 StoreName = tk.StringVar()
-StoreNameEntered = ttk.Entry(outset, width=12, textvariable=StoreName)
+StoreNameEntered = ttk.Entry(outset, width=12, textvariable=StoreName,font = f1)
 StoreNameEntered.grid(column=1, row=0, sticky=tk.W)
 
 ttk.Label(outset, text="儲存資料夾 : ").grid(column=0, row=1, sticky=tk.W)
@@ -586,7 +586,7 @@ def storePath():
 storepath = tk.StringVar()
 storePathEntered = ttk.Entry(outset, width=12, textvariable=storepath)
 storePathEntered.grid(column=1, row=1, sticky=tk.W)
-storebtn = tk.Button(outset,text="瀏覽",command=storePath)
+storebtn = tk.Button(outset,text="瀏覽",command=storePath,font = f1)
 storebtn.grid(column=2, row=1, sticky=tk.W)
 
 ttk.Label(outset, text="資料分組 : ").grid(column=0, row=2, sticky='W')
@@ -670,7 +670,7 @@ def startAll():
     except:
             mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
 #######
-startOver = tk.Button(startBtn,text="開始",width=12,height =3,command=startAll)
+startOver = tk.Button(startBtn,text="開始",width=10,height =3,command=startAll,font = f1)
 startOver.grid(column = 0,row  = 0,rowspan = 2,sticky = tk.E)
 
 # Create a container to hold labels
@@ -679,7 +679,7 @@ labelsFrame2.grid(column=0, row=2,columnspan=4, sticky=tk.W)
  
 # Place labels into the container element - vertically
 teaImg2 = tk.Label(labelsFrame2,image = img).grid(column=0,row=0,sticky = tk.W)
-tab2Label = ttk.Label(labelsFrame2, text="")
+tab2Label = ttk.Label(labelsFrame2, text="",font = f1)
 tab2Label.grid(column=1, row=0,sticky = tk.W)
 
 #createToolTip(CikodeEntered,'請輸入公司代碼')
