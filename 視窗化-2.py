@@ -10,7 +10,6 @@ from tkinter import Menu
 from tkinter import Spinbox
 from tkinter import messagebox as mBox
 import tkinter.filedialog
-from PIL import Image,ImageTk
 #爬蟲用
 from bs4 import BeautifulSoup
 import requests
@@ -354,8 +353,6 @@ tabControl.add(tab2, text='搜尋內容')      # Make second tab visible
  
 tabControl.pack(expand=1, fill="both")  # Pack to make visible
 # ~ Tab Control introduced here -----------------------------------------
-
-f1 = tk.font.Font(size = 10)
  
 #---------------Tab1控件介绍------------------#
 # We are creating a container tab3 to hold all other widgets
@@ -373,7 +370,7 @@ def clickMe():
         
         # Place labels into the container element - vertically
         img.configure(file = teacher.get()+".gif")
-        talk1.configure(text=name.get()+"\n"+"你才20多歲，你可以成为任何你想成為的人。")
+        talk1.configure(text=name.get()+"\n"+"你才20多歲，你可以成為任何你想成為的人。")
        
         tab2Label.configure(text = name.get()+"\n"+"不要在乎一城一池的得失，要執著。")
     else:
@@ -388,12 +385,12 @@ name = tk.StringVar()
 nameEntered = ttk.Entry(monty, width=12, textvariable=name,state = 'active')
 nameEntered.grid(column=0, row=1, sticky='W')
   
-ttk.Label(monty, text="请选择一位心靈導師:").grid(column=1, row=0,sticky='W')
+ttk.Label(monty, text="請選擇一位心靈導師:").grid(column=1, row=0,sticky='W')
  
 # Adding a Combobox
 teacher = tk.StringVar()
 teacherChosen = ttk.Combobox(monty, width=12, textvariable=teacher)
-teacherChosen['values'] = ( '孔令傑老師','盧信銘老師','林世銘老師')
+teacherChosen['values'] = ( '孔令傑老師','盧信銘老師','林世銘老師','林嬋娟老師','高偉娟老師','李艷榕老師','陳坤志老師','曾智揚老師')
 teacherChosen.grid(column=1, row=1)
 teacherChosen.current(0)  #设置初始显示值，值为元组['values']的下标
 teacherChosen.config(state='readonly')  #设为只读模式
@@ -407,7 +404,7 @@ labelsFrame.grid(column=0, row=3,columnspan=4,sticky=tk.W)
 
 img = tk.PhotoImage()
 teaImg = tk.Label(labelsFrame,image = img).grid(column=0,row=0,sticky = tk.W)
-talk1 = ttk.Label(labelsFrame,font=f1)
+talk1 = ttk.Label(labelsFrame)
 talk1.grid(column=1, row=0, sticky=tk.W)
 
 # Add Tooltip
@@ -444,10 +441,12 @@ def openFile():
             filename += "\\"
             continue
         filename += i    
-    if len(filename) != 0:        
-        fileLabel.configure(text = "您選擇的文件是：")
-        print(filename)
-        fileName.set(filename)
+    if len(filename) != 0:
+        if filename[-3:] == "csv":
+            fileLabel.configure(text = "您選擇的文件是：")        
+            fileName.set(filename)
+        else:
+            mBox.showinfo("檔案類型錯誤","您選擇的檔案類型非csv檔，請重新選擇！")
     else:
         fileLabel.configure(text = "您沒有選擇任何文件")
         fileEntered.configure(state='disabled')
@@ -473,14 +472,14 @@ def radCall():
         fileLabel.configure(state = 'disabled')
         CikodeEntered.configure(state='normal')
         codeName.configure(state='normal')
-        tab2Label.configure(text = name.get()+"\n"+"請輸入公司代碼，接著請輸入年份。")
+        tab2Label.configure(text = name.get()+"\n"+"請輸入公司代碼，接著請加入所需年份。")
     elif radSel == 1:
         CikodeEntered.configure(state='disabled')
         codeName.configure(state='disabled')
         btn.configure(state='normal')
         fileEntered.configure(state = 'readonly')
         fileLabel.configure(state = 'normal')
-        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，接著請輸入年份。")
+        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，接著請加入所需年份。")
                      
 
 # create three Radiobuttons using one variable
@@ -494,18 +493,46 @@ for col in range(0,2):
     curRad.grid(column=col, row=0, sticky=tk.W, columnspan=2)
 
 
-ttk.Label(monty2, text="年份 : ").grid(column=0, row=4, sticky='W')
+ttk.Label(monty2, text="起迄年份 : ").grid(column=0, row=4, sticky='W')
     
-year = tk.StringVar()
-yearChoice = ttk.Combobox(monty2, width=10, textvariable = year)
+yearst = tk.StringVar()
+yearstChoice = ttk.Combobox(monty2, width=10, textvariable = yearst)
 yr=[]
 for i in range(50):
     yr.append(2019-i)
-yearChoice['values'] = yr
-yearChoice.grid(column=1, row=4, sticky='W')
-yearChoice.current(0)  #设置初始显示值，值为元组['values']的下标
-yearChoice.config(state='readonly')  #设为只读模式
+yearstChoice['values'] = yr
+yearstChoice.grid(column=1, row=4, sticky='W')
+yearstChoice.current(0)  #设置初始显示值，值为元组['values']的下标
+yearstChoice.config(state='readonly')  #设为只读模式
 
+yeared = tk.StringVar()
+yearedChoice = ttk.Combobox(monty2, width=10, textvariable = yeared)
+yr=[]
+for i in range(50):
+    yr.append(2019-i)
+yearedChoice['values'] = yr
+yearedChoice.grid(column=2, row=4, sticky='W')
+yearedChoice.current(0)  #设置初始显示值，值为元组['values']的下标
+yearedChoice.config(state='readonly')  #设为只读模式
+
+def yearcheck():
+    try:
+        if int(yeared.get()) >= int(yearst.get()):      
+            yl=""
+            for i in range(int(yearst.get()),int(yeared.get())+1):
+                yl += str(i)+" "
+        yearL.set(yl)
+    except:
+        mBox.showinfo("年份錯誤","您選擇的年份有誤，請重新選擇！")
+        yearedChoice.current(0)
+yearL = tk.StringVar()
+yearCheck = ttk.Button(monty2,text="確認年份",width=7,command=yearcheck)
+yearCheck.grid(column=3,row=4)
+yearPrint = ttk.Entry(monty2,width=30, textvariable=yearL, state='disabled')
+yearPrint.grid(column=1, row=5,columnspan=3, sticky='W')
+
+
+"""
 def addYear():
     value = year.get()
     #print(value)
@@ -523,7 +550,7 @@ clear.grid(column=3,row=4)
 yearL = tk.StringVar() 
 yearLEntered = ttk.Entry(monty2, width=30, textvariable=yearL, state='disabled')
 yearLEntered.grid(column=1, row=5,columnspan=3, sticky='W')
-
+"""
 ttk.Label(monty2, text="搜尋關鍵字 : ").grid(column=0, row=6, sticky=tk.W)
 
 keyWord = tk.StringVar() 
@@ -570,33 +597,36 @@ spin.grid(column=1, row=2)
 
 
 startBtn = ttk.LabelFrame(tab2,text="開始輸出")
-startBtn.grid(column=0, row=1 ,columnspan=2,sticky=tk.E)
+startBtn.grid(column=0, row=1 ,sticky=tk.E)
 #######按鍵後開始
-year_list = []
 path = ""
 code = []
-def startAll():        
-        check = mBox.askyesno("確認資訊", "請再次確認輸入的代碼、年份、關鍵字，及輸出資料。\n要繼續嗎？")
-        if check == 1:                
-                year_list = yearL.get().split()
+def startAll():
+    try:
+            check = mBox.askyesno("確認資訊", "請再次確認輸入的代碼、年份、關鍵字，及輸出資料。\n要繼續嗎？")
+            if check == 1:            
+                year_list = yearL.get().split()                
                 if radVar.get() == 1:        
-                        all = start_crawling(year_list,1)
-                        
-                        #-------------------------
-                        code_year_list = all[0]
-                        code_year_article_list = all[1]
-                        code_year_url_list = all[2]
-                        #-------------------------
-                        
+                    all = start_crawling(year_list,1)
+                    
+                            #-------------------------
+                    code_year_list = all[0]
+                    code_year_article_list = all[1]
+                    code_year_url_list = all[2]
+                            #-------------------------
+                            
                 elif radVar.get() == 0:        
-                        all = start_crawling(year_list,0)
-                        
+                    all = start_crawling(year_list,0)
+                            
+                            #-------------------------
+                    code_year_list = all[0]
+                    code_year_article_list = all[1]
+                    code_year_url_list = all[2]
                         #-------------------------
-                        code_year_list = all[0]
-                        code_year_article_list = all[1]
-                        code_year_url_list = all[2]
-                        #-------------------------
-        
+                elif radVar.get() == 99:
+                    mBox.showinfo("錯誤","請選擇代碼輸入")
+    except:
+            mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
 #######
 startOver = tk.Button(startBtn,text="開始",width=15,height =3,command=startAll)
 startOver.grid(column = 0,row  = 0,rowspan = 2,sticky = tk.E)
@@ -607,15 +637,15 @@ labelsFrame2.grid(column=0, row=2,columnspan=4, sticky=tk.W)
  
 # Place labels into the container element - vertically
 teaImg2 = tk.Label(labelsFrame2,image = img).grid(column=0,row=0,sticky = tk.W)
-tab2Label = ttk.Label(labelsFrame2, text="",font=f1)
+tab2Label = ttk.Label(labelsFrame2, text="")
 tab2Label.grid(column=1, row=0,sticky = tk.W)
 
 #createToolTip(CikodeEntered,'請輸入公司代碼')
 #createToolTip(fileEntered,'請選擇要匯入的csv檔案')
 createToolTip(btn,'選取檔案路徑')
 #createToolTip(yearChoice, '請選擇年份後按加入')
-createToolTip(add, '請選擇年份後按加入')
-createToolTip(clear, '清除所選年分')
+#createToolTip(add, '請選擇年份後按加入')
+#createToolTip(clear, '清除所選年分')
 createToolTip(keyWordEntered, '請輸入搜尋關鍵字')
 createToolTip(StoreNameEntered, '請設定欲儲存輸出資料的資料夾名稱')
 createToolTip(storePathEntered, '請設定資料夾路徑')
