@@ -315,7 +315,7 @@ class ToolTip(object):
  
         label = tk.Label(tw, text=self.text, justify=tk.LEFT,
                       background="#ffffe0", relief=tk.SOLID, borderwidth=1,
-                      font=("tahoma", "10", "normal"))
+                      font=("微軟正黑體", "10", "normal"))
         label.pack(ipadx=1)
  
     def hidetip(self):
@@ -336,6 +336,8 @@ def createToolTip( widget, text):
  
 # Create instance
 win = tk.Tk()   
+
+f1 = tkFont.Font(size = 12,family = "微軟正黑體")
  
 # Add a title       
 win.title("10-K Search")
@@ -379,18 +381,18 @@ def clickMe():
     
  
 # Changing our Label
-ttk.Label(monty, text="輸入暱稱:").grid(column=0, row=0, sticky='W')
+ttk.Label(monty, text="輸入暱稱:",font = f1).grid(column=0, row=0, sticky='W')
  
 # Adding a Textbox Entry widget
 name = tk.StringVar()
-nameEntered = ttk.Entry(monty, width=12, textvariable=name,state = 'active')
+nameEntered = ttk.Entry(monty, width=12, textvariable=name,state = 'active',font = f1)
 nameEntered.grid(column=0, row=1, sticky='W')
   
-ttk.Label(monty, text="請選擇一位心靈導師:").grid(column=1, row=0,sticky='W')
+ttk.Label(monty, text="請選擇一位心靈導師:",font = f1).grid(column=1, row=0,sticky='W')
  
 # Adding a Combobox
 teacher = tk.StringVar()
-teacherChosen = ttk.Combobox(monty, width=12, textvariable=teacher)
+teacherChosen = ttk.Combobox(monty, width=12, textvariable=teacher,font = f1)
 teacherChosen['values'] = ( '孔令傑老師','盧信銘老師','林世銘老師','林嬋娟老師','高偉娟老師','李艷榕老師','陳坤志老師','曾智揚老師')
 teacherChosen.grid(column=1, row=1)
 teacherChosen.current(0)  #设置初始显示值，值为元组['values']的下标
@@ -426,12 +428,12 @@ action.grid(column=2,row=1,rowspan=2,padx=6)
 monty2 = ttk.LabelFrame(tab2, text='搜尋條件')
 monty2.grid(column=0, row=0, padx=8, pady=4)
 
-codeName = ttk.Label(monty2, text="公司代碼 : ", state='disabled')
+codeName = ttk.Label(monty2, text="公司代碼 : ", state='disabled',font = f1)
 codeName.grid(column=0, row=2, sticky='W')  
 
 # Adding a Textbox Entry widget
 Cikode = tk.StringVar() 
-CikodeEntered = ttk.Entry(monty2, width=12, textvariable=Cikode, state='disabled')
+CikodeEntered = ttk.Entry(monty2, width=12, textvariable=Cikode, state='disabled',font = f1)
 CikodeEntered.grid(column=1, row=2, sticky='W')
 
 def openFile():
@@ -452,12 +454,12 @@ def openFile():
         fileLabel.configure(text = "您沒有選擇任何文件")
         fileEntered.configure(state='disabled')
 
-fileLabel = tk.Label(monty2 , text = "您选择的文件是：",state='disabled')
+fileLabel = ttk.Label(monty2 , text = "您選擇的文件是：",state='disabled',font = f1)
 fileLabel.grid(column=0, row=3,sticky='W')
 fileName = tk.StringVar() 
-fileEntered = ttk.Entry(monty2, width=12, textvariable=fileName,state='disabled')
+fileEntered = ttk.Entry(monty2, width=12, textvariable=fileName,state='disabled',font = f1)
 fileEntered.grid(column=1, row=3, sticky='W')
-btn = tk.Button(monty2,text="瀏覽",command=openFile, state='disabled')
+btn = tk.Button(monty2,text="瀏覽",command=openFile, state='disabled',font = f1)
 btn.grid(column=2, row=3, sticky='W')
 
 
@@ -473,14 +475,14 @@ def radCall():
         fileLabel.configure(state = 'disabled')
         CikodeEntered.configure(state='normal')
         codeName.configure(state='normal')
-        tab2Label.configure(text = name.get()+"\n"+"請輸入公司代碼，接著請加入所需年份。")
+        tab2Label.configure(text = name.get()+"\n"+"請輸入公司代碼，接著選擇年份及關鍵字。\n並設定輸出資料夾。")
     elif radSel == 1:
         CikodeEntered.configure(state='disabled')
         codeName.configure(state='disabled')
         btn.configure(state='normal')
         fileEntered.configure(state = 'readonly')
         fileLabel.configure(state = 'normal')
-        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，接著請加入所需年份。")
+        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，接著選擇年份及關鍵字。\n並設定輸出資料夾。")
                      
 
 # create three Radiobuttons using one variable
@@ -490,14 +492,14 @@ radVar.set(99)
 
 for col in range(0,2):
     #curRad = 'rad' + str(col)  
-    curRad = tk.Radiobutton(monty2, text=values[col], variable=radVar, value=col, command=radCall)
+    curRad = tk.Radiobutton(monty2, text=values[col], variable=radVar, value=col, command=radCall,font = f1)
     curRad.grid(column=col, row=0, sticky=tk.W, columnspan=2)
 
 
 ttk.Label(monty2, text="起迄年份 : ").grid(column=0, row=4, sticky='W')
     
 yearst = tk.StringVar()
-yearstChoice = ttk.Combobox(monty2, width=10, textvariable = yearst)
+yearstChoice = ttk.Combobox(monty2, width=10, textvariable = yearst,font = f1)
 yr=[]
 for i in range(50):
     yr.append(2019-i)
@@ -515,7 +517,8 @@ yearedChoice['values'] = yr
 yearedChoice.grid(column=2, row=4, sticky='W')
 yearedChoice.current(0)  #设置初始显示值，值为元组['values']的下标
 yearedChoice.config(state='readonly')  #设为只读模式
-
+yearL = tk.StringVar()
+"""
 def yearcheck():
     try:
         if int(yeared.get()) >= int(yearst.get()):      
@@ -526,11 +529,12 @@ def yearcheck():
     except:
         mBox.showinfo("年份錯誤","您選擇的年份有誤，請重新選擇！")
         yearedChoice.current(0)
-yearL = tk.StringVar()
-yearCheck = ttk.Button(monty2,text="確認年份",width=7,command=yearcheck)
-yearCheck.grid(column=3,row=4)
-yearPrint = ttk.Entry(monty2,width=30, textvariable=yearL, state='disabled')
-yearPrint.grid(column=1, row=5,columnspan=3, sticky='W')
+"""
+
+#yearCheck = ttk.Button(monty2,text="確認年份",width=7,command=yearcheck)
+#yearCheck.grid(column=3,row=4)
+#yearPrint = ttk.Entry(monty2,width=30, textvariable=yearL, state='disabled')
+#yearPrint.grid(column=1, row=5,columnspan=3, sticky='W')
 
 
 """
@@ -603,17 +607,46 @@ startBtn.grid(column=0, row=1 ,sticky=tk.E)
 path = ""
 code = []
 def startAll():
-    #try:
+    try:
+        if radVar.get() == 99:
+            mBox.showinfo("錯誤","請選擇代碼輸入")
+            tab2Label.configure(text = name.get()+"\n"+"選一個指定公司代碼的方式。")
+        elif radVar.get() == 0 and Cikode.get() =="":
+            mBox.showinfo("錯誤","請輸入代碼")
+            tab2Label.configure(text = name.get()+"\n"+"代碼呢？")
+        elif radVar.get() == 1 and fileName.get() =="":
+            mBox.showinfo("錯誤","請選擇代碼清單路徑")
+            tab2Label.configure(text = name.get()+"\n"+"代碼清單呢？")
+        elif int(yeared.get()) < int(yearst.get()):
+            mBox.showinfo("錯誤","您選擇的年份有誤，請重新選擇！")
+            tab2Label.configure(text = name.get()+"\n"+"起訖...先有開始，才會有結束。")
+            yearedChoice.current(0)
+        #elif keyWord.get()=="":
+        elif StoreName.get() == "":
+            mBox.showinfo("錯誤","輸出資料夾名稱為空")
+            tab2Label.configure(text = name.get()+"\n"+"取一個知道在幹嘛的資料夾名字吧。")
+        elif storepath.get() == "":
+            mBox.showinfo("錯誤","請選擇輸出路徑")
+            tab2Label.configure(text = name.get()+"\n"+"請存在你找的到的地方。")
+        else:      
+            yl=""
+            for i in range(int(yearst.get()),int(yeared.get())+1):
+                yl += str(i)+" "
+            yearL.set(yl)
             check = mBox.askyesno("確認資訊", "請再次確認輸入的代碼、年份、關鍵字，及輸出資料。\n要繼續嗎？")
             if check == 1:
-                openGame = mBox.askyesno("開啟遊戲", "爬蟲需要一些時間，請問要開啟網頁小遊戲嗎？")
+                openGame = mBox.askyesno("開啟遊戲", "爬蟲需要一些時間，請問要開啟網頁小遊戲嗎？\n爬蟲完成後將出現提示視窗。")
                 if openGame == 1:
-                    webbrowser.open("https://chromedino.com/", new=2, autoraise=True) 
-                
+                    webbrowser.open("https://chromedino.com/", new=2, autoraise=True)
+                    if teacher.get() == "孔令傑老師" or "盧信銘老師":
+                        tab2Label.configure(text = name.get()+"\n"+"chrome的恐龍遊戲意外地受歡迎，\n有興趣可以自己換角色。\n......順便學一下網頁語法。")
+                    else:
+                        tab2Label.configure(text = name.get()+"\n"+"遊戲玩膩了還沒爬完的話...不如複習一下中會？")   
                 year_list = yearL.get().split()                
                 if radVar.get() == 1:        
                     all = start_crawling(year_list,1)
                     mBox.showinfo("完成","資料已儲存在"+StoreName.get()+"資料夾")
+                    tab2Label.configure(text = name.get()+"\n"+"恭喜完成了一批爬蟲，\n你離畢業又更進一步囉！")
                     """
                             #-------------------------
                     code_year_list = all[0]
@@ -624,6 +657,7 @@ def startAll():
                 elif radVar.get() == 0:        
                     all = start_crawling(year_list,0)
                     mBox.showinfo("完成","資料已儲存在"+StoreName.get()+"資料夾")
+                    tab2Label.configure(text = name.get()+"\n"+"恭喜完成了一批爬蟲，離畢業又更進一步囉！")
                     """       
                             #-------------------------
                     code_year_list = all[0]
@@ -631,12 +665,12 @@ def startAll():
                     code_year_url_list = all[2]
                         #-------------------------
                         """
-                elif radVar.get() == 99:
-                    mBox.showinfo("錯誤","請選擇代碼輸入")
-    #except:
-            #mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
+                
+        
+    except:
+            mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
 #######
-startOver = tk.Button(startBtn,text="開始",width=15,height =3,command=startAll)
+startOver = tk.Button(startBtn,text="開始",width=12,height =3,command=startAll)
 startOver.grid(column = 0,row  = 0,rowspan = 2,sticky = tk.E)
 
 # Create a container to hold labels
