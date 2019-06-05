@@ -10,6 +10,7 @@ from tkinter import Menu
 from tkinter import Spinbox
 from tkinter import messagebox as mBox
 import tkinter.filedialog
+import webbrowser
 #爬蟲用
 from bs4 import BeautifulSoup
 import requests
@@ -605,7 +606,10 @@ def startAll():
     #try:
             check = mBox.askyesno("確認資訊", "請再次確認輸入的代碼、年份、關鍵字，及輸出資料。\n要繼續嗎？")
             if check == 1:
-                ##...(開啟網頁小遊戲)
+                openGame = mBox.askyesno("開啟遊戲", "爬蟲需要一些時間，請問要開啟網頁小遊戲嗎？")
+                if openGame == 1:
+                    webbrowser.open("https://chromedino.com/", new=2, autoraise=True) 
+                
                 year_list = yearL.get().split()                
                 if radVar.get() == 1:        
                     all = start_crawling(year_list,1)
