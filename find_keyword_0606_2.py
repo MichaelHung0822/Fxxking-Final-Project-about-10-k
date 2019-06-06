@@ -143,6 +143,15 @@ def get_article(document_list):
 #--------------------
 
 def read_csv():
+
+	code_list = []
+	with open(fn, newline = "") as csvfile : #fn是匯入的檔案路徑 #crawltest0426.csv 是匯入的檔名
+		rows = csv.reader(csvfile)
+		print(rows)
+		for row in rows:
+			code_list.append(row)
+
+	"""
 	code_list = []
 	with open(fn, newline = "") as csvfile : #fn是匯入的檔案路徑 #crawltest0426.csv 是匯入的檔名
 		rows = csv.reader(csvfile)
@@ -160,6 +169,7 @@ def read_csv():
 				
 				break
 			#----------------------------------------
+	"""
 			
 	return code_list
 
@@ -172,6 +182,7 @@ def start_crawling(year_list):
 	# try:
 	code_list = read_csv()
 	
+	"""
 	for i in range(len(code_list)) :
 		
 		#----------------------------------------			06/06 更新匯入代碼有誤之情況
@@ -179,6 +190,7 @@ def start_crawling(year_list):
 			
 			return "代碼有誤! 其中包含無效之代碼，請重新匯入代碼"
 		#----------------------------------------
+	"""
 		
 		
 
