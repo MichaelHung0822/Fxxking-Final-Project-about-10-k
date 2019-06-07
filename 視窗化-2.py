@@ -19,6 +19,22 @@ import re
 import csv
 import os
 
+
+#顯示進度條的功能定義
+def process(maxT,index= None):  
+        maxArrow = 30 #總進度條長度
+        if index == None:
+                index = i
+        else:                
+                block = int(index*(maxArrow/maxT))  #現進度條長度
+                elseBlock = maxArrow - block #剩下的空格長度
+                Per = tk.StringVar()
+                percent = index * 100.0 / maxT #完成百分比                
+                Pro.configure(text = '['+'▉' * int(block/2) + ' '*elseBlock+']'+str(percent)+'%\r')
+                #
+                if index >= maxT:
+                        index = 0
+                        
 #===================================================
 #爬蟲主要函數定義
 #取得該網址連結的html
@@ -160,6 +176,8 @@ def createFolder(directory):
 def write_article(code, article, year_list) :
 	path = storepath.get()+"\\"+StoreName.get()
 	for i in range(len(year_list)) :
+		
+		
 		name = str(path) + "\\" + code + "_" + "article" + "_" + str(year_list[i]) + ".txt"
 		with open(name,'w+') as file:
 			file.write(article[i])
@@ -195,31 +213,40 @@ def write_url(code, document_list, year_list) :
 #--------------------
 
 def start_crawling(year_list,csvOrnot):
-	path = storepath.get()+"\\"+StoreName.get()
+        path = storepath.get()+"\\"+StoreName.get()
 	# try:
-	if csvOrnot == 1:
-		code_list = read_csv()
-	else:
-		code_list = [['cikcode'],[Cikode.get()]]
-	
+        if csvOrnot == 1:
+                code_list = read_csv()
+        else:
+                if ',' in Cikode.get():
+                        code_list = [['cikcode']]
+                        tmp = Cikode.get().split(',')
+                        for j in tmp:
+                                pl = [j]                                
+                                code_list.append(pl)
+                else:
+                        code_list = [['cikcode'],[Cikode.get()]]                             
+		
 	#測試用
-	print(code_list)
-	
-	all_article = []
-	all_url = []	
-	createFolder(str(path))
-	
-	for i in range(1,len(code_list)):
-		document_list = get_url_list(code_list[i][0], year_list)
-		article = get_article(document_list)
-		write_article(code_list[i][0], article, year_list)
-		write_url(code_list[i][0], document_list, year_list)
-		all_article.append(article)
-		all_url.append(document_list)
-		
-		print(type(article))
-		
-		print(document_list)
+        print(code_list)
+        all_article = []
+        all_url = []
+        createFolder(str(path))
+
+        nowNum = 0
+        for i in range(1,len(code_list)):
+                document_list = get_url_list(code_list[i][0], year_list)
+                article = get_article(document_list)
+                write_article(code_list[i][0], article, year_list)
+                write_url(code_list[i][0], document_list, year_list)
+                all_article.append(article)
+                all_url.append(document_list)
+
+                process(maxT = len(code_list)-1 , index = i )
+
+                print(type(article))
+
+                print(document_list)
 		
 		#測試用
 		# print(document_list)
@@ -332,10 +359,11 @@ def createToolTip( widget, text):
     def leave(event):
         toolTip.hidetip()
     widget.bind('<Enter>', enter)
-    widget.bind('<Leave>', leave)
- 
+    widget.bind('<Leave>', leave)              
+
 # Create instance
-win = tk.Tk()   
+win = tk.Tk()
+win.configure(background='#9370DB')
 
 f1 = tkFont.Font(size = 12,family = "微軟正黑體")
  
@@ -344,7 +372,8 @@ win.title("10-K Search")
  
 # Disable resizing the GUI
 win.resizable(0,0)
- 
+
+ttk.Style().configure("TButton", padding=6, relief="flat",   background="#ccc")
 # Tab Control introduced here --------------------------------------
 tabControl = ttk.Notebook(win)          # Create Tab Control
  
@@ -381,7 +410,7 @@ def clickMe():
     
  
 # Changing our Label
-ttk.Label(monty, text="輸入暱稱:",font = f1).grid(column=0, row=0, sticky='W')
+tk.Label(monty, text="輸入暱稱:",font = f1).grid(column=0, row=0, sticky='W')
  
 # Adding a Textbox Entry widget
 name = tk.StringVar()
@@ -459,7 +488,7 @@ fileLabel.grid(column=0, row=3,sticky='W')
 fileName = tk.StringVar() 
 fileEntered = ttk.Entry(monty2, width=12, textvariable=fileName,state='disabled',font = f1)
 fileEntered.grid(column=1, row=3, sticky='W')
-btn = tk.Button(monty2,text="瀏覽",command=openFile, state='disabled',font = f1)
+btn = tk.Button(monty2,text="瀏覽",command=openFile, state='disabled',relief='raised',activeforeground="#696969")
 btn.grid(column=2, row=3, sticky='W')
 
 
@@ -586,7 +615,7 @@ def storePath():
 storepath = tk.StringVar()
 storePathEntered = ttk.Entry(outset, width=12, textvariable=storepath)
 storePathEntered.grid(column=1, row=1, sticky=tk.W)
-storebtn = tk.Button(outset,text="瀏覽",command=storePath,font = f1)
+storebtn = tk.Button(outset,text="瀏覽",command=storePath,relief='raised',activeforeground="#696969")
 storebtn.grid(column=2, row=1, sticky=tk.W)
 
 ttk.Label(outset, text="資料分組 : ").grid(column=0, row=2, sticky='W')
@@ -597,17 +626,20 @@ def _spin():
     value = spin.get()
     #print(value)
 spin = Spinbox(outset, from_=1,to=100, width=5, bd=8, command=_spin, increment = 5, textvariable = scr)
-spin.grid(column=1, row=2)
+spin.grid(column=1, row=2,sticky='W')
 #ttk.Label(outset, text="(可以自行輸入1-100整數)").grid(column=1, row=3,columnspan = 2, sticky=tk.W)
 
+Pro= ttk.Label(outset, text='['+" "*50+']'+' 0.0%',width = 30)
+Pro.grid(column=0, row=3, columnspan = 3, sticky='W')
 
-startBtn = ttk.LabelFrame(tab2,text="開始輸出")
-startBtn.grid(column=0, row=1 ,sticky=tk.E)
+star =  ttk.LabelFrame(tab2,text = "開始輸出")
+star.grid(column = 0,row = 1,sticky = "E")
+ 
 #######按鍵後開始
 path = ""
 code = []
 def startAll():
-    try:
+    #try:
         if radVar.get() == 99:
             mBox.showinfo("錯誤","請選擇代碼輸入")
             tab2Label.configure(text = name.get()+"\n"+"選一個指定公司代碼的方式。")
@@ -617,7 +649,7 @@ def startAll():
         elif radVar.get() == 1 and fileName.get() =="":
             mBox.showinfo("錯誤","請選擇代碼清單路徑")
             tab2Label.configure(text = name.get()+"\n"+"代碼清單呢？")
-        elif int(yeared.get()) < int(yearst.get()):
+        elif int(yeared.get()) <  int(yearst.get()):
             mBox.showinfo("錯誤","您選擇的年份有誤，請重新選擇！")
             tab2Label.configure(text = name.get()+"\n"+"起訖...先有開始，才會有結束。")
             yearedChoice.current(0)
@@ -667,11 +699,13 @@ def startAll():
                         """
                 
         
-    except:
-            mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
+    #except:
+            #mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
 #######
-startOver = tk.Button(startBtn,text="開始",width=10,height =3,command=startAll,font = f1)
+startOver = tk.Button(star,text="開始",width=10,height = 3,command=startAll)
 startOver.grid(column = 0,row  = 0,rowspan = 2,sticky = tk.E)
+
+
 
 # Create a container to hold labels
 labelsFrame2 = ttk.LabelFrame(tab2)
