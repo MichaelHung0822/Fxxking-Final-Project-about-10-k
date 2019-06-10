@@ -193,7 +193,7 @@ def start_crawling(year_list,csvOrnot):
 	
         code_year_list = code_year(code_list, year_list)
 
-        return all_article, all_url, code_year_list
+        return code_list, all_article, all_url, code_year_list
 	
 	
 def code_year(code_list, year_list) :
@@ -202,7 +202,7 @@ def code_year(code_list, year_list) :
 	
 	for i in range(1, len(code_list)) :
 		for j in range(len(year_list)) :
-			code_year = str(code_list[i][0]) + "-" + str(year_list[j][2:4])
+			code_year = str(code_list[i][0]) + "-" + str(year_list[j])
 			temp_code_year.append(code_year)
 		
 		code_year_list.append(temp_code_year)
@@ -252,11 +252,11 @@ def createFolder(directory):
 #將文件寫入txt檔並命名為 "公司名稱_result"
 #--------------------
 
-def write_article(all_companies_results,requestnum,Search) :
+def write_article(all_companies_results,requestnum,Search,codelist) :
 	path = storepath.get()+"\\"+StoreName.get()
 	userrequestnum = requestnum
 	search = Search
-	code_list = read_csv()
+	code_list = codelist
 	for i in range(len(all_companies_results)) :
 		if i % userrequestnum == 0:
 			if i + userrequestnum <= len(all_companies_results):
@@ -431,6 +431,9 @@ Cikode = tk.StringVar()
 CikodeEntered = ttk.Entry(monty2, width=12, textvariable=Cikode, state='disabled',font = f1)
 CikodeEntered.grid(column=1, row=2, sticky='W')
 
+codeName = ttk.Label(monty2, text="多於一家請以\",\"分隔", state='disabled')
+codeName.grid(column=2, row=2, sticky='W')
+
 def openFile():
     filenames = tkinter.filedialog.askopenfilename()
     filename = ""
@@ -522,7 +525,7 @@ keyWordEntered = ttk.Entry(monty2, width=12, textvariable=keyWord,font = f1)
 keyWordEntered.grid(column=1, row=6, sticky='W')
 
 outset = ttk.LabelFrame(tab2, text='輸出設定')
-outset.grid(column=0, row=1)
+outset.grid(column=0, row=1,sticky="W")
 
 ttk.Label(outset, text="欲瀏覽的前後段落數 : ").grid(column=0, row=0, sticky=tk.W)
 parts=tk.StringVar()
@@ -563,7 +566,7 @@ spin = Spinbox(outset, from_=1,to=100, width=5, bd=8, increment = 5, textvariabl
 spin.grid(column=1, row=3,sticky='W')
 
 star =  ttk.LabelFrame(tab2,text = "開始輸出")
-star.grid(column = 0,row = 2)
+star.grid(column = 0,row = 2,sticky="W")
 
 #######按鍵後開始
 path = ""
@@ -608,9 +611,9 @@ def startAll():
                                  tab2Label.configure(text = name.get()+"\n"+"遊戲玩膩了還沒爬完的話...不如複習一下中會？")   
                 year_list = yearL.get().split()                
                 if radVar.get() == 1:        
-                        all_article, all_url, code_year_list = start_crawling(year_list,1)                                           
+                        code_list, all_article, all_url, code_year_list = start_crawling(year_list,1)                                           
                 elif radVar.get() == 0:      
-                        all_article, all_url, code_year_list = start_crawling(year_list,0)
+                        code_list, all_article, all_url, code_year_list = start_crawling(year_list,0)
                     
                 search = noSpaceLow(keyWord.get())
                 sentencecount = int(parts.get())
@@ -668,7 +671,7 @@ def startAll():
 
                         all_companies_results.append(one_company_all_years)
                 createFolder(str(path))
-                write_article(all_companies_results,userrequestnum,search)
+                write_article(all_companies_results,userrequestnum,search,code_list)
                 mBox.showinfo("完成","資料已儲存在"+StoreName.get()+"資料夾")
                 tab2Label.configure(text = name.get()+"\n"+"恭喜完成了一批爬蟲，\n你離畢業又更進一步囉！")
 
