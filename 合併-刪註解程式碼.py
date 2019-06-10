@@ -339,7 +339,10 @@ win.title("10-K Search")
 # Disable resizing the GUI
 win.resizable(0,0)
 
-ttk.Style().configure("TButton", padding=6, relief="flat",   background="#ccc")
+ttk.Style().configure("TButton", padding=6, relief="flat",   background="#ccc",fg="#ADD8E6")
+ttk.Style().configure("TFrame", padding=6, relief="flat",   background="#F5F5F5")
+ttk.Style().configure("TLabelFrame", padding=6, relief="flat",   background="#FFFFFF")
+
 # --------------------------------------
 tabControl = ttk.Notebook(win)          
  
@@ -354,7 +357,7 @@ tabControl.pack(expand=1, fill="both")
  
 #---------------Tab1------------------#
 
-monty = tk.LabelFrame(tab1, text='使用者名稱',bg="#F5F5F5")
+monty = tk.LabelFrame(tab1, text='使用者名稱')
 monty.grid(column=0, row=0, padx=8, pady=4)
 
 def clickMe():
@@ -374,7 +377,7 @@ def clickMe():
     
  
 # Changing our Label
-tk.Label(monty, text="輸入暱稱:",font = f1).grid(column=0, row=0, sticky='W')
+ttk.Label(monty, text="輸入暱稱:",font = f1).grid(column=0, row=0, sticky='W')
  
 # Adding a Textbox Entry widget
 name = tk.StringVar()
