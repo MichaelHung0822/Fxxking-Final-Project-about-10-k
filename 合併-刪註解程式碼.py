@@ -533,14 +533,7 @@ parts.set(1)
 spinPart = Spinbox(outset, from_=1,to=5, width=5, bd=8, increment = 1, textvariable = parts)
 spinPart.grid(column=1, row=0,sticky='W')
 
-
-ttk.Label(outset, text="資料夾名稱 : ").grid(column=0, row=1, sticky=tk.W) 
-# Adding a Textbox Entry widget
-StoreName = tk.StringVar()
-StoreNameEntered = ttk.Entry(outset, width=20, textvariable=StoreName,font = f1)
-StoreNameEntered.grid(column=1, row=1, columnspan = 2,sticky=tk.W)
-
-ttk.Label(outset, text="儲存資料夾 : ").grid(column=0, row=2, sticky=tk.W)
+ttk.Label(outset, text="儲存路徑 : ").grid(column=0, row=1, sticky=tk.W)
 
 def storePath():
     path_ = tk.filedialog.askdirectory()
@@ -554,9 +547,15 @@ def storePath():
 
 storepath = tk.StringVar()
 storePathEntered = ttk.Entry(outset, width=12, textvariable=storepath)
-storePathEntered.grid(column=1, row=2, sticky=tk.W)
+storePathEntered.grid(column=1, row=1, sticky=tk.W)
 storebtn = tk.Button(outset,text="瀏覽",command=storePath,relief='raised',activeforeground="#696969")
-storebtn.grid(column=2, row=2, sticky=tk.W)
+storebtn.grid(column=2, row=1, sticky=tk.W)
+
+ttk.Label(outset, text="資料夾名稱 : ").grid(column=0, row=2, sticky=tk.W) 
+# Adding a Textbox Entry widget
+StoreName = tk.StringVar()
+StoreNameEntered = ttk.Entry(outset, width=20, textvariable=StoreName,font = f1)
+StoreNameEntered.grid(column=1, row=2, columnspan = 2,sticky=tk.W)
 
 ttk.Label(outset, text="一份檔案包含幾家公司 : ").grid(column=0, row=3, sticky='W')
 scr=tk.StringVar()
