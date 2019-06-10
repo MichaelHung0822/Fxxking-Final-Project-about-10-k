@@ -457,7 +457,7 @@ fileLabel.grid(column=0, row=3,sticky='W')
 fileName = tk.StringVar() 
 fileEntered = ttk.Entry(monty2, width=12, textvariable=fileName,state='disabled',font = f1)
 fileEntered.grid(column=1, row=3, sticky='W')
-btn = tk.Button(monty2,text="瀏覽",command=openFile, state='disabled',relief='raised',activeforeground="#696969")
+btn = tk.Button(monty2,text="瀏覽",command=openFile, state='disabled',relief='raised',activeforeground="#696969",font=f1)
 btn.grid(column=2, row=3, sticky='W')
 
 
@@ -473,14 +473,14 @@ def radCall():
         fileLabel.configure(state = 'disabled')
         CikodeEntered.configure(state='normal')
         codeName.configure(state='normal')
-        tab2Label.configure(text = name.get()+"\n"+"請輸入公司代碼，接著選擇年份及關鍵字。\n並設定輸出資料夾。")
+        tab2Label.configure(text = name.get()+"\n"+"請輸入公司代碼，\n接著選擇年份及關鍵字。\n並設定輸出資料夾。")
     elif radSel == 1:
         CikodeEntered.configure(state='disabled')
         codeName.configure(state='disabled')
         btn.configure(state='normal')
         fileEntered.configure(state = 'readonly')
         fileLabel.configure(state = 'normal')
-        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，接著選擇年份及關鍵字。\n並設定輸出資料夾。")
+        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，\n接著選擇年份及關鍵字。\n並設定輸出資料夾。")
                      
 
 # create three Radiobuttons using one variable
@@ -494,7 +494,7 @@ for col in range(0,2):
     curRad.grid(column=col, row=0, sticky=tk.W, columnspan=2)
 
 
-ttk.Label(monty2, text="起迄年份 : ").grid(column=0, row=4, sticky='W')
+ttk.Label(monty2, text="起迄年份 : ",font=f1).grid(column=0, row=4, sticky='W')
     
 yearst = tk.StringVar()
 yearstChoice = ttk.Combobox(monty2, width=10, textvariable = yearst,font = f1)
@@ -527,20 +527,13 @@ keyWordEntered.grid(column=1, row=6, sticky='W')
 outset = ttk.LabelFrame(tab2, text='輸出設定')
 outset.grid(column=0, row=1,sticky="W")
 
-ttk.Label(outset, text="欲瀏覽的前後段落數 : ").grid(column=0, row=0, sticky=tk.W)
+ttk.Label(outset, text="欲瀏覽的前後段落數 : ",font=f1).grid(column=0, row=0, sticky=tk.W)
 parts=tk.StringVar()
 parts.set(1)
 spinPart = Spinbox(outset, from_=1,to=5, width=5, bd=8, increment = 1, textvariable = parts)
 spinPart.grid(column=1, row=0,sticky='W')
 
-
-ttk.Label(outset, text="資料夾名稱 : ").grid(column=0, row=1, sticky=tk.W) 
-# Adding a Textbox Entry widget
-StoreName = tk.StringVar()
-StoreNameEntered = ttk.Entry(outset, width=20, textvariable=StoreName,font = f1)
-StoreNameEntered.grid(column=1, row=1, columnspan = 2,sticky=tk.W)
-
-ttk.Label(outset, text="儲存資料夾 : ").grid(column=0, row=2, sticky=tk.W)
+ttk.Label(outset, text="儲存路徑 : ",font=f1).grid(column=0, row=1, sticky=tk.W)
 
 def storePath():
     path_ = tk.filedialog.askdirectory()
@@ -554,11 +547,17 @@ def storePath():
 
 storepath = tk.StringVar()
 storePathEntered = ttk.Entry(outset, width=12, textvariable=storepath)
-storePathEntered.grid(column=1, row=2, sticky=tk.W)
+storePathEntered.grid(column=1, row=1, sticky=tk.W)
 storebtn = tk.Button(outset,text="瀏覽",command=storePath,relief='raised',activeforeground="#696969")
-storebtn.grid(column=2, row=2, sticky=tk.W)
+storebtn.grid(column=2, row=1, sticky=tk.W)
 
-ttk.Label(outset, text="一份檔案包含幾家公司 : ").grid(column=0, row=3, sticky='W')
+ttk.Label(outset, text="資料夾名稱 : ",font=f1).grid(column=0, row=2, sticky=tk.W) 
+# Adding a Textbox Entry widget
+StoreName = tk.StringVar()
+StoreNameEntered = ttk.Entry(outset, width=20, textvariable=StoreName,font = f1)
+StoreNameEntered.grid(column=1, row=2, columnspan = 2,sticky=tk.W)
+
+ttk.Label(outset, text="一份檔案包含幾家公司 : ",font=f1).grid(column=0, row=3, sticky='W')
 scr=tk.StringVar()
 scr.set(10)
 
