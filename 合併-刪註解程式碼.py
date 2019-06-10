@@ -339,8 +339,8 @@ win.title("10-K Search")
 # Disable resizing the GUI
 win.resizable(0,0)
 
-ttk.Style().configure("TButton", padding=6, relief="flat",   background="#ccc",fg="#ADD8E6")
-ttk.Style().configure("TFrame", padding=6, relief="flat",   background="#F5F5F5")
+ttk.Style().configure("TButton", padding=6, relief="flat",   background="#ccc",fg="#ADD8E6",font=f1)
+ttk.Style().configure("TFrame", padding=6, relief="flat",   background="#F5F5F5",font=f1)
 ttk.Style().configure("TLabelFrame", padding=6, relief="flat",   background="#FFFFFF")
 
 # --------------------------------------
@@ -358,7 +358,7 @@ tabControl.pack(expand=1, fill="both")
 #---------------Tab1------------------#
 
 monty = tk.LabelFrame(tab1, text='使用者名稱')
-monty.grid(column=0, row=0, padx=8, pady=4)
+monty.grid(column=0, row=0, padx=8, pady=4,sticky="W")
 
 def clickMe():
     answer = mBox.askyesno("確認暱稱", "您確定設定這個暱稱及心靈導師嗎？\n後續將無法修改") 
@@ -421,7 +421,7 @@ action.grid(column=2,row=1,rowspan=2,padx=6)
  
 #---------------Tab2------------------#
 monty2 = ttk.LabelFrame(tab2, text='搜尋條件')
-monty2.grid(column=0, row=0, padx=8, pady=4)
+monty2.grid(column=0, row=0, padx=8, pady=4,sticky = "W")
 
 codeName = ttk.Label(monty2, text="公司代碼 : ", state='disabled',font = f1)
 codeName.grid(column=0, row=2, sticky='W')  
@@ -447,7 +447,7 @@ def openFile():
             fileLabel.configure(text = "您選擇的文件是：")        
             fileName.set(filename)
         else:
-            mBox.showinfo("檔案類型錯誤","您選擇的檔案類型非csv檔，請重新選擇！")
+            mBox.showinfo("檔案類型錯誤","您選擇的檔案類型非csv檔，\n請重新選擇！")
     else:
         fileLabel.configure(text = "您沒有選擇任何文件")
         fileEntered.configure(state='disabled')
@@ -480,7 +480,7 @@ def radCall():
         btn.configure(state='normal')
         fileEntered.configure(state = 'readonly')
         fileLabel.configure(state = 'normal')
-        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼的csv檔，\n接著選擇年份及關鍵字。\n並設定輸出資料夾。")
+        tab2Label.configure(text = name.get()+"\n"+"請匯入公司代碼清單，\n接著選擇年份及關鍵字。\n並設定輸出資料夾。")
                      
 
 # create three Radiobuttons using one variable
@@ -678,7 +678,7 @@ def startAll():
     #except:
             #mBox.showinfo("錯誤","程式執行錯誤，請檢查輸入資訊！")
 #######
-startOver = tk.Button(star,text="開始",width=10,height = 2,command=startAll)
+startOver = tk.Button(star,text="開始",width=10,height = 2,command=startAll,font=f1)
 startOver.grid(column = 0,row  = 0,rowspan = 2)
 
 Pro= ttk.Label(star, text='['+" "*50+']'+' 0.0%',width = 30)
