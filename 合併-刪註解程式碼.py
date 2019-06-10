@@ -649,7 +649,7 @@ def startAll():
                                                                 else:
                                                                         out += "    前%d段：%s\n" % (j * -1, re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
                                                         elif j == 0:
-                                                                out += "    主  段：%s\n" % (re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
+                                                                out += "    主 段：%s\n" % (re.sub(search, matchcase(search), lines[i + j], flags=re.IGNORECASE).strip())
                                                         else:
                                                                 if i + j > len(lines) - 1:
                                                                         # 處理的是：文本最後一段後面不存在的段落
