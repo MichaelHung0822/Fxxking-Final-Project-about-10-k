@@ -20,21 +20,6 @@ import csv
 import os
 
 
-#顯示進度條的功能定義
-def process(maxT,index= None):
-        maxArrow = 30 #總進度條長度
-        if index == None:
-                index = n+1
-        else:
-                block = int(index*(maxArrow/maxT))  #現進度條長度
-                elseBlock = maxArrow - block #剩下的空格長度
-                Per = tk.StringVar()
-                percent = index * 100.0 / maxT #完成百分比
-                Pro.configure(text = '['+'▉' * int(block/2) + ' '*elseBlock+']'+str(percent)+'%\r')
-                #
-                if index >= maxT:
-                        index = 0
-
 #===================================================
 #爬蟲主要函數定義
 #取得該網址連結的html
@@ -574,7 +559,6 @@ star.grid(column = 0,row = 2,sticky="W")
 path = ""
 code = []
 def startAll():
-        Pro.configure(text='['+" "*50+']'+' 0.0%')
         if radVar.get() == 99:
                 mBox.showinfo("錯誤","請選擇代碼輸入")
                 tab2Label.configure(text = name.get()+"\n"+"選一個指定公司代碼的方式。")
@@ -670,13 +654,13 @@ def startAll():
                                 if matchcount == 0:
                                         one_company_all_years.append("No_match\n\n")
                         numPro += 1
-                        process(maxT =  len(all_article) ,index= numPro)
+                        
 
                         all_companies_results.append(one_company_all_years)
                 createFolder(str(path))
                 write_article(all_companies_results,userrequestnum,search,code_list)
                 mBox.showinfo("完成","資料已儲存在"+StoreName.get()+"資料夾")
-                tab2Label.configure(text = name.get()+"\n"+"恭喜完成了一批爬蟲，\n你離畢業又更進一步囉！")
+                tab2Label.configure(text = name.get()+"\n"+"恭喜完成了一批爬蟲，\n離畢業又更進一步囉！")
 
 
     #except:
@@ -685,8 +669,7 @@ def startAll():
 startOver = tk.Button(star,text="開始",width=10,height = 2,command=startAll,font=f1)
 startOver.grid(column = 0,row  = 0,rowspan = 2)
 
-Pro= ttk.Label(star, text='['+" "*50+']'+' 0.0%',width = 30)
-Pro.grid(column=1, row=0, columnspan = 3, sticky='W')
+
 
 # Create a container to hold labels
 labelsFrame2 = ttk.LabelFrame(tab2)
